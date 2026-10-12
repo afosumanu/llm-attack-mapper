@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#project specific
+data/attack/
+data/raw
+data/text

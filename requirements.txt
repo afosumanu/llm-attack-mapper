@@ -1,0 +1,7 @@
+ollama
+pydantic
+mitreattack-python
+pypdf
+pandas
+requests
+jupyter
