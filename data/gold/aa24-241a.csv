@@ -1,0 +1,20 @@
+technique_id,technique_name,tactic
+T1596,Search Open Technical Databases,Reconnaissance
+T1190,Exploit Public-Facing Application,Initial Access
+T1133,External Remote Services,Initial Access
+T1505.003,Server Software Component: Web Shell,Persistence
+T1136.001,Create Account (Local Account),Persistence
+T1098,Account Manipulation,Persistence
+T1053,Scheduled Task/Job,Persistence
+T1505,Server Software Component,Persistence
+T1078.003,Valid Accounts: Local Accounts,Privilege Escalation
+T1078.002,Valid Accounts: Domain Accounts,Privilege Escalation
+T1562.001,Impair Defenses: Disable or Modify Tools,Defense Evasion
+T1562.010,Impair Defenses: Downgrade Attack,Defense Evasion
+T1056,Input Capture,Credential Access
+T1059.001,Command and Scripting,Execution
+T1059.001,Command and Scripting Interpreter,Execution
+T1012,Query Registry,Discovery
+T1482,Domain Trust Discovery,Discovery
+T1219,Remote Access Software,Command and Control
+T1572,Protocol Tunneling,Command and Control

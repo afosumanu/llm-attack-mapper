@@ -1,0 +1,24 @@
+technique_id,technique_name,tactic
+T1588.005,Obtain Capabilities: Exploits,Resource Development
+T1566,Phishing,Initial Access
+T1190,Exploit Public-Facing Application,Initial Access
+T1059.001,Command and Scripting Interpreter,Execution
+T1047,Windows Management Instrumentation,Execution
+T1059.001,Command and Scripting Interpreter,Persistence
+T1136,Create Account,Persistence
+T1098,Account Manipulation,Privilege Escalation
+T1021.001,Remote Services: Remote Desktop Protocol,Privilege Escalation
+T1036,Masquerading,Defense Evasion
+T1070,Indicator Removal on Host,Defense Evasion
+T1562.001,Impair Defenses: Disable or Modify Tools,Defense Evasion
+T1003,OS Credential Dumping,Credential Access
+T1110.003,Brute Force: Password Spraying,Credential Access
+T1018,Remote System Discovery,Discovery
+T1046,Network Service Scanning,Discovery
+T1210,Exploitation of Remote Services,Lateral Movement
+T1219,Remote Access Software,Command and Control
+T1048.002,Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,Exfiltration
+T1537,Transfer Data to Cloud Account,Exfiltration
+T1048.003,Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,Exfiltration
+T1486,Data Encrypted for Impact,Impact
+T1490,Inhibit System Recovery,Impact

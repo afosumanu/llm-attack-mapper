@@ -1,0 +1,28 @@
+technique_id,technique_name,tactic
+T1591,Gather Victim Org Information,Reconnaissance and Enumeration
+T1592,Gather Victim Host Information,Reconnaissance and Enumeration
+T1595,Active Scanning,Reconnaissance and Enumeration
+T1596,Search Open Technical Databases,Reconnaissance and Enumeration
+T1003,OS Credential Dumping,Resource Development Tooling and Remote Access Tools (RATs)
+T1048,Exfiltration Over Alternative Protocol,Resource Development Tooling and Remote Access Tools (RATs)
+T1090,Proxy,Resource Development Tooling and Remote Access Tools (RATs)
+T1560,Archive Collected Data,Resource Development Tooling and Remote Access Tools (RATs)
+T1572,Protocol Tunneling,Resource Development Tooling and Remote Access Tools (RATs)
+T1587.001,Develop Capabilities: Malware,Resource Development Tooling and Remote Access Tools (RATs)
+T1587.004,Develop Capabilities: Exploits,Resource Development Tooling and Remote Access Tools (RATs)
+S0002,Mimikatz,Software used for Resource Development Tooling and RATs
+S0552,AdFind,Software used for Resource Development Tooling and RATs
+T1190,Exploit Public-Facing Application,Initial Access
+T1059,Command and Scripting Interpreter,Execution
+T1027,Obfuscated Files or Information,Defense Evasion
+T1003,OS Credential Dumping,Credential Access
+T1021,Remote Services,Discovery and Lateral Movement
+T1021.002,Remote Services: SMB/Windows Admin Shares,Discovery and Lateral Movement
+T1083,File and Directory Discovery,Discovery and Lateral Movement
+T1087,Account Discovery,Discovery and Lateral Movement
+T1071,Application Layer Protocol,Command and Control
+T1090,Proxy,Command and Control
+T1039,Data from Network Share Drive,Collection and Exfiltration
+T1048,Exfiltration Over Alternative. Protocol,Collection and Exfiltration
+T1560,Archive Collected Data,Collection and Exfiltration
+T1567,Exfiltration Over Web Service,Collection and Exfiltration

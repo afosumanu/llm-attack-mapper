@@ -1,0 +1,19 @@
+technique_id,technique_name,tactic
+T1591,Gather Victim Organization Information,Reconnaissance
+T1595.002,Active Scanning: Vulnerability Scanning,Reconnaissance
+T1583.003,Acquire Infrastructure: Virtual Private Server,Resource Development
+T0883,Internet Accessible Device,Initial Access
+T0859,Valid Accounts,Persistence
+T1110.003,Brute Force: Password Spraying,Credential Access
+T0812,Default Credentials,Lateral Movement
+T0886,Remote Services,Lateral Movement
+T1021.005,Remote Services: VNC,Lateral Movement
+T0823,Graphical User Interface,Execution
+T0816,Device Restart/Shutdown,Inhibit Response Function
+T0878,Alarm Suppression,Inhibit Response Function
+T0892,Change Credential,Inhibit Response Function
+T08839,Modify Parameter,Impair Process Control
+T0855,Unauthorized Command Message,Impair Process Control
+T0828,Loss of Productivity and Revenue,Impact
+T0829,Loss of View,Impact
+T0831,Manipulation of Control,Impact

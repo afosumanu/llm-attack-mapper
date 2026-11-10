@@ -1,0 +1,25 @@
+technique_id,technique_name,tactic
+T1587,Develop Capabilities,Initial Access
+T1078,Valid Accounts,Initial Access
+T1059.009,Command and Scripting Interpreter: Cloud API,Execution
+T1059.001,Command and Scripting Interpreter: PowerShell,Execution
+T1059.003,Command and Scripting Interpreter: Windows Command Shell,Execution
+T1055.002,Process Injection: Portable Executable Injection,Privilege Escalation
+T1070.001,Indicator Removal on Host: Clear Windows Event Logs,Defense Evasion
+T1070.004,Indicator Removal: File Deletion,Defense Evasion
+T1564.003,Hide Artifacts: Hidden Window,Defense Evasion
+T1003.003,OS Credential Dumping: NDTS,Credential Access
+T1112,Modify Registry,Credential Access
+T1016,System Network Configuration Discovery,Discovery
+T1018,Remote System Discovery,Discovery
+T1033,System Owner/User Discovery,Discovery
+T1069.001,Permission Groups Discovery: Local Groups,Discovery
+T1069.002,Permission Groups Discovery: Domain Groups,Discovery
+T1087.002,Account Discovery: Domain Account,Discovery
+T1482,Domain Trust Discovery,Discovery
+T1021.001,Remote Services: Remote Desktop Protocol,Lateral Movement
+T1021.004,Remote Services: SSH,Lateral Movement
+T1219,Remote Access Software,Collection
+T1219,Remote Access Software,Command and Control
+T1486,Data Encrypted for Impact,Impact
+T1657,Financial Theft,Impact

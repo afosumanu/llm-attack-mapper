@@ -1,0 +1,26 @@
+technique_id,technique_name,tactic
+T1589.001,Gather Victim Identity Information: Credentials,Reconnaissance
+T1589.002,Gather Victim Identity Information: Email Addresses,Reconnaissance
+T1588.002,Obtain Capabilities: Tool,Resource Development
+T1566,Phishing,Initial Access
+T1204,User Execution,Execution
+T1136.002,Create Account: Domain Account,Persistence
+T1552,Unsecured Credentials,Credential Access
+T1552.001,Unsercured Credentials: Credentials in Files,Credential Access
+T1003,OS Credential Dumping,Credential Access
+T1003.006,OS Credential Dumping: DCSync,Credential Access
+T1649,Steal or Forge Authentication Certificates,Credential Access
+T1558,Steal or Forge Kerberos Tickets,Credential Access
+T1087.002,Account Discovery: Domain Account,Discovery
+T1018,Remote System Discovery,Discovery
+T1069.002,Permission Groups Discovery: Domain Groups,Discovery
+T1615,Group Policy Discovery,Discovery
+T1033,System Owner/User Discovery,Discovery
+T1526,Cloud Service Discovery,Discovery
+T1550.001,Use Alternate Authentication Material: Application Access Token,Lateral Movement
+T1021.004,Remote Services: SSH,Lateral Movement
+T1114,Email Collection,Collection
+T1113,Screen Capture,Collection
+T1056.001,Input Capture: Keylogging,Collection
+T1213.005,Data from Information Repositories: Messaging Applications,Collection
+T1090.001,Proxy: Internal Proxy,Command and Control

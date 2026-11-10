@@ -1,0 +1,67 @@
+technique_id,technique_name,tactic
+T1592,Gather Victim Host Information,Reconnaissance
+T1589,Gather Victim Identity Information,Reconnaissance
+T1589.002,Gather Victim Identity Information: Email Addresses,Reconnaissance
+T1590,Gather Victim Network Information,Reconnaissance
+T1591,Gather Victim Org Information,Reconnaissance
+T1593,Search Open Websites/Domains,Reconnaissance
+T1594,Search Victim-Owned Websites,Reconnaissance
+T1583.003,Acquire Infrastructure: Botnet,Resource Development
+T1584.005,Compromise Infrastructure: Botnet,Resource Development
+T1584.004,Compromise Infrastructure: Server,Resource Development
+T1587.004,Develop Capabilities: Exploits,Resource Development
+T1588.005,Obtain Capabilities: Exploits,Resource Development
+T1190,Exploit Public-Facing Application,Initial Access
+T1133,External Remote Services,Initial Access
+T1059,Command and Scripting Interpreter,Execution
+T1059.001,Command and Scripting Interpreter: PowerShell,Execution
+T1059.004,Command and Scripting Interpreter: Unix Shell,Execution
+T1047,Windows Management Instrumentation,Execution
+T1078,Valid Accounts,Persistence
+T1068,Exploitation for Privilege Escalation,Privilege Escalation
+T1006,Direct Volume Access,Defense Evasion
+T1070.009,Indicator Removal: Clear Persistence,Defense Evasion
+T1070.001,Indicator Removal: Clear Windows Event Logs,Defense Evasion
+T1036.005,Masquerading: Match Legitimate Name or Location,Defense Evasion
+T1112,Modify Registry,Defense Evasion
+T1027.002,Obfuscated Files or Information: Software Packing,Defense Evasion
+T1218,System Binary Proxy Execution,Defense Evasion
+T1110.002,Brute Force: Password Spraying,Credential Access
+T1555,Credentials from Password Stores,Credential Access
+T1555.003,Credentials from Password Stores: Credentials from Web Browsers,Credential Access
+T1003.001,OS Credential Dumping: LSASS Memory,Credential Access
+T1003.003,OS Credential Dumping: NTDS,Credential Access
+T1552,Unsecured Credentials,Credential Access
+T1552.004,Unsecured Credentials: Private Keys,Credential Access
+T1087.001,Account Discovery: Local Account,Discovery
+T1010,Application Window Discovery,Discovery
+T1217,Browser Information Discovery,Discovery
+T1083,File and Directory Discovery,Discovery
+T1654,Log Enumeration,Discovery
+T1046,Network Service Scanning,Discovery
+T1120,Peripheral Device Discovery,Discovery
+T1069,Permission Groups Discovery,Discovery
+T1057,Process Discovery,Discovery
+T1012,Query Registry,Discovery
+T1518,Software Discovery,Discovery
+T1082,System Information Discovery,Discovery
+T1614,System Location Discovery,Discovery
+T1016.001,System Network Configuration Discovery: Internet Connection Discovery,Discovery
+T1033,System Owner/User Discovery,Discovery
+T1007,System Service Discovery,Discovery
+T1124,System Time Discovery,Discovery
+T1563,Remote Service Session Hijacking,Lateral Movement
+T1021.007,Remote Services: Cloud Services,Lateral Movement
+T1021.001,Remote Services: Remote Desktop Protocol,Lateral Movement
+T1550,Use Alternate Authentication Material,Lateral Movement
+T1078.004,Valid Accounts: Cloud Accounts,Lateral Movement
+T1560,Archive Collected Data,Collection
+T1560.001,Archive Collected Data: Archive via Utility,Collection
+T1074,Data Staged,Collection
+T1113,Screen Capture,Collection
+T1573,Encrypted Channel,Command and Control
+T1105,Ingress Tool Transfer,Command and Control
+T1090,Proxy,Command and Control
+T1090.001,Proxy: Internal Proxy,Command and Control
+T1090.003,Proxy: Multi-hop Proxy,Command and Control
+T1048,Exfiltration Over Alternative Protocol,Exfiltration

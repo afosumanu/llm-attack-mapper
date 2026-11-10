@@ -1,0 +1,6 @@
+technique_id,technique_name,tactic
+T1598,Phishing for Information,Reconnaissance
+T1586,Compromise Accounts,Resource Development
+T1555,Obtain Credentials from Passwords Stores,Credential Access
+T1558,Steal or Forge Kerberos Tickets,Credential Access
+T1557,Adversary-in-the-Middle,Credential Access

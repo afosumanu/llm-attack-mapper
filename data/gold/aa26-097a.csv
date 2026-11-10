@@ -1,0 +1,6 @@
+technique_id,technique_name,tactic
+T0883,Internet Accessible Device,Initial Access
+T0885,Commonly Used Port,Command and Control
+T1219,Remote Access Tools,Command and Control
+T1041,Exfiltration Over C2 Channel,Exfiltration
+T1565,Data Manipulation,Impact

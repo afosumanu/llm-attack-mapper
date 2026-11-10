@@ -1,0 +1,43 @@
+technique_id,technique_name,tactic
+T1595, Active Scanning,Reconnaissance
+T1590.004,Gather Victim Network Information: Network Topology,Reconnaissance
+T1583.003,Acquire Infrastructure: Virtual Private Servers,Reconnaissance
+T1584.008,Compromise Infrastructure: Network Devices,Reconnaissance
+T1588.005,Obtain Capabilities: Exploits,Reconnaissance
+T1588.002,Obtain Capabilities: Tool,Reconnaissance
+T1190, Exploit Public-Facing Application,Initial Access
+T1199, Trusted Relationship,Initial Access
+T1568,System Services,Execution
+T1609,Container Administration Command,Execution
+T1059.006,Command and Scripting Interpreter: Python,Execution
+T1059.008,Command and Scripting Interpreter: Network Device CLI,Execution
+T1136.001,Create Account: Local Account,Persistence
+T1543.005,Container Service,Persistence
+T1098.004,Account Manipulation: SSH Authorized Keys,Persistence
+T1068,Exploitation for Privilege Escalation,Privilege Escalation
+T1027.010,Obfuscated Files or Information: Command Obfuscation,Defense Evasion
+T1027,Obfuscated Files or Information,Defense Evasion
+T1562.004,Impair Defenses: Disable or Modify System Firewall,Defense Evasion
+T1610,Deploy Container,Defense Evasion
+T1070,Indicator Removal,Defense Evasion
+T1070.009,Indicator Removal: Clear Persistence,Defense Evasion
+T1599,Network Boundary Bridging,Defense Evasion
+T1040,Network Sniffing,Credential Access
+T1556.004,Modify Authentication Process,Credential Access
+T1003,OS Credential Dumping,Credential Access
+T1110.002,Brute Force: Password Cracking,Credential Access
+T1082, System Information Discovery,Discovery
+T1016, System Network Configuration Discovery,Discovery
+T1021,Remote Services,Lateral Movement
+T1021.004,Remote Services: SSH,Lateral Movement
+T1560,Archive Collected Data,Collection
+T1602.001,Data from Configuration Repository: SNMP (MIB Dump),Collection
+T1602.002,Data from Configuration Repository: Network Device Configuration Dump,Collection
+T1005,Data from Local System,Collection
+T1090,Proxy,Command and Control
+T1090.003,Proxy: Multi-hop Proxy,Command and Control
+T1071,Application Layer Protocol,Command and Control
+T1571,Non-Standard Port,Command and Control
+T1572,Protocol Tunneling,Command and Control
+T1095,Non-Application Layer Protocol,Command and Control
+T1048.003,Exfiltration Over Alternative Protocol,Exfiltration
