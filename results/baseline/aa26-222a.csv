@@ -1,0 +1,117 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Server Software,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1059,Command and Control,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1040,Network Sniffing,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1056,Input Capture,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1052,Data Encrypted for Impact,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1041,Data Exfiltration,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1053,Exploitation of Trust,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1054,Client Side Software Vulnerability,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,False,True
+T1055,Programmable Proxy,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1057,Proxy,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1058,Exfiltration Over Command and Control Channel,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,False,True
+T1059.002,Command and Control - C2 Server,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1059.001,Scheduled Task/Job,The adversary leveraged the Windows Task Scheduler to create a scheduled task that executed a malicious PowerShell script.,1,True,False
+T1059,Scheduled Task/Job,The adversary leveraged the Windows Task Scheduler to create a scheduled task that executed a malicious PowerShell script.,1,True,False
+T1053,Print/Show Screen,The adversary used the Windows Print Screen feature to capture screenshots of the compromised system.,1,True,False
+T1053.001,Screen Capture,The adversary used the Windows Print Screen feature to capture screenshots of the compromised system.,1,False,False
+T1055,Process Injection,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.001,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.002,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.003,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.004,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.005,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,True,False
+T1055.006,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,False,False
+T1055.007,DLL Search Order Hijacking,The adversary used process injection to inject malicious code into a legitimate process.,1,False,False
+T1059.001,Command and Control - Custom C2 Protocol,"Gunra actors demand ransom via a customized, Tor-based negotiation portal",2,True,True
+T1059.002,Command and Control - Data Encrypted,"Gunra actors demand ransom via a customized, Tor-based negotiation portal",2,True,True
+T1059.003,Command and Control - Other C2 Protocol,"Gunra actors demand ransom via a customized, Tor-based negotiation portal",2,True,True
+T1048,Command and Control - Web Service,"Gunra actors demand ransom via a customized, Tor-based negotiation portal",2,True,True
+T1041,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1041,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1021,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a derived leak site (DLS) if victims do not comply,2,True,False
+T1056,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1056,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1056,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1056,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1056,Command and Control - Data Encrypted,Gunra actors threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply,2,True,False
+T1059.001,Command and Control Server,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1056,Input Validation,exploits based on the following Common Vulnerabilities and Exposures (CVEs):  CVE-2024-55591 [CWE-288: Authentication Bypass Using an Alternate Path or Channel],3,True,True
+T1059,Command and Control,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1046,Network Service Scanning,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1210,Exploit Public-Facing Application,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1204,User Execution,Victims receive a ransom note in every affected directory guiding them to a Tor-based negotiation portal where they are assigned a Client ID and an initial password.,3,True,True
+T1534,Leak to Web,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1052,Input Capture,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1041,Resource Hijacking,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1057,Boot or System Services,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1212,Exploit Public-Facing Application,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1053,Scheduled Task/Job,The threat actors quickly established a DLS on the Tor network to list victims and publish exfiltrated data.,3,True,True
+T1059.001,Command and Control Server,Gunra actors regularly exploit Impacket libraries psexec.py and smbclient.py to move laterally across victim networks using the Server Message Block (SMB) protocol,4,True,True
+T1059.002,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.003,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.004,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.005,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.006,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.007,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.008,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.009,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.010,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.011,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.012,Scheduled Task/Job,Gunra actors downloaded OpenSSH (an SSH tunneling tool) from an external attacker-controlled server to establish connections between compromised systems and maintain persistence in the victim’s environment,4,True,False
+T1059.001,OS Credential Dumping,observed multiple instances of Gunra actors using secretsdump.py (another Impacket library) to conduct OS credential dumping against compromised domain controllers to extract password hashes of user accounts from the NT Directory Services (NTDS) file.,5,True,True
+T1552.004,Impair Defenses,Gunra employs multiple stealth and defense impairment techniques to hinder detection and analysis.,5,True,True
+T1552.002,Impair Defenses,Gunra actors typically attempt to mask their presence by deleting system/network access logs and clearing command history.,5,True,False
+T1552.003,Impair Defenses,Gunra actors primarily conduct malicious activities and internal infrastructure reconnaissance during late-night and early-morning hours (10:00 p.m. – 06:00 a.m.).,5,True,False
+T1557.001,Lateral Movement,This enabled pass-the-hash or pass-the-ticket attacks for lateral movement into other privileged systems.,5,True,True
+T1557.002,Lateral Movement,"The actors then used stolen session cookies to conduct session hijacking , impersonating legitimate users to gain access to the internal network.",5,True,True
+T1557.003,Lateral Movement,The actors accessed a Hiware system access control server via SSH from a compromised virtual desktop and stole a symmetric encryption key stored on the server.,5,True,True
+T1557.004,Lateral Movement,The stolen key enabled the actors to decrypt passwords for enterprise server accounts stored within the database and perform credential dumping of credentials associated with all enterprise servers . ,5,True,True
+T1210,Exploit Public-Facing Application,The actors manipulated the network traffic control functionality of an SSL-VPN appliance to collect credentials and session information transmitted by users authenticating to a corporate VDI authentication portal ,5,True,False
+T1210.001,Exploit Public-Facing Application,"The actors modified authentication processing files on the corporate VDI authentication portal server to allow successful authentication when a specific, Gunra-designated one time password (OTP) value was entered, thereby enabling the continuous bypass of multi-factor authentication (MFA) . ",5,False,False
+T1210.002,Exploit Public-Facing Application,"The actors modified authentication processing files on the corporate VDI authentication portal server to allow successful authentication when a specific, Gunra-designated one time password (OTP) value was entered, thereby enabling the continuous bypass of multi-factor authentication (MFA) . ",5,False,False
+T1021.002,Remote Services,The actors accessed a Hiware system access control server via SSH from a compromised virtual desktop and stole a symmetric encryption key stored on the server.,5,True,True
+T1059.001,File and Directory Discovery,"Prior to encryption, Gunra performs file and directory discovery across all accessible drive letters (A through Z) to identify victim data for targeting.",6,True,False
+T1059,File and Directory Discovery,"Prior to encryption, Gunra performs file and directory discovery across all accessible drive letters (A through Z) to identify victim data for targeting.",6,True,False
+T1040,Network Sniffing,"The FBI observed actors collecting files from victims that included business-critical documents, databases, personally identifiable information (PII), and internal email communications.",6,True,False
+T1204,User Execution,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1028,Valid Accounts,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,False,False
+T1210,Exploit Public-Facing Application,"The FBI observed several common open source tools on Gunra infrastructure that Gunra actors use to facilitate collection and exfiltration of data, including 7-Zip, RClone, and FileZilla",6,True,True
+T1021,Remote Services,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1486,Data Encrypted for Impact,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1056,Input Capture,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1041,Resource Hijacking,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1057,Boot or System Services,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1212,Server Software Component,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1059.001,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059,Scheduled Task/Job,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1059.002,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.003,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.004,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.005,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.006,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.007,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.008,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.009,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.010,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.011,Scheduled Task/Job,The binary also contains logic to prevent encryption of the ransom notes (R3ADM3.txt) and re-encryption of already encrypted files (.ENCRT).,7,True,True
+T1059.001,Command and Control - Software Component,"13 cmd.exe /c C:\
+Windows\\System32\\wbem\\WMIC.exe shadowcopy where \",8,True,False
+T1059,Command and Control,Gunra actor s deleted backup and archived data stored on backup infrastructure at both the primary data center and disaster recovery center before and after the ransomware deployment.,8,True,False
+T1485,Web Shell,Google Remote Desktop Web-based remote desktop software tool developed by Google that runs on a proprietary Google protocol.,8,True,True
+T1059.001,Command and Control - Server Software,"Impacket Suite of networking utilities, including smbclient, psexec, secretsdump, etc. Gunra utilized several tools from this suite.",9,True,True
+T1059,Command and Control,Table 2 lists IP addresses and domains associated with Gunra ransomware infrastructure since early 2025.,9,True,True
+T1056,Input Capture,main.exe 2dc70a12d158d437e45a55b1d52f3d61c6082a1e1667573302ba3b62813e2751 Tool to exfil OneDrive and SharePoint,9,True,True
+T1056.001,Input Capture - Tool,main.exe 834efe9b392c6c000877ea5613a079445affc16fe8af5997d68c55cafc95e5d1 Tool to exfil OneDrive and SharePoint,9,True,True
+T1056.002,Input Capture - User Execution,cryptor.exe 91f8fc7a3290611e28a35a403fd815554d9d856006cc2ee91ccdb64057ae53b0 Malicious executable,9,True,True
+T1056.003,Input Capture - User Execution,msmp.exe a82e496b7b5279cb6b93393ec167dd3f50aff1557366784b25f9e51cb23689d9 Malicious executable,9,True,True
+T1053,Spoofing - Taint Analysis,Table 3 lists email addresses associated with Gunra actors.,9,True,True
+T1053.001,Spoofing - Taint Analysis,a00f105546345756@proton[.]me Ransom negotiation,9,False,True
+T1053.002,Spoofing - Taint Analysis,4569f6322bc3b22e9@proton[.]me Ransom negotiation,9,True,True
+T1053.003,Spoofing - Taint Analysis,ilovemycubscout@gmail[.]com Ransom negotiation,9,True,True
+T1053.004,Spoofing - Taint Analysis,6449a3c1e612168526@proton[.]me Ransom negotiation,9,False,True
+T1053.005,Spoofing - Taint Analysis,Table 5 lists malicious accounts created by Gunra actors to gain,9,True,True
+T1059.001,Scheduled Task/Job: Windows,exploit scheduled tasks on vulnerable FortiOS firewall devices,10,True,True
+T1053,Scheduled Task/Job,exploit scheduled tasks on vulnerable FortiOS firewall devices,10,True,True
+T1134.001,Create Account: Domain,"create a new, malicious persistent user forticloud-sync with super user privileges",10,True,True
+T1555,Use Alternate Authentication Material,a hard-coded password,10,True,True

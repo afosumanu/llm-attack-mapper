@@ -1,0 +1,61 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control: External Command and Control,Rhysida actors have been observed leveraging external-facing remote services to initially access and persist within a network.,2,True,True
+T1059,Command and Control,Rhysida actors have also used Gootloader malware at times for initial access.,2,True,False
+T1021,Remote Services,"Remote services, such as virtual private networks (VPNs), allow users to connect to internal enterprise network resources from external locations.",2,True,True
+T1071,Application Layer Protocol: Web Protocols,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055,Process Injection,Living off the land techniques include using native (built into the operating system) network administration tools to perform operations.,2,True,True
+T1055.003,Process Injection: DLL Injection,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055.002,Process Injection: DLL Side-Loading,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055.001,Process Injection: DLL Search Order Hijacking,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055.004,Process Injection: Dynamic-Link Library (DLL) Injection,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055.005,Process Injection: Dynamic-Link Library (DLL) Side-Loading,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,True,True
+T1055.006,Process Injection: Dynamic-Link Library (DLL) Search Order,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,False,True
+T1055.007,Process Injection: Dynamic-Link Library (DLL) Hijacking,This allows the actors to evade detection by blending in with normal Windows systems and network activities.,2,False,True
+T1059.001,Command and Control: Standard Command and Control Protocol,"In one example, analysis of PowerShell console host history for a compromised user account revealed Rhysida actors leveraged PuTTy to remotely connect to systems via SSH.",3,True,False
+T1059,Command and Control,PortStarter A back door script written in Go that provides functionality for modifying firewall settings and opening ports to pre-configured command and control (C2),3,True,True
+T1055,Process Injection,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1055.003,Process Injection: DLL Search Order Hijacking,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1055.002,Process Injection: Dynamic Linker Hijacking,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1055.001,Process Injection: DLL Injection,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056,Input Capture,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056.001,Input Capture: Keylogging,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056.002,Input Capture: Screen Capture,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056.003,Input Capture: Audio Capture,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056.004,Input Capture: Video Capture,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,True,False
+T1056.005,Input Capture: Network Traffic Capture,powershell_ise.exe Rhysida actors have been observed launching Windows PowerShell Integrated Scripting Environment (ISE) prior to executing a malicious script (1.ps1 from a folder in %AppData%\\,3,False,False
+T1059.001,Command and Control - Custom Command and Control Protocol,"The Rhysida encryptor allows arguments -d (select a directory) and -sr (file deletion), defined by the authors of the code as parseOptions.",5,True,True
+T1059,Command and Control,"Following encryption, a PowerShell command deletes the binary from the network using a hidden command window.",5,True,False
+T1059.002,Command and Control - Data Encoded in Command,"Registry modification commands are not obfuscated, displayed as plain-text strings and executed via cmd.exe.",5,True,True
+T1059.003,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.004,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.005,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.006,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.007,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.008,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.009,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.010,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.011,Command and Control - Valid Accounts,The Rhysida actors reportedly engage in “double extortion” —demanding a ransom payment to decrypt victim data and threatening to publish the,5,True,False
+T1059.001,Command and Control - Custom Command and Control Protocol,Rhysida actors direct victims to send ransom payments in Bitcoin to cryptocurrency wallet addresses provided by the threat actors.,6,True,True
+T1059,Command and Control,Rhysida actors have been observed using the following URLs and URIs listed in Table 5 to support their operations.,6,True,True
+T1059.002,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,sensitive exfiltrated data unless the ransom is paid.,6,True,True
+T1059.001,Command and Control (C2) Server,StorageExplorer- windows-x64.exe e66fd750c8bec06fca11b6e2919a3d66bc6c0fc1,7,True,True
+T1059.002,Command and Control (C2) Server,Advanced IP Scanner b26cfde4ca74d5d5377889bba5b60b5fc72dda75,7,True,True
+T1059.002,Command and Control (C2) Server,Advanced Port Scanner 3477a173e2c1005a81d042802ab0f22cc12a4d55,7,True,True
+T1059.002,Command and Control (C2) Server,advanced_ip_scanne r.exe 39950150074e5b22d0ef0c30ab4c72287e003908,7,True,True
+T1059.002,Command and Control (C2) Server,Advanced_IP_Scanne r_2.5.3850.exe 1556232c5b6a998a4765a8f53d48a059cd617c59,7,True,True
+T1059.002,Command and Control (C2) Server,conhost.exe e5d4a2e704ee880273aa4e8114fe9927b0019ff8,7,True,True
+T1059.002,Command and Control (C2) Server,conhost.exe 1f76997e8a902c1cd3b1e6c68f17f694c61c5445,7,True,True
+T1059.002,Command and Control (C2) Server,Gootloader c4d5a0c3ea69b2e6a1bf7bfab1fa9057221bc0b3a,7,True,False
+T1059.002,Command and Control (C2) Server,main.dll ae90d0819ab92e6a1bf7bfab1fa9057221bc0b3a,7,True,True
+T1059.002,Command and Control (C2) Server,main.dll d0397d33239229e955eb37842ad84defbe70398bfd953c1b9657967540415aa3,7,True,True
+T1059.002,Command and Control (C2) Server,Merchandise Planning 0c829b3dccd425f090288cb9decc1bd11107e8be2323430aa2ee38e1ee01f716,7,True,True
+T1059.002,Command and Control (C2) Server,Sock5.sh 48f559e00c472d9ffe3965ab92c6d298f8fb3a3f0d6d203cd2069bfca4bf3a57,7,True,True

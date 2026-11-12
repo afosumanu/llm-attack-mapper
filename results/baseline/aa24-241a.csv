@@ -1,0 +1,62 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control (C2) Server,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1059,Command and Control (C2) Server,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1056,Input Capture,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,True,False
+T1056.001,Input Capture: Keylogging,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,True,False
+T1056.002,Input Capture: Screen Capture,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,True,False
+T1056.003,Input Capture: Audio Capture,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,True,False
+T1056.004,Input Capture: Video Capture,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,True,False
+T1056.005,Input Capture: Keystroke Logging,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,False,False
+T1056.006,Input Capture: Clipboard Data,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,False,False
+T1056.007,Input Capture: Screenshot,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,False,False
+T1056.008,Input Capture: Audio,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,False,False
+T1056.009,Input Capture: Video,The actors attempt to monetize their access to victim organizations on cyber marketplaces.,1,False,False
+T1059.001,Command and Control - Custom,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.002,Command and Control - Common,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.003,Command and Control - Server,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.004,Command and Control - Domain Name System,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.005,Command and Control - Email,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.006,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.007,Command and Control - Software Component,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.008,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.009,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.010,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.011,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.012,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.001,Command and Control Server,The actors use the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE.,3,True,False
+T1059,Command and Control,"Following exploitation of vulnerable devices, the actors use the following techniques: Capture login credentials using webshells on compromised Netscaler devices and append to file named netscaler.1 in the same directory as the webshell.",3,True,False
+T1059.002,Web Shell,Capture login credentials using webshells on compromised Netscaler devices and append to file named netscaler.1 in the same directory as the webshell.,3,True,False
+T1059.003,Web Shell,Create the directory /var/vpn/themes/imgs/ on Citrix Netscaler devices to deploy a webshell.,3,True,False
+T1210,Exploit Public-Facing Application,"The actors’ initial access is usually obtained via exploiting a public-facing networking device, such as Citrix Netscaler (CVE-2019-19781 and CVE-2023-3519), F5 BIG-IP (CVE-2022-1388), Pulse Secure/Ivanti VPNs (CVE-2024-21887), and, more recently, PanOS firewalls (CVE-2024-3400).",3,True,False
+T1212,Exploit Public-Facing Service,"As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE- 2024-24919.",3,True,True
+T1212.001,Exploit Public-Facing Service,"As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices.",3,False,True
+T1212.002,Exploit Public-Facing Service,The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400.,3,False,True
+T1046,Network Service Scanning,"As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE- 2024-24919.",3,True,True
+T1046,Network Service Scanning,"As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices.",3,True,True
+T1046,Network Service Scanning,The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400.,3,True,True
+T1021,Remote Services,The actors use the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE.,3,True,False
+T1059.001,DLL Side-Loading,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1053,Scheduled Task/Job,Create malicious scheduled task SpaceAgentTaskMgrSHR in Windows/Spaceport/ task folder.,4,True,True
+T1053.001,Scheduled Task/Job: Windows,"Create a daily Windows service task with random eight characters and attempt execution of a similarly named DLL contained in the C:\
+\system32\drivers\ directory.",4,False,False
+T1055,Programmable Proxy,Deployment of Meshcentral to connect with compromised servers for remote access.,4,True,False
+T1055.003,Programmable Proxy: Meshcentral,Deployment of Meshcentral to connect with compromised servers for remote access.,4,True,False
+T1055.002,Programmable Proxy: Other,Place a malicious backdoor version.dll in C:\\Windows\\ADFS\\ directory.,4,True,False
+T1055.001,Programmable Proxy: Other,Use a compromised administrator account to initiate a remote desktop session to another server on the network.,4,True,True
+T1055.001,Programmable Proxy: Other,Request exemptions to the zero-trust application and security policies for tools they intend to deploy on a victim network.,4,True,False
+T1055.001,Programmable Proxy: Other,Create the directory /xui/common/images/ on targeted IP addresses.,4,True,False
+T1055.001,Programmable Proxy: Other,"Create accounts on victim networks; observed names include “sqladmin$,” “adfsservice,” “IIS_Admin,” “iis-admin,” and “John McCain”.",4,True,False
+T1055.001,Programmable Proxy: Other,Place additional webshells on compromised devices immediately after system owners patch the exploited vulnerability.,4,True,False
+T1055.001,Programmable Proxy: Other,The following file locations and filenames have been observed on devices: o /netscaler/logon/LogonPoint/uiareas/ui_style.php o /netscaler/logon/sanpdebug.php,4,True,True
+T1059.001,Command and Control Server Installation,Install “AnyDesk” remote access program as a backup access method.,5,True,False
+T1059.002,Command and Control Server Configuration,Enable servers to use Windows PowerShell Web Access.,5,True,False
+T1059.003,Command and Control Server Remote Services,Use the open source tunneling tool Ligolo (ligolo/ligolo-ng).,5,True,False
+T1059.004,Command and Control Server Remote Services,Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain.,5,True,False
+T1041,Command and Control,Export system registry hives and network firewall configurations on compromised servers.,5,True,False
+T1041,Command and Control,"Exfiltrate account usernames from the victim domain controller, as well as access configuration files and logs—presumably to gather network and user account information for use in further exploitation efforts.",5,True,False
+T1021,Remote Services,Use the open source tunneling tool Ligolo (ligolo/ligolo-ng).,5,True,False
+T1021,Remote Services,Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain.,5,True,False
+T1056,Input Capture,"Exfiltrate account usernames from the victim domain controller, as well as access configuration files and logs—presumably to gather network and user account information for use in further exploitation efforts.",5,True,False
+T1056,Input Capture,Export system registry hives and network firewall configurations on compromised servers.,5,True,False
+T1056,Input Capture,"Exfiltrate account usernames from the victim domain controller, as well as access configuration files and logs—presumably to gather network and user account information for use in further exploitation efforts.",5,True,False
+T1056,Input Capture,Export system registry hives and network firewall configurations on compromised servers.,5,True,False

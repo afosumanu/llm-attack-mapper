@@ -1,0 +1,66 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control (C2) Server,"The advisory was updated to reflect new TTPs employed by Play ransomware group, as well as provide current IOCs/remove outdated IOCs for effective threat hunting.",0,True,True
+T1059,Command and Control (C2) Server,"The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and Australian Signals Directorate’s Australian Cyber Security Centre (ASD's ACSC) are releasing this joint advisory to disseminate the Play ransomware group’s IOCs and TTPs identified through FBI  ",0,True,True
+T1056,Input Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,True,True
+T1056.001,Input Capture: Keylogging,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,True,True
+T1056.002,Input Capture: Screen Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,True,True
+T1056.003,Input Capture: Audio Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,True,True
+T1056.004,Input Capture: Video Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,True,True
+T1056.005,Input Capture: Webcam Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,False,True
+T1056.006,Input Capture: Microphone Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,False,True
+T1056.007,Input Capture: Keystroke Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,False,True
+T1056.008,Input Capture: Clipboard Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,False,True
+T1056.009,Input Capture: Browser Capture,"Since June 2022, the Play (also known as Playcrypt) ransomware group has impacted a wide range of businesses and critical infrastructure in North America, South America, and Europe.",0,False,True
+T1059.001,Command and Control - Email,A portion of victims are contacted via telephone and are threatened with the release of the stolen data and encouraged to pay the ransom.,1,True,True
+T1059,Command and Control,"Ransom notes do not include an initial ransom demand or payment instructions; rather, victims are instructed to contact the threat actors via email.",1,True,True
+T1048,Web Shell,Each victim receives a unique @gmx.de or @web[.]de email for communications.,1,True,True
+T1056,Exfiltration Over Command and Control,"Play ransomware actors employ a double extortion model, encrypting systems after exfiltrating data.",1,True,True
+T1486,Data Encrypted for Impact,"Play ransomware actors employ a double extortion model, encrypting systems after exfiltrating data.",1,True,True
+T1059.001,Command and Control Server Infrastructure,"Play ransomware actors use command and control (C2) applications, including Cobalt Strike and SystemBC, and tools like PsExec to assist with lateral movement and file execution.",2,True,True
+T1059,Command and Control,"Play ransomware actors use command and control (C2) applications, including Cobalt Strike and SystemBC, and tools like PsExec to assist with lateral movement and file execution.",2,True,True
+T1057,Process Discovery,"Actors also use tools like GMER, IOBit, and PowerTool to disable anti-virus software and remove log files.",2,True,False
+T1057.001,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.002,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.003,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.004,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.005,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.006,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.007,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.008,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1057.009,Scheduled Task/Job,Actors then distribute executables via Group Policy Objects.,2,False,False
+T1059.001,Command and Control - Custom Command and Control Protocol,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,True,True
+T1021,Remote Services,"The ransomware binary supports command line arguments; however, if no command line arguments are passed, the malware powers off all VMs and encrypts files related to VMs using randomly generated per-file keys.",3,True,True
+T1022,User Execution,tools and a ransom note titled ReadMe[.]txt are placed in C:/Users/Public/Music/,3,False,True
+T1056,Input Capture,"The targeted file extensions include .vmdk, .vmem, .vmsd, .vmsn, .vmx, .vmxf, .vswp, .vmss, .nvram, .vmtx, and .log.",3,True,True
+T1025,Web Session,The ransom note directs victims to contact the Play ransomware group at an email address ending in @gmx[.]de or @web[.]de.,3,True,True
+T1053,Scheduled Task/Job,The ransomware binary creates a copy of the ransom note titled PLAY_Readme.txt in the root directory and in the path /vmfs/volumes/,3,True,False
+T1028,Discreet Tracking,The ransomware actors threaten to publish exfiltrated data to their leak site on the Tor network ([.]onion URL).,3,False,True
+T1055,Process Injection,"The ESXi variant of Play ransomware invokes shell commands specific to the ESXi environment to conduct tasks, including powering off all running Virtual Machines (VMs), listing machines names, and setting the welcome message of the ESXi interface to the campaign-specific ransom note.",3,True,True
+T1024,Domain Name System,The ransom note directs victims to contact the Play ransomware group at an email address ending in @gmx[.]de or @web[.]de.,3,False,True
+T1054,Client Side Software Vulnerability,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,False,True
+T1057,File and Directory Discovery,"The targeted file extensions include .vmdk, .vmem, .vmsd, .vmsn, .vmx, .vmxf, .vswp, .vmss, .nvram, .vmtx, and .log.",3,True,True
+T1058,System Information Discovery,The ransomware binary creates a copy of the ransom note titled PLAY_Readme.txt in the root directory and in the path /vmfs/volumes/,3,False,False
+T1059.001,Command and Control - Custom Command and Control Protocol,"Through command line flags, the binary supports additional functionality likely used for development and debugging, including exempting specific VMs from encryption, targeting only one file for encryption, or skipping the file extension check and attempting to encrypt all files.",4,True,True
+T1059,Command and Control,Cobalt Strike A penetration testing tool used by security professionals to test the security of networks and systems. Play ransomware actors have used it to assist with lateral movement and file execution.,4,True,True
+T1053,Command and Control - Commonly Used Port,Cobalt Strike A penetration testing tool used by security professionals to test the security of networks and systems. Play ransomware actors have used it to assist with lateral movement and file execution.,4,True,True
+T1055,Command and Control - Process Command Delegation,PsExec A tool designed to run programs and execute commands on remote systems.,4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Command and Control - Process Command Delegation,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1059.001,Network Service Scanning,Microsoft Nltest Used by Play ransomware actors for network discovery.,5,True,True
+T1053,Print/Network Share Discovery,"open source Secure Shell (SSH) File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client. Play ransomware actors have used it to transfer data from a compromised network to actor-controlled accounts.",5,True,True
+T1055,Process Injection,Process Hacker Used to enumerate running processes on a system.,5,True,True
+T1055,Process Injection,PSexesvc.exe Custom Play “psexesvc”,5,True,True
+T1055,Process Injection,HRsword.exe Disables endpoint protection,5,True,True
+T1055,Process Injection,Usysdiag.exe Associated with HRsword; changes settings of System certificates,5,True,True
+T1055,Process Injection,Hi.exe Associated with ransomware,5,True,True
+T1055,Process Injection,SystemBC Malware EXE,5,True,True
+T1055,Process Injection,SystemBC malware DLL,5,True,True
+T1055,Process Injection,fThe9C.exe,5,True,True
+T1055,Process Injection,GRIXBA Gt_net.exe Custom data gathering tool,5,True,True
+T1055,Process Injection,Nekto / PriviCMD Used by Play ransomware actors for privilege escalation.,5,True,True

@@ -1,0 +1,62 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1210,Exploit Public-Facing Application,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1021,Remote Services,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1059,Command and Control,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1043,Command and Control - Standard Command and Control Protocol,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,False,True
+T1056,Input Capture,"In April 2022, the group began using a new Telegram channel featuring the name “CyberArmyofRussia_Reborn” to organize and plan group operations.",2,True,False
+T1056.001,Input Capture - Telegram,"In April 2022, the group began using a new Telegram channel featuring the name “CyberArmyofRussia_Reborn” to organize and plan group operations.",2,True,False
+T1046,Execution,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1046.001,Execution - DDoS,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,False,True
+T1059.001,Command and Control - Custom,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1043,Command and Control - Standard,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,False,True
+T1043.001,Command and Control - Standard - Web,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,False,True
+T1056,Input Capture,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1056.001,Input Capture - Web,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1046,Data Encrypted,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,True,True
+T1046.001,Data Encrypted - File,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1046.002,Data Encrypted - Network,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1046.003,Data Encrypted - Process,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1046.004,Data Encrypted - System,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1046.005,Data Encrypted - User,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1046.006,Data Encrypted - Web,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,False,True
+T1059.001,Command and Control - Custom,The group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging.,4,True,True
+T1059.002,Command and Control - Standard,"In March 2025, Z-Pentest posted evidence claiming OT device intrusions to their channel using a NoName057(16) cyberattack campaign hashtag.",4,True,True
+T1059.003,Command and Control - Custom,"Similarly, in April 2025, Z-Pentest shared a video purporting defacement of an HMI by changing system names to NoName057(16) and CARR references.",4,True,True
+T1059.004,Command and Control - Standard,Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals.,4,True,True
+T1059.001,Screencasting,"They leverage superficial criteria, such as victim availability and existing vulnerabilities, rather than focusing on strategically significant entities.",5,True,True
+T1059,Screencasting,Scan for vulnerable devices on the internet with,5,True,True
+T1210,Exploit Public-Facing Application,Scan for vulnerable devices on the internet with,5,True,True
+T1204,User Execution: Malware Transfer via Web Application,Scan for vulnerable devices on the internet with,5,True,True
+T1210.001,Exploit Public-Facing Application: Web Protocols,Scan for vulnerable devices on the internet with,5,False,True
+T1059.002,Screencasting: RDP,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,True,True
+T1210.002,Exploit Public-Facing Application: RDP,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1210.003,Exploit Public-Facing Application: VNC,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1210.004,Exploit Public-Facing Application: SSH,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1210.005,Exploit Public-Facing Application: FTP,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1210.006,Exploit Public-Facing Application: Telnet,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1210.007,Exploit Public-Facing Application: HTTP,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,False,True
+T1059.001,Brute Force: Password,Initiate temporary virtual private server (VPS) to execute password brute force software.,6,True,True
+T1021,Remote Services,open VNC ports,6,True,True
+T1021.001,Open RDP,open VNC ports,6,True,True
+T1055,Process Injection,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1210,Exploit Public-Facing Application,"abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services",6,True,True
+T1210.001,Web Shells,"abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services",6,False,True
+T1212,Exploit Public-Facing Service,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,True,True
+T1212.001,Brute Force: Multi-Password,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,False,True
+T1212.002,Brute Force: Password,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,False,True
+T1212.003,Brute Force: Multi-Password,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,False,True
+T1212.004,Brute Force: Password,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,False,True
+T1212.005,Brute Force: Multi-Password,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,False,True
+T1059.001,Command and Control - Software Component,"Regardless of outcome, pro-Russia hacktivist groups often post images and screen recordings to their social media platforms, boasting the compromises and exaggerating impacts to garner attention from their peers and the media.",7,True,True
+T1059,Command and Control,"Regardless of outcome, pro-Russia hacktivist groups often post images and screen recordings to their social media platforms, boasting the compromises and exaggerating impacts to garner attention from their peers and the media.",7,True,True
+T1210,Exploit Public-Facing Application,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1212,Exploit Use of Outdated or Vulnerable Components,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1216,Use Alternate Authentication Material,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1218,Lateral Movement,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1219,Lateral Movement - Remote Services,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1220,Lateral Movement - Remote Services - RDP,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1221,Lateral Movement - Remote Services - SSH,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1222,Lateral Movement - Remote Services - Web Services,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1223,Lateral Movement - Remote Services - VPN,"physical parameter and setpoint changes, or conduct defacement activities.",7,False,True
+T1224,Lateral Movement - Remote Services - RDP - Unsecured,"physical parameter and setpoint changes, or conduct defacement activities.",7,False,True

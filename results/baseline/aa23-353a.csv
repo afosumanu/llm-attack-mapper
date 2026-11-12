@@ -1,0 +1,38 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Email,ALPHV Blackcat actors have since employed improvised communication methods by creating victim-specific emails to notify of the initial compromise.,0,True,True
+T1059.001,Command and Control - Software Component,ALPHV Blackcat affiliates use uniform resource locators (URLs) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.,1,True,True
+T1059,Command and Control,"After gaining access to a victim network, ALPHV Blackcat affiliates deploy remote access software",1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1059.001,Kerberos Ticket Duplication,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1054,Web Shell,ALPHV Blackcat affiliates claim to use Cobalt Strike [S1054] as beacons to command and control servers.,2,False,False
+T1054.003,Cobalt Strike,ALPHV Blackcat affiliates claim to use Cobalt Strike [S1054] as beacons to command and control servers.,2,False,False
+T1054.003,Cobalt Strike,ALPHV Blackcat affiliates claim to use Cobalt Strike [S1054] as beacons to command and control servers.,2,False,False
+T1059,Domain Account,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1059.001,Kerberos Ticket Duplication,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1059.002,Domain Policy Modification,"ALPHV Blackcat affiliates obtain passwords from the domain controller, local network, and deleted backup servers to move laterally throughout the network.",2,True,False
+T1059.003,Domain Trust Modification,"ALPHV Blackcat affiliates obtain passwords from the domain controller, local network, and deleted backup servers to move laterally throughout the network.",2,True,False
+T1059.004,Domain Account Creation,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1059.005,Domain Account Modification,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1059.006,Domain Account Deletion,"ALPHV Blackcat affiliates create a user account, “aadmin,” and use Kerberos token generation for domain access.",2,True,False
+T1059.007,Domain Policy Deletion,"ALPHV Blackcat affiliates obtain passwords from the domain controller, local network, and deleted backup servers to move laterally throughout the network.",2,True,False
+T1059.001,Command and Control Server,Domain resources.docusong[.]com Command and Control Server,3,True,True
+T1059.002,Command and Control Server,Domain Fisa99.screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.002,Command and Control Server,Domain pcrendal[.]com Command and Control Server,3,True,True
+T1059.002,Command and Control Server,Domain instance-qqemas-relay[.]screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.002,Command and Control Server,Domain instance-rbjvws-relay.screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.003,Command and Control Server,IP Address 5.199.168.24 Command and Control Server,3,True,True
+T1059.003,Command and Control Server,IP Address 91.92.254.193 SimpleHelp Remote Access,3,True,True
+T1059.003,Command and Control Server,IP Address 45.77.0.92 Command and Control Server,3,True,False
+T1059.003,Command and Control Server,IP Address 45.32.141.168 Command and Control Server,3,True,False
+T1059.003,Command and Control Server,IP Address 92.223.89.55 IP Address used by Threat Actor,3,True,False
+T1059.003,Command and Control Server,IP Address 185.195.59.218 IP Address used by Threat Actor,3,True,False
+T1059.003,Command and Control Server,IP Address 51.159.103.112 IP Address used by Threat Actor,3,True,False

@@ -1,0 +1,55 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Custom Command and Control Protocol,Phobos is structured as a ransomware-as-a-service (RaaS) model.,0,True,True
+T1056,Exfiltration Over Command and Control Channel,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities to successfully ransom several million U.S. dollars.",0,True,True
+T1052,Exfiltration,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities to successfully ransom several million U.S. dollars.",0,True,True
+T1053,Spoofing,Phobos is structured as a ransomware-as-a-service (RaaS) model.,0,True,True
+T1057,Data Encrypted for Impact,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities to successfully ransom several million U.S. dollars.",0,True,True
+T1059,Command and Control,Phobos is structured as a ransomware-as-a-service (RaaS) model.,0,True,True
+T1059.001,Command and Control Server,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",1,True,True
+T1059,Command and Control,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,1,True,True
+T1046,Network Service Scanning,"using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports",1,True,True
+T1052,Input Capture,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,1,True,True
+T1204,User Execution,Threat actors send spoofed email attachments that are embedded with hidden payloads,1,True,False
+T1056,Exfiltration Over Command and Control Channel,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,1,True,True
+T1040,Network Sniffing,Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads,1,True,True
+T1057,File and Directory Discovery,Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads,1,True,True
+T1021,Remote Services,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",1,True,True
+T1059,Command and Control,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,1,True,True
+T1040,Network Sniffing,Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads,1,True,True
+T1059.002,Command and Control Server: Web Shell,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,1,True,True
+T1059.001,Command and Control (C2) - User Execution,Phobos actors run executables like 1saas.exe or cmd.exe to deploy additional Phobos payloads that have elevated privileges enabled,2,True,True
+T1059,Command and Control (C2),"Within this phase, the shellcode also sends a call from the entry point to a memory container and prepares a portable executable for deployment in the final stage",2,True,True
+T1059.002,Command and Control (C2) - Web Service,"In the second phase, a stealth process is used to obfuscate command and control (C2) activity by producing requests to legitimate websites",2,True,True
+T1059.003,Command and Control (C2) - Data Encrypted,"Following successful payload decryption, the threat actors can begin downloading additional malware",2,True,True
+T1059.004,Command and Control (C2) - Data Exfiltration,"After SmokeLoader’s hidden payload is downloaded onto the victim’s system, threat actors use the malware’s functionality to download the Phobos payload and exfiltrate data from the compromised system",2,True,True
+T1059.005,Command and Control (C2) - Data Encrypted,Phobos operations feature a standard three phase process to decrypt a payload that allows the threat actors to deploy additional destructive malware,2,True,True
+T1059.006,Command and Control (C2) - Data Exfiltration,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.007,Command and Control (C2) - Data Encrypted,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.008,Command and Control (C2) - Data Exfiltration,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.009,Command and Control (C2) - Data Encrypted,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.010,Command and Control (C2) - Data Exfiltration,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.011,Command and Control (C2) - Data Encrypted,Phobos actors can use the previous commands to perform various windows shell functions,2,True,True
+T1059.001,Scheduled Task/Job,folders and Run Registry Keys such as C:/Users\Admin\AppData\Local\directory to maintain persistence within compromised environments.,3,True,True
+T1053,Print/Show Screen,"Phobos actors have been observed using built-in Windows API functions to steal tokens, bypass access controls, and create new processes to escalate privileges by leveraging the SeDebugPrivilege process.",3,True,False
+T1055,Programmable Proxy,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1056,API Monitoring,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1059.001,Command and Control - Custom Command and Control Protocol,"A Phobos encryption executable spawns a cmd.exe process, which then executes the commands listed in Table 1 with their respective Windows system executables.",4,True,True
+T1059.002,Command and Control - Data Encrypted for Impact,The commands above are observed during the execution of a Phobos encryption executable.,4,True,True
+T1059.003,Command and Control - Data Encrypted for Impact,The system’s backup catalog is also deleted.,4,True,True
+T1059.004,Command and Control - Data Encrypted for Impact,"When the commands above are executed on a Windows system, volume shadow copies are deleted and Windows Firewall is disabled.",4,True,False
+T1059.005,Command and Control - Data Encrypted for Impact,"Additionally, the system’s boot status policy is set to boot even when there are errors during the boot process, and automatic recovery options, like Windows Recovery Environment (WinRE), are disabled for the given boot entry.",4,True,True
+T1059.006,Command and Control - Data Encrypted for Impact,The system’s backup catalog is also deleted.,4,True,True
+T1059.007,Command and Control - Data Encrypted for Impact,The Phobos ransom note is displayed to the end user using mshta.exe.,4,True,True
+T1059.008,Command and Control - Data Encrypted for Impact,The system’s backup catalog is also deleted.,4,True,True
+T1059.009,Command and Control - Data Encrypted for Impact,"When the commands above are executed on a Windows system, volume shadow copies are deleted and Windows Firewall is disabled.",4,True,False
+T1059.010,Command and Control - Data Encrypted for Impact,"Additionally, the system’s boot status policy is set to boot even when there are errors during the boot process, and automatic recovery options, like Windows Recovery Environment (WinRE), are disabled for the given boot entry.",4,True,True
+T1059.011,Command and Control - Data Encrypted for Impact,The system’s backup catalog is also deleted.,4,True,True
+T1059.012,Command and Control - Data Encrypted for Impact,The Phobos ransom note is displayed to the end user using mshta.exe.,4,True,True

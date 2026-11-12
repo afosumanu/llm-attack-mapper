@@ -1,0 +1,97 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Automated Collection,These actors exploit vulnerabilities by using scanning tools,0,True,True
+T1059,Command and Control,establishing persistence through VPN software,0,True,True
+T1056,Input Capture,exfiltrating emails and credentials using scripts,0,True,True
+T1052,Input Validation Error,cross-site scripting attacks,0,True,True
+T1110,Password Spraying,password spraying on Microsoft Exchange servers,0,True,True
+T1059.001,Command and Control - Software Component,MicroScan,1,True,True
+T1059.002,Command and Control - Server Software,EBurst,1,True,True
+T1059.003,Command and Control - C2 Server,DC.exe,1,True,True
+T1059.004,Command and Control - C2 Server,Office-cli Program,1,True,True
+T1059.005,Command and Control - C2 Server,Curlc4.txt,1,True,True
+T1047,Web Shell,Office-cli Program,1,True,True
+T1056,Input Capture,Office-cli Program,1,True,True
+T1056.001,Input Capture - Web Form,Office-cli Program,1,True,True
+T1056.002,Input Capture - Web Form,Office-cli Program,1,True,True
+T1056.003,Input Capture - Web Form,Office-cli Program,1,True,True
+T1056.004,Input Capture - Web Form,Office-cli Program,1,True,True
+T1056.005,Input Capture - Web Form,Office-cli Program,1,False,True
+T1059.001,Command and Control (C2) Server,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1059,Command and Control (C2) Server,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1102,Web Service,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1105,Ingress Tool Transfer,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1210,Exploit Public-Facing Application,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1212,Exploit Use,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1216,Spearphishing via Service,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1204,User Execution,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1056,Input Capture,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1057,Boot or System Services,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,True,True
+T1058,Valid Accounts,"The threat actors targeted victims across multiple US critical infrastructure sectors, including: Government Services and Facilities, Critical Manufacturing, Healthcare and Public Health, and Information Technology.",2,False,True
+T1059,Command and Control (C2) Server,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1047,Web Shell,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,True,False
+T1046,Execution,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,True,False
+T1059,Command and Control,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,True,False
+T1043,Transient Web Scripting,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,False,False
+T1059.001,Command and Control Server,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,True,False
+T1046.001,Scripting,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,False,False
+T1047.001,Web Shell Maintenance,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications, including: BBScan, dirsearch, Fscan, ksubdomain, masscan, NMAP, OneForAll, ShuiZe, and wpscan.",3,False,False
+T1059.001,Command and Control: Standard Command and Control Protocol,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1059,Command and Control,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1057,Process Discovery,The use of open source tools typically found on GitHub suggests the threat actors tend to look for more vulnerable targets.,4,True,True
+T1047,Web Shell,"The threat actors used these scripts to target services including OpenSSL, Oracle WebLogic, Rejetto, WordPress, Juniper ScreenOS, Jenkins, and Apache Struts.",4,True,True
+T1052,Input Capture,"When executed on a vulnerable website running JavaScript, this payload modifies webpage content to display username and password fields, facilitating user credential harvesting",4,True,True
+T1190,Exfiltration Over Command and Control Channel,"When executed on a vulnerable website running JavaScript, this payload modifies webpage content to display username and password fields, facilitating user credential harvesting",4,True,True
+T1056,Network Service Scanning,"In general, the threat actors focus on scanning ports 21 (file transfer protocol [FTP]), 22 (SSH), 53 (domain name system [DNS]), 80 (HTTP), 443 (HTTPS), and 1080 (SOCKS)",4,True,True
+T1057.001,Process Discovery: Windows API,The use of open source tools typically found on GitHub suggests the threat actors tend to look for more vulnerable targets.,4,False,True
+T1059.002,Command and Control: Data Encrypted,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1059.003,Command and Control: Data Compressed,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1059.004,Command and Control: Custom Command and Control Protocol,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1059.005,Command and Control: Data Obfuscated,"command line utilities built on exploit codes written in popular programming languages, such as Python and Go",4,True,True
+T1059.001,Command and Control (C2) - Commonly Used Port,The threat actors typically download SoftEther installers onto victim devices from threat actor-controlled infrastructure using PowerShell or LOTL binaries for Windows Systems.,5,True,False
+T1059.002,Command and Control (C2) - Data Encrypted,"DiagTrack.exe then establishes encrypted communications over the HTTP protocol with the domain dns.studiocloud.xyz,",5,True,True
+T1059.003,Command and Control (C2) - Data Exfiltration,"Given that the executable also contains functions designed to query data from user mailboxes, the FBI assesses the malware likely targets user email data for exfiltration.",5,True,True
+T1059.004,Command and Control (C2) - Data Exfiltration via Web,The executed XSS payload page generates a link to download a password-protected .zip file.,5,True,True
+T1059.005,Command and Control (C2) - Data Exfiltration via Web,The .zip file’s contents originate from encoded bytes within the XSS payload and contain the executable file live700_v1.exe.,5,True,True
+T1059.006,Command and Control (C2) - Data Exfiltration via Web,"The executable begins a process named DiagTrack.exe, which shares its name with legitimate Windows software.",5,True,False
+T1059.007,Command and Control (C2) - Data Exfiltration via Web,"DiagTrack.exe then establishes encrypted communications over the HTTP protocol with the domain dns.studiocloud.xyz,",5,True,True
+T1059.008,Command and Control (C2) - Data Exfiltration via Web,"The threat actors use EBurst, an open source Python-based tool, to target accounts in the Microsoft Office365 Cloud environment.",5,True,True
+T1059.009,Command and Control (C2) - Data Exfiltration via Web,The tool compromises email accounts on Microsoft Exchange servers using multiple interfaces for password spraying and password guessing against each supplied email address.,5,True,True
+T1059.010,Command and Control (C2) - Data Exfiltration via Web,"Based on the open source EBurst ReadMe file, these interfaces include:  E xchange Control Panel (ECP);  Exchange Web Services (EWS);  Offline Address Book (OAB);  Outlook Web Access (OWA);  Remote Procedure Call (RPC);  Application Programming Interface (API);  Messaging Application Programm",5,True,True
+T1059.011,Command and Control (C2) - Data Exfiltration via Web,The threat actors typically download SoftEther installers onto victim devices from threat actor-controlled infrastructure using PowerShell or LOTL binaries for Windows Systems.,5,True,False
+T1059.012,Command and Control (C2) - Data Exfiltration via Web,"For Linux/Unix distributions, the threat actors download SoftEther installers via curl or wget.",5,True,True
+T1059.001,Command and Control: Server Software Component,The threat actors use SoftEther to maintain persistent remote access to victim devices to enable data exfiltration.,6,True,True
+T1059.002,Command and Control: Server Software Component,"The threat actors installed the client on the end-user’s system, which connected to the C2 server using one of the identified domains, subdomains, or the server’s IP address.",6,True,False
+T1059.003,Command and Control: Server Software Component,"The main C2 domain for the bot was natcloudservice[.]com, and the domain communicated with https://natcloudservice[.]com/ews and upl.natcloudservice[.]com/ews.",6,True,True
+T1059.004,Command and Control: Server Software Component,"The script uploaded emails to a remote server, obfuscating many of the directories and files it created, and changed the name of the child process to crypto.",6,True,False
+T1059.005,Command and Control: Server Software Component,The script downloaded the original file from https://upl.natcloudservice[.]com using IP address 149.28.132[.]137.,6,True,False
+T1059.006,Command and Control: Server Software Component,The PHP script took up to two command-line arguments.,6,True,True
+T1059.007,Command and Control: Server Software Component,"The script is specifically designed to interface with the Microsoft EWS API, which allows the threat actors to access email and content items, such as calendars and contacts.",6,True,False
+T1059.008,Command and Control: Server Software Component,The script appears to be stand-alone rather than installed on a compromised device.,6,True,True
+T1059.009,Command and Control: Server Software Component,The script downloaded the original file from https://upl.natcloudservice[.]com using IP address 149.28.132[.]137.,6,True,False
+T1059.010,Command and Control: Server Software Component,"The main C2 domain for the bot was natcloudservice[.]com, and the domain communicated with https://natcloudservice[.]com/ews and upl.natcloudservice[.]com/ews.",6,True,True
+T1059.011,Command and Control: Server Software Component,"The script uploaded emails to a remote server, obfuscating many of the directories and files it created, and changed the name of the child process to crypto.",6,True,False
+T1059.012,Command and Control: Server Software Component,"The script is specifically designed to interface with the Microsoft EWS API, which allows the threat actors to access email and content items, such as calendars and contacts.",6,True,False
+T1059.001,Command and Control (C2) Server,https://upl.natcloudservice[.]com.ews,7,True,True
+T1059.002,Command and Control (C2) Server,https://natcloudservice[.]com/ews,7,True,True
+T1059.003,Command and Control (C2) Server,"curl_setopt($this->ch, CURLOPT_HTTPHEADER,array(""X-Id: $clientid""))",7,True,True
+T1059.004,Command and Control (C2) Server,https://upl.natcloudservice[.]com.ews,7,True,True
+T1059.005,Command and Control (C2) Server,https://natcloudservice[.]com/ews,7,True,True
+T1059.006,Command and Control (C2) Server,"curl_setopt($this->ch, CURLOPT_HTTPHEADER,array(""X-Id: $clientid""))",7,True,True
+T1059.007,Command and Control (C2) Server,https://upl.natcloudservice[.]com.ews,7,True,True
+T1059.008,Command and Control (C2) Server,https://natcloudservice[.]com/ews,7,True,True
+T1059.009,Command and Control (C2) Server,"curl_setopt($this->ch, CURLOPT_HTTPHEADER,array(""X-Id: $clientid""))",7,True,True
+T1059.010,Command and Control (C2) Server,https://upl.natcloudservice[.]com.ews,7,True,True
+T1059.011,Command and Control (C2) Server,https://natcloudservice[.]com/ews,7,True,True
+T1059.012,Command and Control (C2) Server,"curl_setopt($this->ch, CURLOPT_HTTPHEADER,array(""X-Id: $clientid""))",7,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,The threat actors use a command-line utility office-cli to continuously target and access Microsoft Outlook 365 email accounts to exfiltrate emails across different time periods.,8,True,True
+T1059,Command and Control,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.002,Command and Control: Data Encrypted,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.003,Command and Control: Data Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.004,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.005,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.006,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.007,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.008,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.009,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.010,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1059.011,Command and Control: Data Encrypted or Compressed,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True

@@ -1,0 +1,45 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Software Component,These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions,0,True,True
+T1059,Command and Control,These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,0,True,True
+T1047,Web Shell,manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,0,True,True
+T1053,Scheduled Task/Job,malicious project file interactions,0,True,True
+T1021,Remote Services,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",1,True,False
+T1047,Web Shell,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",1,True,False
+T1059.001,Command and Control - Software Component,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",1,True,False
+T1049,Exfiltration Over Command and Control Channel,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",1,True,False
+T1059.001,Command and Control - Software Component,The adversary leveraged within Rockwell Automation PLC programs.,2,True,False
+T1059,Command and Control,The adversary manipulated data displayed on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays.,2,True,False
+T1210,Exploit Public-Facing Application,"The adversary exploited internet-connected OT devices—including PLCs manufactured by Rockwell Automation/Allen- Bradley, Schneider Electric, Siemens, and potentially other manufactured PLCs—",2,True,False
+T1204,User Execution,The adversary caused operational disruption and financial loss.,2,True,False
+T1053,Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1053.003,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1053.002,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1053.001,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,False,False
+T1053.005,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1053.004,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,False,False
+T1053.006,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1053.007,Scheduled Task/Job: Scheduled Task/Job,The adversary caused operational disruption and financial loss.,2,True,False
+T1059.001,Command and Control - Software Component,The authoring agencies previously reported on similar activity targeting PLCs by CyberAv3ngers (aka Shahid Kaveh Group)—a cyber threat actor affiliated with Iran’s Islamic Revolutionary Guard Corps (IRGC) Cyber Electronic Command (CEC).,3,True,True
+T1059,Command and Control,These attacks compromised at least 75 U.S.-based PLCs and HMIs,3,True,False
+T1046,Network Service Scanning,The authoring agencies recommend U.S. organizations urgently review the TTPs and IOCs in this advisory for indications of current or historical activity on their networks,3,True,True
+T1046,Network Service Scanning,"If owners and operators discover an affected internet-accessible device in their environment, additional technical measures may be necessary to evaluate the risk of compromise",3,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059,Command and Control,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.002,Command and Control - Data Encrypted,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.003,Command and Control - Data Exfiltration,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.004,Command and Control - Data Encrypted,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.005,Command and Control - Data Exfiltration,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.006,Command and Control - Data Encrypted,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.007,Command and Control - Data Exfiltration,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.008,Command and Control - Data Encrypted,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.009,Command and Control - Data Exfiltration,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.010,Command and Control - Data Encrypted,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.011,Command and Control - Data Exfiltration,The authoring agencies observed Iranian-affiliated APT actors using several foreign-based IP addresses to access internet-facing PLCs,4,True,True
+T1059.001,Command and Control Server,"In one reported instance, the actors utilized Dropbear Secure Shell (SSH) software on victim modems to enable them to gain remote access through port 22.",5,True,False
+T1021,Remote Services,"Inbound malicious traffic has been observed targeting PLC devices on the following ports: 44818, 2222, 102, and 502, as well as targeting modems on port 22.",5,True,True
+T1210,Exploit Public-Facing Application,"The targeting of ports associated with other OT vendors’ protocols suggests these actors are opportunistically targeting devices manufactured by companies other than Rockwell Automation/Allen-Bradley, including Schneider Electric and Siemens.",5,True,True
+T1212,Exploit Use of Outdated Protocols,"The targeting of ports associated with other OT vendors’ protocols suggests these actors are opportunistically targeting devices manufactured by companies other than Rockwell Automation/Allen-Bradley, including Schneider Electric and Siemens.",5,True,True
+T1041,Exfiltration Over Command and Control Channel,"The authoring agencies observed Iranian-affiliated APT actors using configuration software—such as Rockwell Automation’s Studio 5000 Logix Designer, Schneider Electric’s EcoStruxure Control Expert, and Siemens’ Totally Integrated Automation (TIA) Portal—on leased, third-party hosted infrastructure",5,True,True
+T1055,Process Injection,"The modification and deletion of project file logic, to include Add-On Instructions (AOIs) and data manipulation on HMI and SCADA displays.",5,True,False
+T1053,Scheduled Task/Job,"The modification and deletion of project file logic, to include Add-On Instructions (AOIs) and data manipulation on HMI and SCADA displays.",5,True,False
+T1216,Spearphishing via Service,"The authoring agencies observed Iranian-affiliated APT actors using configuration software—such as Rockwell Automation’s Studio 5000 Logix Designer, Schneider Electric’s EcoStruxure Control Expert, and Siemens’ Totally Integrated Automation (TIA) Portal—on leased, third-party hosted infrastructure",5,True,True

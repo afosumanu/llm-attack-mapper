@@ -1,0 +1,43 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Custom Command and Control Protocol,"Black Basta affiliates use common initial access techniques—such as phishing and exploiting known vulnerabilities—and then employ a double-extortion model, both encrypting systems and exfiltrating data.",1,True,True
+T1059,Command and Control,"Ransom notes do not generally include an initial ransom demand or payment instructions. Instead, the notes provide victims with a unique code and instructs them to contact the ransomware group via a .onion URL (reachable through the Tor browser).",1,True,True
+T1056,Input Capture,"Update November 8, 2024: Recent techniques include email bombing—a tactic used to send a large volume of spam emails—to aid social engineering over Microsoft Teams and trick victim end users into providing initial access via remote monitoring and management (RMM) tools.",1,True,True
+T1190,Exploit Public-Facing Application,"Black Basta affiliates use common initial access techniques—such as phishing and exploiting known vulnerabilities—and then employ a double-extortion model, both encrypting systems and exfiltrating data.",1,True,True
+T1566.002,Impact - Initial Access via Remote Monitoring and Management,"Update November 8, 2024: Recent techniques include email bombing—a tactic used to send a large volume of spam emails—to aid social engineering over Microsoft Teams and trick victim end users into providing initial access via remote monitoring and management (RMM) tools.",1,True,True
+T1052,Input Validation Error,"Black Basta affiliates use common initial access techniques—such as phishing and exploiting known vulnerabilities—and then employ a double-extortion model, both encrypting systems and exfiltrating data.",1,True,True
+T1566.002,Forced Obfuscation/Encryption of Predictable Content,"Black Basta affiliates would subsequently call the victim, act as technical support, and offer to fix the issue.",2,True,False
+T1059.001,Command and Control,"In this process, the actors requested the victim users download a tool for remote access, such as AnyDesk or Microsoft’s Quick Assist",2,True,False
+T1566.002,Forced Obfuscation/Encryption of Predictable Content,"Black Basta affiliates would subsequently call the victim, act as technical support, and offer to fix the issue.",2,True,False
+T1059.001,Command and Control,"In this process, the actors requested the victim users download a tool for remote access, such as AnyDesk or Microsoft’s Quick Assist",2,True,False
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1046,Network Service Scanning,Black Basta affiliates use tools such as SoftPerfect network scanner (netscan.exe) to conduct network scanning.,2,True,True
+T1059.001,Command and Control: Software Component,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1059,Command and Control,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1055,Process Injection,"Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell to disable antivirus products,",3,True,True
+T1053,Scheduled Task/Job,"To further inhibit system recovery, affiliates use the vssadmin.exe program to delete volume shadow copies.",3,True,False
+T1056,API Hooking,"Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell to disable antivirus products,",3,True,True
+T1052,Query Registry,"Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell to disable antivirus products,",3,True,True
+T1051,Scheduled Task/Job,"To further inhibit system recovery, affiliates use the vssadmin.exe program to delete volume shadow copies.",3,False,False
+T1050,Service Execution,"Prior to exfiltration, cybersecurity researchers have observed Black Basta affiliates using PowerShell to disable antivirus products,",3,False,True
+T1059.002,Command and Control: Software Component,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1059.003,Command and Control: Software Component,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1059.004,Command and Control: Software Component,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1059.005,Command and Control: Software Component,"Some affiliates also use tools like Splashtop, Screen Connect, and Cobalt Strike beacons to assist with remote access and lateral movement.",3,True,True
+T1059.001,Command and Control: Software Component,Black Basta affiliates have used it to assist with lateral movement and file execution.,4,True,True
+T1055,Process Injection,PSExec A tool designed to run programs and execute commands on remote systems.,4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True
+T1055,Process Injection,"PowerShell A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework, which runs on Windows, Linux, and macOS.",4,True,True

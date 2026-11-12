@@ -1,0 +1,68 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Domain Name System (DNS) Filtering,implementing domain name system (DNS) filtering,0,True,True
+T1204.001,User Execution: Malware Delivery through Web Applications,training users to spot social engineering attempts,0,True,True
+T1210,Exploit Public-Facing Application,"mitigate known vulnerabilities by ensuring operating systems, software, and firmware are patched and up to date",0,True,True
+T1090,Proxy,segment networks to restrict lateral movement from initial infected devices and other devices in the same organization,0,True,True
+T1078,Valid Accounts,"implement id entity, credential, and access management (ICAM) policies across the organization",0,True,True
+T1059.001,Command and Control - Custom,FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites,1,True,True
+T1052,Input Validation,"ClickFix social engineering technique for initial access, in which victims are tricked into executing a malicious payload under the guise of fixing an issue on the victim’s system",1,True,True
+T1071,Application Layer Protocol,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network",1,True,True
+T1537,Initial Access - Drive-by Download,FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites,1,True,True
+T1210,Exploit Public-Facing Application,FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites,1,True,True
+T1021,Remote Services,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network",1,True,True
+T1074,Data Staged,Interlock actors employ a double extortion model in which actors encrypt systems after exfiltrating data,1,True,True
+T1041,Command and Control - Custom,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network",1,True,True
+T1190,Exploit Public-Facing Application,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,True,True
+T1190.001,Drive-by Download,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,False,True
+T1190.002,Drive-by Download using Malicious Update,Interlock ransomware methods for initial access have previously disguised malicious payloads as fake Google Chrome or Microsoft Edge browser updates,2,False,True
+T1190.003,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1190.004,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1210,Exploit Public-Facing Application,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,True,True
+T1210.001,Drive-by Download,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,False,True
+T1210.002,Drive-by Download using Malicious Update,Interlock ransomware methods for initial access have previously disguised malicious payloads as fake Google Chrome or Microsoft Edge browser updates,2,False,True
+T1210.003,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1210.004,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1210.005,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1210.006,Drive-by Download using Malicious Update for Security Tool,payload filenames masquerading as updates for common security software,2,False,True
+T1059.001,Command and Control Server Infrastructure,FBI observed Interlock actors using command and control (C2) applications like Cobalt Strike and SystemBC.,3,True,True
+T1059,Command and Control,Interlock actors also used Interlock RAT and NodeSnake RAT (as of March 2025) for C 2 and executing commands.,3,True,True
+T1040,Network Service Scanning,arp -a Displays and modifies entries in the Address Resolution Protocol (ARP) cache table,3,True,True
+T1046,Execution,FBI also observed instances in which Interlock actors executed a PowerShell command designed to establish persistence via a Windows Registry key modification.,3,True,False
+T1547.001,Windows Registry Run Keys / Startup Folder,"To do so, Interlock actors used a PowerShell command designed to add a run key value named “Chrome Updater” that uses a specific log file as an argument upon user login.",3,True,True
+T1052,Input Capture,"FBI observed that once Interlock actors establish remote control of a compromised system, they use a series of PowerShell commands to download a credential stealer (cht.exe) and keylogger binary (klg.dll)",3,True,True
+T1003,OS Credential Dumping,"According to open source reporting, the credential stealer collects login information and associated URLs for victims’ online accounts",3,True,True
+T1056,Process Injection,"FBI observed that once Interlock actors establish remote control of a compromised system, they use a series of PowerShell commands to download a credential stealer (cht.exe) and keylogger binary (klg.dll)",3,True,True
+T1012,Query Registry,FBI also observed instances in which Interlock actors executed a PowerShell command designed to establish persistence via a Windows Registry key modification.,3,True,False
+T1082,System API/SDK Method Calling,WindowsIdentity.GetCurrent() Returns a WindowsIdentity object that represents the current Windows user,3,True,True
+T1016,System Network Configuration Discovery,"systeminfo Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties.",3,True,True
+T1016,System Network Configuration Discovery,tasklist/svc Lists unabridged service information for each process currently running on the local computer.,3,True,True
+T1059.001,Command and Control: Software Component,Interlock actors leverage compromised credentials and Remote Desktop Protocol (RDP) [10 to move between systems.,4,True,True
+T1059.002,Command and Control: Software Component,They also use tools like AnyDesk to enable remote connectivity and PuTTY to assist with lateral movement.,4,True,False
+T1059.003,Command and Control: Software Component,Interlock actors leverage Azure Storage Explorer (StorageExplorer.exe) to navigate victims’ Microsoft Azure Storage accounts prior to exfiltrating data.,4,True,True
+T1059.004,Command and Control: Software Component,Interlock actors execute AzCopy to exfiltrate data by uploading it to the Azure storage blob.,4,True,False
+T1059.005,Command and Control: Software Component,"Interlock actors also exfiltrate data over file transfer tools, including WinSCP.",4,True,False
+T1059.006,Command and Control: Software Component,"Following data exfiltration, Interlock actors deploy the encryption binary as a 64-bit executable named conhost.exe.",4,True,False
+T1059.007,Command and Control: Software Component,A cybersecurity company identified a DLL binary named tmp41.wasd—executed after encryption using rundll32.exe —which uses the remove() function to delete the encryption binary;,4,True,False
+T1059.008,Command and Control: Software Component,"on Linux machines, the encryptor uses a similar technique to execute the removeme function.",4,True,False
+T1059.009,Command and Control: Software Component,"Interlock actors use a double- extortion model , encrypting systems after exfiltrating data.",4,True,True
+T1059.010,Command and Control: Software Component,The ransom note provides each victim with a unique code and,4,True,True
+T1059.011,Command and Control: Software Component,"encrypted files are appended with either a .interlock or .1nt3rlock file extension, alongside a ransom note titled !__README__!.txt delivered via group policy object (GPO).",4,True,True
+T1059.012,Command and Control: Software Component,Interlock actors leverage compromised credentials and Remote Desktop Protocol (RDP) [10 to move between systems.,4,True,True
+T1059.001,Command and Control - Software Component,AnyDesk also supports remote file transfer.,5,True,True
+T1059.002,Command and Control - Software Component,Cobalt Strike A penetration testing tool used by security professionals to test the security of networks and systems.,5,True,True
+T1059.003,Command and Control - Software Component,PSExec A tool designed to run programs and execute commands on remote systems.,5,True,True
+T1059.004,Command and Control - Software Component,PuTTY.exe An open source file transfer application commonly used to remotely connect to systems via Secure Shell (SSH).,5,True,True
+T1059.005,Command and Control - Software Component,"ScreenConnect A remote support, access, and meeting software that allows users to control devices remotely over the internet.",5,True,True
+T1059.006,Command and Control - Software Component,"SystemBC Enables Interlock actors to compromise systems, run commands, download",5,True,True
+T1059.001,Command and Control (C2) Server,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059,Command and Control (C2) Server,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.002,Programmable Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.003,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.004,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.005,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.006,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.007,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.008,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.009,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.010,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True
+T1059.011,Proxy,"malicious payloads, and act as a proxy tool to the actors’ C2 servers.",6,True,True

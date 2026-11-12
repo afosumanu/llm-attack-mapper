@@ -1,0 +1,15 @@
+model: llama3.1:8b
+
+You are a cyber threat intelligence analyst.
+Read the report excerpt below and list every MITRE ATT&CK Enterprise technique
+that the excerpt describes the adversary actually performing.
+
+Rules:
+- Use the most specific ID you are confident in (e.g. T1059.001 rather than T1059).
+- Include only adversary behavior described in the excerpt. Ignore mitigations and advice.
+- For each technique, copy the exact sentence from the excerpt that shows it into "evidence".
+- List each technique only once.
+- If the excerpt describes no adversary behavior, return an empty list.
+
+Excerpt:
+{chunk}

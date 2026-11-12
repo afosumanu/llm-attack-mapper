@@ -1,0 +1,341 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1210,Exploit Public-Facing Application,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,True,False
+T1071,Application Layer Protocol,"Volt Typhoon’s choice of targets and pattern of behavior is not consistent with traditional cyber espionage or intelligence gathering operations,",0,True,True
+T1212,Server Software Component,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,True,False
+T1071.001,Web Protocols,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,True,False
+T1210.001,Exploit Public-Facing Application: Web Apps,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1071.002,Web Shells,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,True,False
+T1212.001,Server Software Component: IIS,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1212.002,Server Software Component: Apache,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1212.003,Server Software Component: Nginx,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1212.004,Server Software Component: Lighttpd,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1212.005,Server Software Component: Other,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1212.006,Server Software Component: IIS 6.0,"Volt Typhoon has compromised the IT environments of multiple critical infrastructure organizations—primarily in Communications, Energy, Transportation Systems, and Water and Wastewater Systems Sectors—in the continental and non-continental United States and its territories, including Guam.",0,False,False
+T1210,Exploit Public-Facing Application,Prioritize patching critical vulnerabilities in appliances known to be frequently exploited by Volt Typhoon.,1,True,True
+T1021,Remote Services,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,True,True
+T1212,Exploit Use of Outdated or Unpatched Software,Prioritize patching critical vulnerabilities in appliances known to be frequently exploited by Volt Typhoon.,1,True,True
+T1216,Masquerading,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,True,True
+T1216.001,Masquerading as a Legitimate Service,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,True,True
+T1216.002,Masquerading as a System Service,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,True,True
+T1216.003,Masquerading as a System Process,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1216.004,Masquerading as a System Component,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1216.005,Masquerading as a System Resource,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1216.006,Masquerading as a System Function,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1216.007,Masquerading as a System Module,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1216.008,Masquerading as a System Interface,"The group also relies on valid accounts and leverage strong operational security, which combined, allows for long-term undiscovered persistence.",1,False,True
+T1059.001,Command and Control - Custom Implementation,Command and Control,2,True,True
+T1059,Command and Control,Command and Control,2,True,True
+T1056,Input Capture,Collection and Exfiltration,2,True,True
+T1053,Spoofing,Defense Evasion,2,True,True
+T1052,Data Encrypted,Defense Evasion,2,True,True
+T1051,Data Encrypted,Defense Evasion,2,False,True
+T1050,Data Encrypted,Defense Evasion,2,False,True
+T1041,Resource Hijacking,Defense Evasion,2,True,True
+T1040,Network Service Scanning,Reconnaissance,2,True,True
+T1036,Masquerading,Defense Evasion,2,True,True
+T1035,Masquerading,Defense Evasion,2,False,True
+T1034,Masquerading,Defense Evasion,2,False,True
+T1046,Network Service Scanning,"1. Volt Typhoon conducts extensive pre-compromise reconnaissance to learn about the target organization’s network architecture and operational protocols. This reconnaissance includes identifying network topologies,",3,True,True
+T1047,Network Share Discovery,"1. Volt Typhoon conducts extensive pre-compromise reconnaissance to learn about the target organization’s network architecture and operational protocols. This reconnaissance includes identifying network topologies,",3,True,True
+T1049,System Network Scanning,"1. Volt Typhoon conducts extensive pre-compromise reconnaissance to learn about the target organization’s network architecture and operational protocols. This reconnaissance includes identifying network topologies,",3,True,True
+T1059,Command and Control,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1059.001,Executable Code,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1210,Exploitation of Remote Services,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1212,Server Software Component,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1216,Spearphishing via Service,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1218,File and Directory Discovery,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1222,Cross-Site Scripting,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,True,True
+T1223,Cross-Site Scripting via HTTP,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,False,True
+T1225,New Service,"The U.S. authoring agencies have primarily observed compromises linked to Volt Typhoon in Communications, Energy, Transportation Systems, and Water and Wastewater Systems sector organizations’ IT networks.",3,False,True
+T1210,Exploit Public-Facing Application,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,True,True
+T1210.001,Exploit Public-Facing Application: Web App,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.002,Exploit Public-Facing Application: File Share,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.003,Exploit Public-Facing Application: Database,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.004,Exploit Public-Facing Application: VPN,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.005,Exploit Public-Facing Application: Firewall,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.006,Exploit Public-Facing Application: RDP,Volt Typhoon uses valid administrator credentials to move laterally to the domain controller (DC) and other devices via remote access services such as Remote Desktop Protocol (RDP),4,False,True
+T1210.007,Exploit Public-Facing Application: SSH,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.008,Exploit Public-Facing Application: Other,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.009,Exploit Public-Facing Application: Router,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.010,Exploit Public-Facing Application: Switch,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1210.011,Exploit Public-Facing Application: Hub,"Volt Typhoon typically gains initial access to the IT network by exploiting known or zero-day vulnerabilities in public-facing network appliances (e.g., routers, virtual private networks [VPNs], and firewalls)",4,False,True
+T1059.001,Scheduled Task/Job,Volt Typhoon actors have been observed testing access to domain-joint OT assets using default OT vendor credentials,5,True,True
+T1059.002,Scheduled Task/Job,"In one confirmed compromise, Volt Typhoon actors moved laterally to a control system and were positioned to move to a second control system",5,True,True
+T1059.003,Scheduled Task/Job,"For example, in one compromise, Volt Typhoon likely extracted NTDS.dit from three domain controllers in a four- year period",5,True,True
+T1059.004,Scheduled Task/Job,"In another compromise, Volt Typhoon actors",5,True,True
+T1059.005,Scheduled Task/Job,"In one confirmed compromise, Volt Typhoon actors moved laterally to a control system and were positioned to move to a second control system",5,True,True
+T1059.006,Scheduled Task/Job,"For example, in one compromise, Volt Typhoon likely extracted NTDS.dit from three domain controllers in a four- year period",5,True,True
+T1059.007,Scheduled Task/Job,"In another compromise, Volt Typhoon actors",5,True,True
+T1059.008,Scheduled Task/Job,"In one confirmed compromise, Volt Typhoon actors moved laterally to a control system and were positioned to move to a second control system",5,True,True
+T1059.009,Scheduled Task/Job,"For example, in one compromise, Volt Typhoon likely extracted NTDS.dit from three domain controllers in a four- year period",5,True,True
+T1059.010,Scheduled Task/Job,"In another compromise, Volt Typhoon actors",5,True,True
+T1059.011,Scheduled Task/Job,"In one confirmed compromise, Volt Typhoon actors moved laterally to a control system and were positioned to move to a second control system",5,True,True
+T1059.012,Scheduled Task/Job,"For example, in one compromise, Volt Typhoon likely extracted NTDS.dit from three domain controllers in a four- year period",5,True,True
+T1059.001,Command and Control Server,"Historically, Volt Typhoon actors use multi-hop proxies for command and control (C2) infrastructure.",6,True,False
+T1059,Command and Control,"Historically, Volt Typhoon actors use multi-hop proxies for command and control (C2) infrastructure.",6,True,False
+T1046,Network Service Scanning,"According to industry reporting, Volt Typhoon actors use FOFA[1], Shodan, and Censys for querying or searching for exposed infrastructure.",6,True,True
+T1046.001,Network Service Scanning: Shodan,"According to industry reporting, Volt Typhoon actors use FOFA[1], Shodan, and Censys for querying or searching for exposed infrastructure.",6,False,True
+T1046.002,Network Service Scanning: Censys,"According to industry reporting, Volt Typhoon actors use FOFA[1], Shodan, and Censys for querying or searching for exposed infrastructure.",6,False,True
+T1046.003,Network Service Scanning: FOFA,"According to industry reporting, Volt Typhoon actors use FOFA[1], Shodan, and Censys for querying or searching for exposed infrastructure.",6,False,True
+T1046.004,Network Service Scanning: Web Search,"Volt Typhoon actors conduct extensive pre-compromise reconnaissance to learn about the target organization , its network , and its staff . This includes web searches —including victim-owned sites —for victim host , identity, and network information, especially for information on key network and IT  ",6,False,True
+T1046.005,Network Service Scanning: Search Engine,"Volt Typhoon actors conduct extensive pre-compromise reconnaissance to learn about the target organization , its network , and its staff . This includes web searches —including victim-owned sites —for victim host , identity, and network information, especially for information on key network and IT  ",6,False,True
+T1053,Spoofing,"In some instances, the U.S. authoring agencies have observed Volt Typhoon actors targeting the personal emails of key network and IT staff post compromise.",6,True,True
+T1210,Exploit Public-Facing Application,"To obtain initial access , Volt Typhoon actors commonly exploit vulnerabilities in networking appliances such as those from Cisco and NETGEAR.",6,True,False
+T1210.001,Exploit Public-Facing Application: Cisco,"To obtain initial access , Volt Typhoon actors commonly exploit vulnerabilities in networking appliances such as those from Cisco and NETGEAR.",6,False,False
+T1210.002,Exploit Public-Facing Application: NETGEAR,"To obtain initial access , Volt Typhoon actors commonly exploit vulnerabilities in networking appliances such as those from Cisco and NETGEAR.",6,False,False
+T1059.001,Command and Control: Standard Command and Control Protocol,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059,Command and Control,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.002,Command and Control: Data Encrypted,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.003,Command and Control: Data Compressed,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.004,Command and Control: Custom Command and Control Protocol,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.005,Command and Control: Data Obfuscated,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.006,Command and Control: Data Encrypted or Compressed,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.007,Command and Control: Data Encrypted or Compressed Over the ',They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.008,Command and Control: Data Encrypted or Compressed Over C2,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.009,Command and Control: Data Encrypted or Compressed Over Non-C,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.010,Command and Control: Data Encrypted or Compressed Over Non-C,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.011,Command and Control: Data Encrypted or Compressed Over Non-C,They often use VPN sessions to securely connect to victim environments,7,True,True
+T1059.001,Command and Control Server Infrastructure,Volt Typhoon actors have also been observed implanting Fast Reverse Proxy (FRP) for command and control.,8,True,True
+T1053,Command and Control,"FRP client applications support encryption, compression, and easy token authentication and work across multiple protocols—including transmission control protocol (TCP), user datagram protocol (UDP), hypertext transfer protocol (HTTP), and hypertext transfer protocol secure (HTTPS).",8,True,True
+T1053.003,Command and Control: C2 Server,"FRP client applications use the Kuai connection protocol (KCP) for error-checked and anonymous data stream delivery over UDP, with packet-level encryption support.",8,True,True
+T1059,Command and Control Server Infrastructure,"FRP client applications use the Kuai connection protocol (KCP) for error-checked and anonymous data stream delivery over UDP, with packet-level encryption support.",8,True,True
+T1027,Custom Implementation,"In one confirmed compromise, Volt Typhoon obfuscated FRP client files (BrightmetricAgent.exe and SMSvcService.exe) and the command-line port scanning utility ScanLine by packing the files with Ultimate Packer for Executables (UPX).",8,True,False
+T1027.001,Custom Implementation: Obfuscated Files or Information,"In one confirmed compromise, Volt Typhoon obfuscated FRP client files (BrightmetricAgent.exe and SMSvcService.exe) and the command-line port scanning utility ScanLine by packing the files with Ultimate Packer for Executables (UPX).",8,True,False
+T1056,Input Capture,Volt Typhoon actors likely used Magnet RAM Capture (MRC) to analyze in-memory data for sensitive information (such as credentials) and in-transit data not typically accessible on disk.,8,True,False
+T1003,OS Credential Dumping,Volt Typhoon actors first obtain credentials from public-facing appliances after gaining initial access by exploiting privilege escalation vulnerabilities in the operating system or network services.,8,True,True
+T1021,Remote Services,Volt Typhoon actors first obtain credentials from public-facing appliances after gaining initial access by exploiting privilege escalation vulnerabilities in the operating system or network services.,8,True,True
+T1089,System Network Scanning,"FRP client applications support encryption, compression, and easy token authentication and work across multiple protocols—including transmission control protocol (TCP), user datagram protocol (UDP), hypertext transfer protocol (HTTP), and hypertext transfer protocol secure (HTTPS).",8,False,True
+T1089.001,System Network Scanning: Network Scan,"FRP client applications support encryption, compression, and easy token authentication and work across multiple protocols—including transmission control protocol (TCP), user datagram protocol (UDP), hypertext transfer protocol (HTTP), and hypertext transfer protocol secure (HTTPS).",8,False,True
+T1089.002,System Network Scanning: Network Scan: Port Scanning,"FRP client applications support encryption, compression, and easy token authentication and work across multiple protocols—including transmission control protocol (TCP), user datagram protocol (UDP), hypertext transfer protocol (HTTP), and hypertext transfer protocol secure (HTTPS).",8,False,True
+T1059.001,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.002,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.003,Command and Control: RDP,1. Move laterally to the domain controller via an interactive RDP session using a compromised account with domain administrator privileges;,9,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,"Volt Typhoon actors have been observed using commercial tools, LOTL utilities, and appliances already present on the system for system information, network service, group and user discovery.",10,True,False
+T1040,Network Service Discovery,"Discovery Volt Typhoon actors have been observed using commercial tools, LOTL utilities, and appliances already present on the system for system information, network service, group and user discovery.",10,True,False
+T1046,Network Service Scanning,"Discovery Volt Typhoon actors have been observed using commercial tools, LOTL utilities, and appliances already present on the system for system information, network service, group and user discovery.",10,True,False
+T1047,Network Share Discovery,"Discovery Volt Typhoon actors have been observed using commercial tools, LOTL utilities, and appliances already present on the system for system information, network service, group and user discovery.",10,True,False
+T1049,System Service Discovery,"Discovery Volt Typhoon actors have been observed using commercial tools, LOTL utilities, and appliances already present on the system for system information, network service, group and user discovery.",10,True,False
+T1053,Scheduled Task/Job,Some observed specific examples of discovery include: • Capturing successful logon events.,10,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,This indicates the group's specific interest in capturing successful logon events (event ID 4624) to analyze user authentication patterns within the network.,10,True,True
+T1059.002,Command and Control: Data Encrypted/Hidden,The presence of these activities suggests a methodical approach by Volt Typhoon actors in collecting and then possibly removing traces of sensitive log information from the compromised system.,10,True,True
+T1059.003,Command and Control: Data Encrypted/Hidden,The presence of these activities suggests a methodical approach by Volt Typhoon actors in collecting and then possibly removing traces of sensitive log information from the compromised system.,10,True,True
+T1059.004,Command and Control: Data Encrypted/Hidden,The presence of these activities suggests a methodical approach by Volt Typhoon actors in collecting and then possibly removing traces of sensitive log information from the compromised system.,10,True,True
+T1059.005,Command and Control: Data Encrypted/Hidden,The presence of these activities suggests a methodical approach by Volt Typhoon actors in collecting and then possibly removing traces of sensitive log information from the compromised system.,10,True,True
+T1059.006,Command and Control: Data Encrypted/Hidden,The presence of these activities suggests a methodical approach by Volt Typhoon actors in collecting and then possibly removing traces of sensitive log information from the compromised system.,10,True,True
+T1059.001,SMB/Windows Admin Shares,The threat actors then disconnected the RDP session to the workstation and accessed the file C:\Users\{redacted}\Downloads\History.zip.,11,True,True
+T1059.002,SMB/Windows Admin Shares,"About four months later, Volt Typhoon actors accessed the same user’s Chrome data C$ File Name: Users\{redacted}\AppData\Local\Google\Chrome\User Data\Local State and $ File Name: Users\{redacted}\AppData\Local\Google\Chrome\User Data\Default\Login Data via SMB.",11,True,True
+T1059.003,SMB/Windows Admin Shares,Directory interaction was observed over the network to paths such as C:\Users\{redacted}\AppData\Local\Google\Chrome\User Data\ and C:\Users\{redacted}\AppData\Local\Microsoft\Edge\User Data\,11,True,True
+T1046,Network Service Scanning,"In one confirmed compromise, Volt Typhoon actors attempted to use Advanced IP Scanner, which was on the network for admin use, to scan the network.",11,True,True
+T1113,Brute Force,"The Local State file contains the Advanced Encryption Standard (AES) encryption key used to encrypt the passwords stored in the Chrome browser, which would enable the actors to obtain plaintext passwords stored in the Login Data file in the Chrome browser.",11,True,True
+T1114,Email Collection,Volt Typhoon actors have been observed strategically targeting network administrator web browser data—focusing on both browsing history and stored credentials —to facilitate targeting of personal email addresses (see the Reconnaissance section) for further discovery and possible network modification,11,True,True
+T1040,Network Sniffing,Directory interaction was observed over the network to paths such as C:\Users\{redacted}\AppData\Local\Google\Chrome\User Data\ and C:\Users\{redacted}\AppData\Local\Microsoft\Edge\User Data\,11,True,True
+T1082,System Information Discovery,Directory interaction was observed over the network to paths such as C:\Users\{redacted}\AppData\Local\Google\Chrome\User Data\ and C:\Users\{redacted}\AppData\Local\Microsoft\Edge\User Data\,11,True,True
+T1012,Query Registry,The threat actors then disconnected the RDP session to the workstation and accessed the file C:\Users\{redacted}\Downloads\History.zip.,11,True,True
+T1056,Process Injection,The threat actors then disconnected the RDP session to the workstation and accessed the file C:\Users\{redacted}\Downloads\History.zip.,11,True,True
+T1059.001,Command and Control: RDP,Volt Typhoon actors have been observed predominantly employing RDP with compromised valid administrator credentials.,12,True,True
+T1059.002,Command and Control: Pass the Hash,the group may be capable of using other methods such as Pass the Hash or Pass the Ticket for lateral movement,12,True,True
+T1059.003,Command and Control: Pass the Ticket,the group may be capable of using other methods such as Pass the Hash or Pass the Ticket for lateral movement,12,True,True
+T1021,Remote Services: VPN,The actors connected to the network via a VPN with administrator credentials they obtained,12,True,False
+T1055,Process Injection: PSExec,Volt Typhoon actors have been observed using PSExec to execute remote processes,12,True,True
+T1210,Exploitation of Privilege: Elevation of Privilege,"the accepteula command flag, signified by the accepteula command flag",12,True,False
+T1047,File and Directory Discovery,"The actors obtained domain credentials from the domain controller and performed discovery, collection, and exfiltration on the file server",12,True,True
+T1048,File and Directory Discovery: File Discovery,"The actors obtained domain credentials from the domain controller and performed discovery, collection, and exfiltration on the file server",12,True,True
+T1041,Data Exfiltration: Exfiltration Over Command and Control,"The actors obtained domain credentials from the domain controller and performed discovery, collection, and exfiltration on the file server",12,True,True
+T1210,Exploitation of Privilege: Elevation of Privilege,Volt Typhoon actors were observed interacting with the PuTTY application on the server by enumerating existing stored sessions,12,True,True
+T1056,Process Discovery,Volt Typhoon actors were observed interacting with the PuTTY application on the server by enumerating existing stored sessions,12,True,True
+T1059.001,Command and Control: Software Component,They have also been observed setting up FRP clients on a victim’s corporate infrastructure to establish covert communications channels for command and control.,13,True,True
+T1059.002,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.003,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.004,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.005,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.006,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.007,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.008,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.009,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.010,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.011,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.012,Command and Control: C2 Server,Volt Typhoon actors have been observed leveraging compromised SOHO routers and virtual private servers (VPS) to proxy C2 traffic.,13,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,open reverse proxies between the compromised system and Volt Typhoon C2 servers,14,True,True
+T1210,Exploit Public-Facing Application,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,True,True
+T1210.001,Exploit Public-Facing Application: Web Shell,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.002,Exploit Public-Facing Application: File Transfer Protocol,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.003,Exploit Public-Facing Application: Remote File Inclusion,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.004,Exploit Public-Facing Application: SQL Injection,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.005,Exploit Public-Facing Application: Cross-Site Scripting,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.006,Exploit Public-Facing Application: Cross-Site Request Forgry,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.007,Exploit Public-Facing Application: Server-Side Request Forg,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.008,Exploit Public-Facing Application: WebDAV,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.009,Exploit Public-Facing Application: SMB Relay,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1210.010,Exploit Public-Facing Application: SMB Client,"In the same compromise, Volt Typhoon actors exploited a Paessler Router Traffic Grapher (PRTG) server as an intermediary for their FRP operations",14,False,True
+T1059.001,NTDS.dit Credential Dumping,A change in the NTDS.dit database location is detected. This could suggest an initial step in NTDS credential dumping where the database is being prepared for extraction.,15,True,True
+T1059.002,NTDS.dit Credential Dumping,Indicates creation of a new NTDS.dit file in a non-standard directory. Often a sign of data staging for exfiltration.,15,True,False
+T1059.003,NTDS.dit Credential Dumping,"A new flush map file is being created for NTDS.dit. This may suggest ongoing operations related to NTDS credential dumping, potentially capturing uncommitted changes to the NTDS.dit file.",15,True,True
+T1059.004,NTDS.dit Credential Dumping,"Represents the mounting of an NTDS.dit file from a volume shadow copy. This is a critical step in NTDS credential dumping, indicating active manipulation of a domain controller’s data.",15,True,True
+T1059.005,NTDS.dit Credential Dumping,"Completion of mounting of ntds.dit file to C:\
+Windows\Temp\tmp\Active Directory\ntds.dit.",15,True,False
+T1059.001,Command and Control: Standard Command and Control Protocol,Successful authentication to a Remote Desktop Services session.,16,True,True
+T1059.002,Command and Control: Data Encrypted/Protected,Successful reconnection to a Remote Desktop Services session.,16,True,True
+T1059.003,Command and Control: Data Encrypted/Protected,Successful logoff of Remote Desktop session.,16,True,True
+T1059.004,Command and Control: Data Encrypted/Protected,Successful start of a new Remote Desktop session.,16,True,True
+T1059.005,Command and Control: Data Encrypted/Protected,Successful authentication to a Remote Desktop Services session.,16,True,True
+T1059.006,Command and Control: Data Encrypted/Protected,Successful reconnection to a Remote Desktop Services session.,16,True,True
+T1059.007,Command and Control: Data Encrypted/Protected,Successful logoff of Remote Desktop session.,16,True,True
+T1059.008,Command and Control: Data Encrypted/Protected,Successful start of a new Remote Desktop session.,16,True,True
+T1059.009,Command and Control: Data Encrypted/Protected,Successful authentication to a Remote Desktop Services session.,16,True,True
+T1059.010,Command and Control: Data Encrypted/Protected,Successful reconnection to a Remote Desktop Services session.,16,True,True
+T1059.011,Command and Control: Data Encrypted/Protected,Successful logoff of Remote Desktop session.,16,True,True
+T1059.012,Command and Control: Data Encrypted/Protected,Successful start of a new Remote Desktop session.,16,True,True
+T1059.001,Command and Control (C2) Server,proxying activities,17,True,True
+T1059.002,Command and Control (C2) Server,FRP clients for C2 communication,17,True,True
+T1059.003,Command and Control (C2) Server,proxy networks,17,True,True
+T1040,Network Proxy,proxying activities,17,True,True
+T1040.001,Network Proxy,proxy networks,17,False,True
+T1040.002,Network Proxy,FRP clients for C2 communication,17,False,True
+T1568.002,Dynamic Resolution Protocol (DRP),inferred round trip times (RTT),17,True,True
+T1557.001,Use Alternate Authentication Material,Review Logins for Impossible Travel,17,True,True
+T1557.002,Use Alternate Authentication Material,"Examine VPN or other account logon times, frequency, duration, and locations",17,True,True
+T1059.001,Command and Control: Standard C2 Protocol,"For example, Volt Typhoon has been observed downloading comsvcs.dll to a non-standard folder (this file is normally found in the System32 folder).",18,True,True
+T1053,Command and Control: Software Component,"For example, Volt Typhoon has been observed downloading comsvcs.dll to a non-standard folder (this file is normally found in the System32 folder).",18,True,True
+T1021,Remote Services: Web Shell,"For example, Volt Typhoon has been observed downloading comsvcs.dll to a non-standard folder (this file is normally found in the System32 folder).",18,True,True
+T1021.001,Remote Services: Web Shell,"For example, Volt Typhoon has been observed downloading comsvcs.dll to a non-standard folder (this file is normally found in the System32 folder).",18,True,True
+T1552.004,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1555,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1555.003,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1556,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1556.001,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1556.002,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1556.003,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1556.004,Impair Defenses: Disable or Modify Tools,Reset credentials of privileged and non-privileged accounts within the trust boundary of each compromised account.,18,True,True
+T1059.001,Scheduled Task/Job: Windows,Reset the relevant account credentials or access keys if the investigation finds the threat actor’s access is limited to non-elevated permissions.,19,True,True
+T1552.004,Impair Defenses: Disable or Modify Tools,"If it is necessary to not alert the attacker (e.g., for intelligence purposes), then privileges can be reduced for affected accounts/devices to “contain” them.",19,True,True
+T1552.002,Impair Defenses: Disable or Modify Tools,"Change all credentials being used to manage network devices, to include keys and strings used to secure network device functions (SNMP strings/user credentials, IPsec/IKE preshared keys, routing secrets, TACACS/RADIUS secrets, RSA keys/certificates, etc.).",19,True,True
+T1552.003,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.002,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.004,Impair Defenses: Disable or Modify Tools,"Change all credentials being used to manage network devices, to include keys and strings used to secure network device functions (SNMP strings/user credentials, IPsec/IKE preshared keys, routing secrets, TACACS/RADIUS secrets, RSA keys/certificates, etc.).",19,True,True
+T1552.003,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.002,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.004,Impair Defenses: Disable or Modify Tools,"Change all credentials being used to manage network devices, to include keys and strings used to secure network device functions (SNMP strings/user credentials, IPsec/IKE preshared keys, routing secrets, TACACS/RADIUS secrets, RSA keys/certificates, etc.).",19,True,True
+T1552.003,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.002,Impair Defenses: Disable or Modify Tools,Update all firmware and software to the latest version.,19,True,True
+T1552.004,Impair Defenses: Disable or Modify Tools,"Change all credentials being used to manage network devices, to include keys and strings used to secure network device functions (SNMP strings/user credentials, IPsec/IKE preshared keys, routing secrets, TACACS/RADIUS secrets, RSA keys/certificates, etc.).",19,True,True
+T1059.001,Remote Services,use of remote access tools and protocols,20,True,True
+T1547.001,Server Software Component,"Fortinet, Ivanti, NETGEAR, Citrix, and Cisco devices",20,True,True
+T1046,Network Service Scanning,"Use third party assessments to validate current system and network security compliance via security architecture reviews, penetration tests, bug bounties, attack surface management services, incident simulations, or table-top exercises (both announced and unannounced) [CPG 1F].",21,True,True
+T1059.001,Command and Control (C2) Server Infrastructure,"Where technology is beyond “end of life” or “end of support,” additional cybersecurity vigilance is necessary, and may warrant one or more of the following: o Supplemental support agreements; o Additional scanning and testing;",21,True,True
+T1059.002,Command and Control (C2) Tooling,"Where technology is beyond “end of life” or “end of support,” additional cybersecurity vigilance is necessary, and may warrant one or more of the following: o Additional scanning and testing;",21,True,False
+T1059.003,Command and Control (C2) Shell,"Where technology is beyond “end of life” or “end of support,” additional cybersecurity vigilance is necessary, and may warrant one or more of the following: o Configuration changes;",21,True,False
+T1059.004,Command and Control (C2) Internal Proxy,"Where technology is beyond “end of life” or “end of support,” additional cybersecurity vigilance is necessary, and may warrant one or more of the following: o Isolation;",21,True,False
+T1059.005,Command and Control (C2) External Proxy,"Where technology is beyond “end of life” or “end of support,” additional cybersecurity vigilance is necessary, and may warrant one or more of the following: o Segmentation;",21,True,False
+T1552.001,Subvert Authentication,Ensure edge devices do not contain accounts that could provide domain admin access.,21,True,True
+T1552.002,Subvert Authentication,Do not store plaintext credentials on any system [CPG 2L].,21,True,True
+T1552.003,Subvert Authentication,"Credentials should be stored securely—such as with a credential/password manager or vault, or other privileged account management solutions—so they can only",21,True,True
+T1134.001,ClearText or TLS Insecure Renegotiation,Disable the storage of clear text passwords in LSASS memory.,22,True,True
+T1134.002,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,True,True
+T1134.003,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,True,True
+T1134.004,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,True,True
+T1134.005,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,True,True
+T1134.006,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.007,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.008,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.009,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.010,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.011,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1134.012,ClearText or TLS Insecure Renegotiation,Configure Group Policy settings to prevent web browsers from saving passwords and disable autofill functions.,22,False,True
+T1059.001,Scheduled Task/Job,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,"Regularly audit all user, admin, and service accounts and remove or disable unused or unneeded accounts as applicable.",23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1135,Credential Dumping,Regularly roll NTLM hashes of accounts that support token-based authentication.,23,True,True
+T1059.001,SMB/Windows Remote Services,"Disable Server Message Block (SMB) protocol version 1 and upgrade to version 3 (SMBv3) after mitigating existing dependencies (on existing systems or applications), as they may break when disabled.",24,True,True
+T1021,Remote Services,"Implement Network Segmentation • Ensure that sensitive accounts use their administrator credentials only on hardened, secure computers.",24,True,True
+T1068,Exfiltration Over Command and Control Channel,"Revoke unnecessary public access to cloud environment. This involves reviewing and restricting public endpoints and ensuring that services like storage accounts, databases, and virtual machines are not publicly accessible unless absolutely necessary.",24,True,True
+T1059.001,Command and Control (C2) Server,"Given Volt Typhoon’s use of LOTL techniques and their significant dwell time, application event logs may be a valuable resource to hunt for Volt Typhoon activity because these logs typically remain on endpoints for relatively long periods of time.",25,True,True
+T1059,Command and Control (C2) Server,"Given Volt Typhoon’s use of LOTL techniques and their significant dwell time, application event logs may be a valuable resource to hunt for Volt Typhoon activity because these logs typically remain on endpoints for relatively long periods of time.",25,True,True
+T1040,Network Sniffing,"For OT assets where logs are non-standard or not available, collect network traffic and communications between those assets and other assets.",25,True,True
+T1036,Masquerading,Ensure the logs can only be accessed or modified by authorized and authenticated users [CPG 2U].,25,True,True
+T1071,Application Layer Protocol,"Given Volt Typhoon’s use of LOTL techniques and their significant dwell time, application event logs may be a valuable resource to hunt for Volt Typhoon activity because these logs typically remain on endpoints for relatively long periods of time.",25,True,True
+T1069,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,True,True
+T1069.001,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,True,True
+T1069.002,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,True,True
+T1069.003,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,True,True
+T1069.004,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,False,True
+T1069.005,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,False,True
+T1069.006,Hidden Files and Directories,Implement file integrity monitoring (FIM) tools to detect unauthorized changes.,25,False,True
+T1059.001,Command and Control Server Infrastructure,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.002,Command and Control Server Software,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.003,Command and Control Channel,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.004,Command and Control Channel Client,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.005,Command and Control Channel Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.006,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.007,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.008,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.009,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.010,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.011,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.012,Command and Control Channel Client/Server,"Tailor the training to network IT personnel/administrators and other key staff based on relevant organizational cyber threats and TTPs, such as Volt Typhoon.",26,True,True
+T1059.001,Scheduled Task/Job,Implement integrity checks of controller process logic against a known good baseline.,27,True,True
+T1133,External Remote Services,Ensure process controllers are prevented from remaining in remote program mode while in operation if possible.,27,True,True
+T1135,Web Session,Lock or limit set points in control processes to reduce the consequences of unauthorized controller access.,27,True,True
+T1210,Exploit Public-Facing Application,Monitor for unauthorized controller change attempts.,27,True,True
+T1212,Server Software Component,Implement regular data backup procedures on OT networks.,27,True,True
+T1204,User Execution,Be prepared by: o Determining your critical operational processes’ reliance on key IT infrastructure:  Maintain and regularly update an inventory of all organizational OT assets.,27,True,True
+T1211,Exploit Public-Facing Application,Be prepared by: o Identifying a resilience plan that addresses how to operate if you lose access to or control of the IT and/or OT environment.,27,True,False
+T1214,User Execution,Be prepared by: o Create an accurate “as-operated” OT network map and identify OT and IT network inter-dependencies.,27,False,False
+T1215,User Execution,"Be prepared by: o Plan for how to continue operations if a control system is malfunctioning, inoperative, or actively acting contrary to the safe and reliable operation of the process.",27,False,False
+T1216,User Execution,Be prepared by: o Develop workarounds or manual controls to ensure ICS networks can be isolated if the connection to a compromised IT environment creates risk to the safe and reliable operation of OT processes.,27,True,False
+T1217,User Execution,Be prepared by: o Create and regularly exercise an incident response plan.,27,True,False
+T1218,User Execution,Be prepared by: o Regularly test manual controls so that critical functions can be kept running if OT networks need to be taken offline.,27,True,False
+T1059.001,Command and Control: PowerShell,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1059,Command and Control,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1082,System Information Discovery,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1083,System Owner/User Discovery,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1084,System Network Configuration Discovery,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,False,True
+T1085,System Network Connection Discovery,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,False,True
+T1087,System Service Discovery,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1089,System Shutdown/Reboot,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,False,True
+T1090,Remote Services,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1092,Data Encrypted Backdoors,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,True,True
+T1093,Data Encrypted File System,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,False,True
+T1094,Data Encryption,PowerShell command extracts security log entries with the Event ID 4624 after a specified date.,29,False,True
+T1059.001,Command and Control: Standard Command and Control Protocol,ping -n 1 {redacted IP address},30,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,ping -n 1 -w 1 {redacted IP address},30,True,True
+T1059.002,Command and Control: Data Encrypted/Hidden,move .	humbs.db ttt.dat,30,True,False
+T1059.003,Command and Control: Data Encrypted/Hidden,del .	humbs.db /f /s /q,30,True,False
+T1059.004,Command and Control: Data Encrypted/Hidden,del ??,30,True,True
+T1059.005,Command and Control: Data Encrypted/Hidden,Remove-Item .	humbs.db,30,True,False
+T1059.006,Command and Control: Data Encrypted/Hidden,cmd,30,True,True
+T1059.007,Command and Control: Data Encrypted/Hidden,cd [Redacted Path],30,True,True
+T1059.008,Command and Control: Data Encrypted/Hidden,net user,30,True,True
+T1059.009,Command and Control: Data Encrypted/Hidden,quser query user,30,True,True
+T1059.010,Command and Control: Data Encrypted/Hidden,net start,30,True,True
+T1059.011,Command and Control: Data Encrypted/Hidden,tasklist /v,30,True,True
+T1059.001,Command and Control: Standard Command and Control,The script is designed for user logon discovery in a Windows Active Directory environment.,31,True,True
+T1047,Windows Management Instrumentation (WMI),The script retrieves a list of DCs and then queries security logs on these DCs for successful logon events (Event ID 4624) within the last day.,31,True,False
+T1053,Scheduled Task/Job,The script is designed for user logon discovery in a Windows Active Directory environment.,31,True,True
+T1046,Execution through API,The script uses Get-Eventlog and Get-ADDomainController to query security logs and Active Directory.,31,True,False
+T1082,System Information Discovery,"ipconfig Retrieves network configuration details, helpful for discovery and mapping the victim's network.",31,True,True
+T1012,Query Registry,"net time /dom Queries or sets the network time for a domain, potentially used for reconnaissance or to manipulate system time.",31,True,True
+T1049,System Network Scanning,"netstat -ano Lists active network connections and processes, helpful for identifying communication channels and potential targets.",31,True,True
+T1056,API Monitoring,"type .
+otes.txt Displays the contents of Notes.txt, possibly used for extracting specific information or intelligence gathering.",31,True,False
+T1040,Network Service Discovery,netstta -ano Intended as netstat -ano; a mistyped command indicating a potential operational error.,31,True,True
+T1033,System Owner/User Discovery,logoff Logs off the current user session.,31,True,True
+T1040,Network Sniffing,The file is an FRP that could be used to reveal servers situated behind a network firewall or obscured through Network Address Translation (NAT).,32,True,True
+T1056,Input Capture,"potentially to identify patterns, gather credentials",32,True,True
+T1046,Access Token Manipulation,to track the movement of users and administrators within the network,32,True,False

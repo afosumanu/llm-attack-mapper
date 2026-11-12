@@ -1,0 +1,52 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Custom,Ghost actors use publicly available code to exploit Common Vulnerabilities and Exposures (CVEs) and gain access to internet facing servers.,1,True,True
+T1059,Command and Control,Ghost actors use publicly available code to exploit Common Vulnerabilities and Exposures (CVEs) and gain access to internet facing servers.,1,True,True
+T1210,Exploit Public-Facing Application,The FBI has observed Ghost actors obtaining initial access to networks by exploiting public facing applications that are associated with multiple CVEs.,1,True,False
+T1212,Exploit Use of Outdated Software,"Beginning early 2021, Ghost actors began attacking victims whose internet facing services ran outdated TLP:CLEAR versions of software and firmware.",1,True,False
+T1204,User Execution,"Ghost actors rotate their ransomware executable payloads, switch file extensions for encrypted files, modify ransom note text, and use numerous ransom email addresses, which has led to variable attribution of this group over time.",1,True,True
+T1059.001,Command and Control: Web Shell,"Adobe ColdFusion (CVE- 2010-2861 and CVE-2009-3960), Microsoft SharePoint (CVE-2019-0604), and Microsoft Exchange (CVE- 2021-34473, CVE-2021-34523, and CVE-2021-31207— commonly referred to as the ProxyShell attack chain).",2,True,True
+T1059,Command and Control,Execution Ghost actors have been observed uploading a web shell to a compromised server and leveraging Windows Command Prompt and/or PowerShell to download and execute Cobalt Strike Beacon malware that is then implanted on victim systems.,2,True,True
+T1056,Process Injection,"Ghost actors often rely on built in Cobalt Strike functions to steal process tokens running under the SYSTEM user context to impersonate the SYSTEM user, often for the purpose of running Beacon a second time with elevated privileges.",2,True,False
+T1055,Process Discovery,Ghost actors used their access through Cobalt Strike to display a list of running processes to determine which antivirus software is running so that it can be disabled.,2,True,False
+T1053,Scheduled Task/Job,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1053.001,Scheduled Task/Job: Scheduled Task,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,False,True
+T1053.002,Scheduled Task/Job: Scheduled Task: Scheduled Task,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1053.003,Scheduled Task/Job: Scheduled Task: Scheduled Task: Task,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1053.004,Scheduled Task/Job: Scheduled Task: Scheduled Task: Task: At,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,False,True
+T1053.005,Scheduled Task/Job: Scheduled Task: Scheduled Task: Task: At,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1053.006,Scheduled Task/Job: Scheduled Task: Scheduled Task: Task: At,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1053.007,Scheduled Task/Job: Scheduled Task: Scheduled Task: Task: At,"Persistence is not a major focus for Ghost actors, as they typically only spend a few days on victim networks.",2,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,"Ghost actors rely heavily on Cobalt Strike Beacon malware and Cobalt Strike Team Servers for command and control (C2) operations, which function using hypertext transfer protocol (HTTP) and hypertext transfer protocol secure (HTTPS) .",3,True,True
+T1059,Command and Control,"Ghost actors rely heavily on Cobalt Strike Beacon malware and Cobalt Strike Team Servers for command and control (C2) operations, which function using hypertext transfer protocol (HTTP) and hypertext transfer protocol secure (HTTPS) .",3,True,True
+T1056,Exfiltration Over Command and Control Channel,The FBI has observed limited downloading of data to Cobalt Strike Team Servers.,3,True,False
+T1053,Scheduled Task/Job,Lateral Movement Ghost actors used elevated access and Windows Management Instrumentation Command-Line (WMIC) to run PowerShell commands on additional systems on the victim network— often for the purpose of initiating additional Cobalt Strike Beacon infections.,3,True,True
+T1057,Boot or System Services: Windows Management Instrumentation,Lateral Movement Ghost actors used elevated access and Windows Management Instrumentation Command-Line (WMIC) to run PowerShell commands on additional systems on the victim network— often for the purpose of initiating additional Cobalt Strike Beacon infections.,3,True,True
+T1052,Input Capture,"This string decodes to “$s=New-Object IO.MemoryStream(,[Convert]::FromBase64String(“” and is involved with the execution of Cobalt Strike in memory on the target machine.",3,True,True
+T1047,Windows Management Instrumentation,Lateral Movement Ghost actors used elevated access and Windows Management Instrumentation Command-Line (WMIC) to run PowerShell commands on additional systems on the victim network— often for the purpose of initiating additional Cobalt Strike Beacon infections.,3,True,True
+T1046,System Network Configuration Discovery,"Discovery Ghost actors have been observed using other built-in Cobalt Strike commands for domain account discovery , open-source tools such as “SharpShares” for network share discovery , and “Ladon 911” and “SharpNBTScan” for remote systems discovery .",3,True,True
+T1041,Code Injection,"This string decodes to “$s=New-Object IO.MemoryStream(,[Convert]::FromBase64String(“” and is involved with the execution of Cobalt Strike in memory on the target machine.",3,True,True
+T1055,Web Shell,Victims and other trusted third parties have reported limited uses of Mega.nz and installed web shells for similar limited data exfiltration.,3,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,"For example, http://xxx.xxx.xxx.xxx:80/Google.com where xxx.xxx.xxx.xxx represents the C2 server’s IP address.",4,True,True
+T1059.002,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.003,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.004,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.005,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.006,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.007,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.008,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.009,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.010,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.011,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.012,Command and Control - Data Encrypted,Data encrypted with Ghost ransomware variants cannot be recovered without the decryption key.,4,True,True
+T1059.001,Domain Name System (DNS) Resolution,github[.]com/mitchmoser/SharpShares SharpZeroLogon.exe SharpZeroLogon.exe attempts to exploit CVE-2020-1472 and is run against a target Domain Controller.,5,True,True
+T1059.002,Domain Name System (DNS) Resolution,github[.]com/leitosama/SharpZeroLogon,5,True,True
+T1047,Windows Management Instrumentation (WMI),SharpGPPPass.exe SharpGPPPass.exe attempts to exploit CVE-2014-1812 and targets XML files created through Group Policy Preferences that may contain passwords.,5,True,True
+T1012,Query Registry,"SpnDump.exe SpnDump.exe is used to list service principal name identifiers, which Ghost actors use for service and hostname enumeration.",5,True,True
+T1012,Query Registry,"NBT.exe A compiled version of SharpNBTScan, a NetBIOS scanner. Ghost actors use this tool for hostname and IP address enumeration.",5,True,True
+T1055,Process Injection,BadPotato.exe BadPotato.exe is an exploitation tool used for privilege escalation.,5,True,True
+T1055,Process Injection,God.exe God.exe is a compiled version of GodPotato and is used for privilege escalation.,5,True,True
+T1021,Remote Services,HFS (HTTP File Server) A portable web server program that Ghost actors use to host files for remote access and exfiltration.,5,True,True
+T1046,Execution through API,"Ladon 911 A multifunctional scanning and exploitation tool, often used by Ghost actors with the MS17010 option to scan for SMB vulnerabilities associated with CVE-2017-0143 and CVE-2017-0144.",5,True,True
+T1210,Exploit Public-Facing Application,"Ladon 911 A multifunctional scanning and exploitation tool, often used by Ghost actors with the MS17010 option to scan for SMB vulnerabilities associated with CVE-2017-0143 and CVE-2017-0144.",5,True,True
+T1210,Exploit Public-Facing Application,github[.]com/k8gege/Ladon,5,True,True
+T1210,Exploit Public-Facing Application,github[.]com/BeichenDream/GodPotato,5,True,True

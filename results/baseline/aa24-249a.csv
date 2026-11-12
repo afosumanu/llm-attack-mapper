@@ -1,0 +1,97 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Custom Command and Control Protocol,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1059,Command and Control,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1204,User Execution: Malware,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1041,Command and Control - Custom Command and Control Server,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056,Input Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056.001,Input Capture - Keylogging,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056.002,Input Capture - Screen Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056.003,Input Capture - Audio Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056.004,Input Capture - Video Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1056.005,Input Capture - Webcam Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,False,True
+T1056.006,Input Capture - Microphone Capture,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,False,True
+T1056.007,Input Capture - Keystroke Macro,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,False,True
+T1059.001,Command and Control (C2) Server,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1046,Execution,Unit 29155 expanded their tradecraft to include offensive cyber operations since at least 2020.,1,True,True
+T1056,Input Capture,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1041,Command and Control (C2) Server,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1562.001,Impair Defenses,Unit 29155 cyber actors’ objectives appear to include the systematic sabotage caused by the destruction of data.,1,False,False
+T1059,Command and Control (C2) Server,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1041.001,Command and Control (C2) Server,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,False,True
+T1046.001,Execution,Unit 29155 expanded their tradecraft to include offensive cyber operations since at least 2020.,1,False,True
+T1056.001,Input Capture,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1562.001,Impair Defenses,Unit 29155 cyber actors’ objectives appear to include the systematic sabotage caused by the destruction of data.,1,False,False
+T1041.001,Command and Control (C2) Server,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,False,True
+T1046.001,Execution,Unit 29155 expanded their tradecraft to include offensive cyber operations since at least 2020.,1,False,True
+T1046,Network Service Scanning,"To date, the FBI has observed more than 14,000 instances of domain scanning across at least 26 NATO members and several additional European Union (EU) countries.",2,True,True
+T1059,Command and Control,Unit 29155 cyber actors have used public website domains to post exfiltrated victim information.,2,True,False
+T1043,Network Device Exploitation,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,False,True
+T1052,Input Validation Error,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1047,Web Shell,Unit 29155 cyber actors have defaced victim websites and used public website domains to post exfiltrated victim information.,2,True,True
+T1041,Data Staged,Unit 29155 cyber actors sell or publicly release exfiltrated victim data obtained from their compromises.,2,True,False
+T1040,Data Exfiltration,Unit 29155 cyber actors sell or publicly release exfiltrated victim data obtained from their compromises.,2,True,False
+T1048,Valid Accounts,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1056,Query Registry,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1057,Scheduled Task/Job,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1059.001,Command and Control Server,Unit 29155 cyber actors have used public website domains to post exfiltrated victim information.,2,True,False
+T1059.002,Command and Control Client,Unit 29155 cyber actors have used public website domains to post exfiltrated victim information.,2,True,False
+T1059.001,Network Scanning,Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once inside victim networks.,3,True,True
+T1059,Network Scanning,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,True,False
+T1046,Network Service Scanning,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,True,False
+T1046.001,Network Service Scanning: Network Scanning,Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once inside victim networks.,3,False,True
+T1046.002,Network Service Scanning: Service Scanning,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1046.003,Network Service Scanning: Vulnerability Scanning,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1046.004,Network Service Scanning: Port Scanning,Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once inside victim networks.,3,False,True
+T1046.005,Network Service Scanning: Service Version Discovery,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1046.006,Network Service Scanning: OS Detection,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1046.007,Network Service Scanning: Network Time Protocol (NTP) Scans,Unit 29155 cyber actors used MASSCAN and Nmap to discover other machines once inside victim networks.,3,False,True
+T1046.008,Network Service Scanning: DNS Scans,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1046.009,Network Service Scanning: HTTP Scans,"Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,False,False
+T1059.001,Command and Control Server,Unit 29155 cyber actors are known to use VPNs to anonymize their operational activity.,4,True,True
+T1059,Command and Control,Unit 29155 cyber actors are known to use VPNs to anonymize their operational activity.,4,True,True
+T1210,Exploit Public-Facing Application,"These cyber actors commonly attempt to exploit weaknesses in internet-facing systems, like the CVEs listed above, to initially access networks.",4,True,True
+T1210.001,Exploit Public-Facing Application: CVE-2021-33044,"In one instance, Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021- 33045 on Dahua IP cameras to bypass identity authentication.",4,False,True
+T1210.002,Exploit Public-Facing Application: CVE-2021-33045,"In one instance, Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021- 33045 on Dahua IP cameras to bypass identity authentication.",4,False,True
+T1021,Remote Services,Attempts are then made to perform remote command execution via web to vulnerable IP cameras;,4,True,True
+T1055,Process Injection,"if successful, cyber actors would dump configuration settings and credentials in plaintext",4,True,True
+T1047,Web Shell,"if successful, cyber actors would dump configuration settings and credentials in plaintext",4,True,True
+T1046,Execution through API,"if successful, cyber actors would dump configuration settings and credentials in plaintext",4,True,True
+T1048,Valid Accounts,using exploitation scripts to authenticate to IP cameras with default usernames and passwords,4,True,True
+T1048.001,Valid Accounts: Default Accounts,using exploitation scripts to authenticate to IP cameras with default usernames and passwords,4,True,True
+T1048.002,Valid Accounts: Default Passwords,using exploitation scripts to authenticate to IP cameras with default usernames and passwords,4,True,True
+T1059.001,Command and Control - Software Component,Cyber actors used GO Simple Tunnel (GOST) (MD5: 896e0f54fc67d72d94b40d7885f10c51) for 30 days within one incident and against additional victims on various occasions.,6,True,True
+T1059.002,Command and Control - Software Component,Cyber actors used Through the Wire against a victim’s internet-facing Confluence server.,6,True,True
+T1059.003,Command and Control - Software Component,A reverse shell over HTTPS was used to communicate over listening host on port 8081.,6,True,True
+T1059.004,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.005,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.006,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.007,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.008,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.009,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.010,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.011,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.012,Command and Control - Software Component,"In one instance, an established reverse TCP session was",6,True,True
+T1059.001,Command and Control (C2) Server,"Use of the Metasploit Framework to search for and/or access modules such as mysql, postgres, and ssh software and features.",7,True,True
+T1059.002,Command and Control (C2) Server,Use of Meterpreter and Netcat to execute reverse shells over ports such as 8081.,7,True,True
+T1059.003,Command and Control (C2) Server,Use of Impacket.,7,True,True
+T1059.004,Command and Control (C2) Server,"Use of PHP (exp_door v1.0.2, b374k, WSO 4.0.5) and the P.A.S. web shells , likely for initial access.",7,True,True
+T1059.005,Command and Control (C2) Server,Use of EternalBlue.,7,True,True
+T1059.006,Command and Control (C2) Server,"Use of reGeorg or Neo-reGeorg to set up a proxy to tunnel network traffic following compromise of a victim website, as well as use of ProxyChains to run Nmap within the network.",7,True,True
+T1090,Proxy,Configuring a proxy within the victim infrastructure and executing commands within the network via ProxyChains.,7,True,True
+T1090.001,Proxy,ProxyChains—a tool used to route internal traffic through a series of proxies —has been used to provide further anonymity and modify system configuration to force network traffic through chains of SOCKS5 proxies and respective ports.,7,True,False
+T1090.002,Proxy,The following ports used by actor infrastructure include: a. 1080 b. 1333 c. 13381 d. 13391 e. 13666 f. 13871 g. 1448 h. 1888 i. 3130 j. 3140 k. 4337 l. 50001 m. 8079,7,True,True
+T1090.003,Proxy,"Using the GOST open source tunneling tool (via SOCKS5 proxy) named java, as detailed in the following running processes in victim incident response results: 8212 - SJ 0:02.54 HISTFILE=/dev/null PATH=/sbin:/bin:/usr/sbin:/usr/bin LD_LIBRARY_PATH=/usr/local/lib:/usr/local/lib OLDPWD=/tmp PWD=/tmp/.ICE",7,True,True
+T1090.004,Proxy,8282 - IJ 0:03.98 HISTFILE=/dev/null PATH=/sbin:/bin:/usr/sbin:/usr/bin LD_LIBRARY_PATH=/usr/local/lib:/usr/local/lib OLDPWD=/tmp,7,True,True
+T1090.005,Proxy,./java –L socks5://127.0.0.1:13338,7,False,True
+T1059.001,Command and Control Server Infrastructure,These cyber actors commonly use the command-line program Rclone to exfiltrate data to a remote location from victim infrastructure.,8,True,True
+T1059.002,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.003,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.004,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.005,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.006,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.007,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.008,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.009,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.010,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.011,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True
+T1059.012,Command and Control Server Infrastructure,actor infrastructure has also been used to compromise multiple mail servers,8,True,True

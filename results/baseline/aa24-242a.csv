@@ -1,0 +1,71 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Custom Command and Control Protocol,RansomHub is a ransomware-as-a-service variant—formerly known as Cyclops and Knight—that has established itself as an efficient and successful service model (recently attracting high-profile affiliates from other prominent variants such as LockBit and ALPHV).,0,True,True
+T1046,Execution,"Since its inception in February 2024, RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1053,Scheduled Task/Job,"Since its inception in February 2024, RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1040,Network Sniffing,"Since its inception in February 2024, RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1052,Data Encrypted for Impact,"Since its inception in February 2024, RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1041,Data Exfiltration,"Since its inception in February 2024, RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1059.001,Command and Control - Custom,The ransom note typically gives victims between three and 90 days to pay the ransom (depending on the affiliate) before the ransomware group publishes their data on the RansomHub Tor data leak site.,1,True,True
+T1046,Data Exfiltration,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,True,True
+T1486,Data Encrypted for Impact,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,True,True
+T1530,Initial Access,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,True,True
+T1531,Initial Access - Spearphishing Link,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,True,True
+T1532,Initial Access - Spearphishing Attachment,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,False,True
+T1022,Evasion - File and Directory Manipulation,The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions.,1,False,True
+T1056,Input Validation,The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions.,1,True,True
+T1057,Boot or System Services Masquerading,The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions.,1,True,True
+T1059,Command and Control,The ransom note typically gives victims between three and 90 days to pay the ransom (depending on the affiliate) before the ransomware group publishes their data on the RansomHub Tor data leak site.,1,True,True
+T1071,Application Layer Protocol,The ransom note typically gives victims between three and 90 days to pay the ransom (depending on the affiliate) before the ransomware group publishes their data on the RansomHub Tor data leak site.,1,True,True
+T1071.001,Application Layer Protocol - Web Service,The ransom note typically gives victims between three and 90 days to pay the ransom (depending on the affiliate) before the ransomware group publishes their data on the RansomHub Tor data leak site.,1,True,True
+T1059.001,Command and Control Server Infrastructure,Exploits based on the following CVEs have been observed:,2,True,True
+T1059,Command and Control,Exploits based on the following CVEs have been observed:,2,True,True
+T1190,Exploit Public-Facing Application,Exploits based on the following CVEs have been observed:,2,True,True
+T1210,Exploit Vulnerability,Exploits based on the following CVEs have been observed:,2,True,True
+T1204,User Execution of Malicious Code,Password spraying targets accounts compromised through data breaches.,2,True,True
+T1056,Input Validation,A vulnerability exists within Citrix ADC that allows an unauthenticated attacker to trigger a stack buffer overflow of the NSPPE (NetScaler Packet Processing Engine) process by making a specially crafted HTTP GET request.,2,True,True
+T1212,Exploit Use of Outdated or Unpatched Software,"Upgrading both brokers and clients to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 fixes this issue.",2,True,True
+T1192,Drive-by Compromise,Proof-of-concept exploits are obtained from sources such as ExploitDB and GitHub.,2,False,False
+T1046,Network Service Scanning,"Initial Access RansomHub affiliates typically compromise internet facing systems and user endpoints by using methods such as phishing emails, exploitation of known vulnerabilities, and password spraying.",2,True,False
+T1566,Credential Dumping,Password spraying targets accounts compromised through data breaches.,2,True,True
+T1052,Input Capture,A vulnerability exists within Citrix ADC that allows an unauthenticated attacker to trigger a stack buffer overflow of the NSPPE (NetScaler Packet Processing Engine) process by making a specially crafted HTTP GET request.,2,True,True
+T1053,Spoofing Identifiers,A vulnerability exists within Citrix ADC that allows an unauthenticated attacker to trigger a stack buffer overflow of the NSPPE (NetScaler Packet Processing Engine) process by making a specially crafted HTTP GET request.,2,True,True
+T1059.001,Command and Control - Custom C2 Protocol,"Cobalt Strike [S0154], Metasploit, or other widely used command-and- control (C2) methods.",4,True,True
+T1059,Command and Control,"Cobalt Strike, Metasploit, and other methods.",4,True,True
+T1059.002,Command and Control - Standard C2 Protocol,"PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1055,Process Injection,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.001,Process Injection - DLL Injection,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.003,Process Injection - Dynamic Linker Injection,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.004,Process Injection - Image File Execution Options Injection,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.005,Process Injection - Reflective DLL Injection,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.006,Process Injection - DLL Search Order Hijacking,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,False,True
+T1055.007,Process Injection - Dynamic Loader Hijacking,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,False,True
+T1055.008,Process Injection - DLL Injection via Write Process Memory,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1055.009,Process Injection - DLL Injection via Registry,used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM,4,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,The ransomware executable does not typically encrypt executable files.,5,True,True
+T1059,Command and Control,The ransomware executable typically leverages the vssadmin.exe program to delete volume shadow copies,5,True,True
+T1218,Command and Control - File Transfer,BITSAdmin A command-line utility that manages downloads/uploads between a client and server by using the Background Intelligent Transfer Service (BITS) to perform asynchronous file transfers.,5,True,True
+T1204,User Execution: Malware,A random file extension is added to file names and a ransom note generally titled How To Restore Your Files.txt is left on the compromised system.,5,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059,Command and Control,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.002,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.003,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.004,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.005,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.006,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.007,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.008,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.009,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.010,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.011,Command and Control - Data Encrypted,Sliver A penetration testing toolset which allows for remote command and control of systems.,6,True,True
+T1059.001,Command and Control (C2) Server,http[:]//188.34.188[.]7/555,7,True,True
+T1059.001,Command and Control (C2) Server,http[:]//89.23.96[.]203/,7,True,True
+T1059.001,Command and Control (C2) Server,http[:]//89.23.96[.]203/333,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//grabify.link/Y33YXP,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/2KBydfw/112882618.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/4g6jH2J/2773036704.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/b1bZBpg/2615174623.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/Fxhyq6t/2077411869.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/HK0jV1G/534475006.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/nbMNnW4/2501108160.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/p1RCtpy/2681232755.png,7,True,True
+T1059.001,Command and Control (C2) Server,https[:]//i.ibb.co/SxQLwYm/1038436121.png,7,True,True

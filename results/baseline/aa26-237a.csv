@@ -1,0 +1,180 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control (C2) Server,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1059,Command and Control (C2) Server,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1069,Hidden Files and Directories,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1071,Application Layer Protocol,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1083,File and Directory Discovery,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1087,Valid Accounts,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1090,Remote Services,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1092,Data Encrypted Backdoor,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1098,Web Shell,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1102,Exfiltration Over Command and Control Channel,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1105,Ingress Tool Transfer,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1106,Exfiltration,"In both environments, the red team achieved full domain compromise and accessed sensitive business systems (SBSs) and cloud resources.",0,True,True
+T1059.001,Scheduled Task/Job: Windows,Use of Long-Lived User Identity and Access Management Credentials,1,True,True
+T1059.002,Scheduled Task/Job: Unix,Use of Long-Lived User Identity and Access Management Credentials,1,True,True
+T1133,External Remote Services,Use of Long-Lived User Identity and Access Management Credentials,1,True,True
+T1134,Access Token Manipulation,Lack of Mature Remediation Processes for Tokens,1,True,True
+T1135,Invalid Certificates,Excessive Permissions,1,True,True
+T1136,Exploitation of Resource Exhaustion,Excessive Permissions,1,True,True
+T1059.001,Command and Control (C2) Server,"In one organization (Organization A), the team gained initial access to multiple workstations, gained elevated privileges over the domain, and moved laterally to SBSs and cloud resources undetected.",2,True,True
+T1059.002,Command and Control (C2) Server,"In the second organization (Organization B), network defenders quickly detected the initial compromise and quarantined the affected systems.",2,True,True
+T1059.002,Command and Control (C2) Server,"From there, the red team escalated privileges and moved laterally to SBSs, cloud resources, and a bastion host in the OT demilitarized zone (DMZ), where defenders again detected activity and isolated the system.",2,True,True
+T1059.003,Command and Control (C2) Server,"In one organization (Organization A), the team gained initial access to multiple workstations, gained elevated privileges over the domain, and moved laterally to SBSs and cloud resources undetected.",2,True,True
+T1059.003,Command and Control (C2) Server,"In the second organization (Organization B), network defenders quickly detected the initial compromise and quarantined the affected systems.",2,True,True
+T1059.003,Command and Control (C2) Server,"From there, the red team escalated privileges and moved laterally to SBSs, cloud resources, and a bastion host in the OT demilitarized zone (DMZ), where defenders again detected activity and isolated the system.",2,True,True
+T1059.003,Command and Control (C2) Server,"In one organization (Organization A), the team gained initial access to multiple workstations, gained elevated privileges over the domain, and moved laterally to SBSs and cloud resources undetected.",2,True,True
+T1059.003,Command and Control (C2) Server,"In the second organization (Organization B), network defenders quickly detected the initial compromise and quarantined the affected systems.",2,True,True
+T1059.003,Command and Control (C2) Server,"From there, the red team escalated privileges and moved laterally to SBSs, cloud resources, and a bastion host in the OT demilitarized zone (DMZ), where defenders again detected activity and isolated the system.",2,True,True
+T1059.003,Command and Control (C2) Server,"In one organization (Organization A), the team gained initial access to multiple workstations, gained elevated privileges over the domain, and moved laterally to SBSs and cloud resources undetected.",2,True,True
+T1059.003,Command and Control (C2) Server,"In the second organization (Organization B), network defenders quickly detected the initial compromise and quarantined the affected systems.",2,True,True
+T1059.003,Command and Control (C2) Server,"From there, the red team escalated privileges and moved laterally to SBSs, cloud resources, and a bastion host in the OT demilitarized zone (DMZ), where defenders again detected activity and isolated the system.",2,True,True
+T1059.001,Command and Control Server,The team used the internal email address to send phishing emails and gained initial access to four workstations.,3,True,True
+T1059.002,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.003,Domain Trust,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.004,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.005,Domain Trust,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.006,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.007,Domain Trust,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.008,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.009,Domain Trust,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.010,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.011,Domain Trust,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.012,Domain Account,"The team found that one compromised workstation had the default Machine Account Quota (MAQ) of 10, allowing unprivileged users to add up to 10 computer accounts to the domain.",3,True,True
+T1059.001,Automated Collection,The red team exploited the misconfigured MAQ to create a machine account and then exploited a misconfigured ADCS template to request a certificate for the newly created machine account.,4,True,False
+T1059.002,Automated Collection,"They could then obtain certificates for any user account, providing means for lateral movement.",4,True,True
+T1046,Network Service Scanning,Query system center configuration manager (SCCM) servers to enumerate user-device relationships and identify the workstations assigned to each user.,4,True,False
+T1053,Spear Phishing via Service,"For SBS 1, a database, the team located cleartext credentials on an administrative user’s workstation providing access to the system.",4,True,False
+T1053,Spear Phishing via Service,"For SBS 2, also a database, the red team searched the targeted user’s workstations for connections.json and product-preferences.xml files for a Structured Query Language (SQL) developer tool.",4,True,True
+T1053,Spear Phishing via Service,"For SBS 3, an automated processing system, the red team acquired long-lived static Amazon Web Service (AWS) identity and access management (IAM) user credentials saved in configuration files in targeted users’ home directories.",4,True,True
+T1021,Remote Services,Move laterally from the SCCM server to the target users’ workstations.,4,True,True
+T1110,Brute Force,The team decrypted these files to obtain the cleartext password to the database.,4,True,False
+T1110,Brute Force,These credentials do not expire because the organization had not configured credential expiration or rotation.,4,True,True
+T1059.001,Command and Control Server Infrastructure,"The red team compromised the root DFS drive, granting them access to local files of all users’ virtual desktops, regardless of the existence of an active session.",5,True,True
+T1059.002,Server Software Component,"The red team compromised the root DFS drive, granting them access to local files of all users’ virtual desktops, regardless of the existence of an active session.",5,True,True
+T1059.003,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.004,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.005,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.006,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.007,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.008,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.009,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.010,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.011,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.012,Cloud Service,The red team attempted to compromise Organization A’s Microsoft cloud environment by compromising Organization A’s Microsoft Entra ID (formerly Azure AD) through applications.,5,True,True
+T1059.001,Command and Control: Software Component,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.002,Command and Control: Server Software,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.003,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.004,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.005,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.006,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.007,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.008,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.009,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.010,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.011,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.012,Command and Control: C2 Server,Using the new client secret to request a new access token for the target application.,6,True,True
+T1059.001,Spearphishing via Service,The CISA red team gained initial access to Organization B’s environment through a spearphishing campaign.,7,True,True
+T1059,Command and Control,This effectively terminated the team’s command and control (C2) communications with the workstations.,7,True,True
+T1046,Network Service Scanning,"Before staff isolated one workstation, the red team enumerated Organization B’s domain’s AD structure by executing various Lightweight Directory Access Protocol (LDAP) queries through the callback.",7,True,True
+T1021,Remote Services,The red team enumerated Organization B’s domain’s AD structure by executing various Lightweight Directory Access Protocol (LDAP) queries through the callback.,7,True,True
+T1053,Scheduled Task/Job,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1053.001,Scheduled Task/Job: Windows,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,False,True
+T1053.002,Scheduled Task/Job: Unix,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1053.003,Scheduled Task/Job: Linux,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1053.004,Scheduled Task/Job: macOS,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,False,True
+T1053.005,Scheduled Task/Job: Other,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1053.006,Scheduled Task/Job: PowerShell,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1053.007,Scheduled Task/Job: Python,The red team believes this was because the SOC staff lacked standard operating procedures for escalating alerts and had limited personnel authority.,7,True,True
+T1059.001,Domain Account,The red team created a new machine account with a hostname designed to resemble a legitimate host.,8,True,True
+T1059.002,Domain Account,The creation of the machine account provided the red team with a domain account and a password that they controlled.,8,True,True
+T1059.003,Domain Account,"The tool’s traffic was proxied through the assume breach host, circumventing restrictions imposed by host-based EDR.",8,True,True
+T1059.004,Domain Account,"The red team did not identify any escalation paths from the AD data; however, enumeration of SCCM distribution points led to the discovery of an XML file with cleartext credentials for a domain service account.",8,True,True
+T1059.005,Domain Account,"Most notably, the service account had TLP:CLEAR CISA Page 9 of 23 | Product ID: AA26-237A TLP:CLEAR AllExtendedRights permission over a domain controller, which enabled the team to conduct a resource- based constrained delegation attack, granting them DCSync privileges and the ability to obtain AD",8,True,True
+T1059.006,Domain Account,The team used these credentials throughout the remainder of their assessment to access servers and workstations.,8,True,True
+T1059.007,Domain Account,"One of the first accounts the red team DCSynced was the krbtgt account, which a malicious cyber actor could use to forge Golden Tickets that allow for impersonation of any user in Organization B’s domain.",8,True,True
+T1059.008,Domain Account,"The TAs provided the names of two SBSs, one of which the red team successfully compromised.",8,True,True
+T1059.009,Domain Account,"To do this, the team",8,True,True
+T1059.010,Domain Account,The red team searched for ways to escalate their privileges over the domain to facilitate lateral movement and access SBSs.,8,True,True
+T1059.011,Domain Account,The red team used the assume breach account to query the MAQ attribute of Organization B’s domain and discovered that all domain users were able to add accounts to the domain.,8,True,True
+T1059.012,Domain Account,The red team created a new machine account with a hostname designed to resemble a legitimate host.,8,True,True
+T1552.002,Impersonation,"Because the red team had already compromised the on-premises (on-prem) AD environment, they could impersonate this user to access the server.",9,True,True
+T1003.001,OS Credential Dumping,1. Used DCSync to acquire the user’s AES256 password hash.,9,True,True
+T1552.002,Impersonation,1. Used the password hash to request a Kerberos ticket-granting ticket (TGT) for the user.,9,True,False
+T1552.002,Impersonation,1. Used the TGT to request a Kerberos service ticket for the web server’s service principal name (SPN).,9,True,False
+T1210,Exploitation of Remote Services,The red team configured their VM to proxy any traffic to Organization B’s network through a SOCKS proxy that tunneled traffic through a compromised host.,9,True,True
+T1021,Remote Services,"The red team identified an IT workstation with Remote Desktop Protocol (RDP) files, including a file named ics- [redacted]-org, signifying that the user likely had remote access to the OT network.",9,True,False
+T1021,Remote Services,The red team gained access to this bastion host using File Transfer Protocol (FTP) credentials to log in over Secure Shell (SSH) .,9,True,True
+T1210,Exploitation of Remote Services,"At this point, they had visibility over the OT network.",9,True,True
+T1204.001,User Execution: Malware,The payload execution triggered an alert that led SOC staff to quarantine the host.,9,True,True
+T1210,Exploitation of Remote Services,The payload execution triggered an alert that led SOC staff to quarantine the host.,9,True,True
+T1059.001,Command and Control: Standard Command and Control Protocol,The red team used this account to obtain access tokens for use with AzureHound and ROADrecon to gather Entra ID data for Organization B’s tenant.,10,True,True
+T1059.002,Command and Control: Data Encrypted Standard Protocol,The red team imported the service tickets to their workstation and proxied their traffic through Organization B’s network using a SOCKS proxy.,10,True,True
+T1552.002,Impair Defenses: Disable or Modify Tools,Note: The red team obtained cleartext MSOL credentials and logged into the Azure portal because MSOL accounts used to have a large number of permissions; Microsoft has since removed these permissions.,10,True,True
+T1552.003,Impair Defenses: Disable or Modify Tools,"The interactive login from Sync_[redacted] triggered an automated alert from Microsoft, which sent the information to Organization B’s SOC staff, who then blocked the suspicious activity.",10,True,True
+T1555,Impair Defenses: Use Alternate Authentication Material,The red team used the Rubeus “asktgs” module to request service tickets used for SSO.,10,True,False
+T1556,Impair Defenses: Use Alternate Authentication Material,The red team acquired encrypted credentials of a target user via DCSync and then used the Rubeus “asktgs” module to request service tickets used for SSO.,10,True,True
+T1021,Remote Services: Remote Services,The red team imported the service tickets to their workstation and proxied their traffic through Organization B’s network using a SOCKS proxy.,10,True,True
+T1021.001,Remote Services: Remote Services: Web Service,The red team used the open source tool ADConnectDump4 to obtain cleartext credentials for the on-prem Microsoft Online (MSOL) account and the Entra ID account Sync_[redacted] . ,10,True,True
+T1021.002,Remote Services: Remote Services: Web Service,The red team used this account to obtain access tokens for use with AzureHound and ROADrecon to gather Entra ID data for Organization B’s tenant.,10,True,True
+T1027,Remote Services: Remote Services,The red team imported the service tickets to their workstation and proxied their traffic through Organization B’s network using a SOCKS proxy.,10,True,True
+T1027.001,Remote Services: Remote Services: SOCKS Proxy,The red team imported the service tickets to their workstation and proxied their traffic through Organization B’s network using a SOCKS proxy.,10,True,True
+T1210,Exploit Public-Facing Application,The red team used the Rubeus “asktgs” module to request service tickets used for SSO.,10,True,False
+T1059.001,Synchronization with External Authority: Kerberos,"Using a compromised host in the on-prem environment, they re-enabled this account, DCSynced its credentials, and used the AES256 hash to request Kerberos tickets.",11,True,True
+T1059.002,Synchronization with External Authority: DCSync,"Using a compromised host in the on-prem environment, they re-enabled this account, DCSynced its credentials, and used the AES256 hash to request Kerberos tickets.",11,True,True
+T1059.003,Synchronization with External Authority: Pass-the-Hash,"Using a compromised host in the on-prem environment, they re-enabled this account, DCSynced its credentials, and used the AES256 hash to request Kerberos tickets.",11,True,True
+T1059.004,Synchronization with External Authority: Pass-the-Ticket,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.005,Synchronization with External Authority: Kerberos Ticket Dup,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.006,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.007,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.008,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.009,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.010,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.011,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.012,Synchronization with External Authority: Kerberos Ticket Re-,The red team used the tickets to authenticate to Entra ID and were then able to add a client secret to the application.,11,True,True
+T1059.001,Command and Control (C2) Server,C2 payload executed on a workstation.,12,True,True
+T1059.001,Command and Control (C2) Server,C2 payload executed on a second workstation.,12,True,True
+T1059.001,Command and Control (C2) Server,C2 payload executed on a third workstation.,12,True,True
+T1059.001,Command and Control (C2) Server,C2 payload executed on bastion host in the OT DMZ.,12,True,True
+T1059.001,Command and Control (C2) Server,Used compromised Entra ID account to log into Azure.,12,True,True
+T1059.002,Command and Control (C2) Server,The red team was eventually able to access Entra ID through a computer account that was part of the organization’s Seamless SSO implementation.,12,True,True
+T1053,Spoofing,"The account did not have MFA and had overly permissive application permissions, indicating the need for more mature cloud security processes.",12,True,True
+T1547.001,Server Software Component,"Organization B had excessive permissions and misconfigurations in AD and service accounts, which the red team leveraged for privilege escalation.",12,True,True
+T1552,Exchange Data,"Organization B could improve credential hygiene, as the red team found credentials for OT systems stored in plaintext on jump servers.",12,True,True
+T1555,Credentials from Password Stores,"Organization B could improve credential hygiene, as the red team found credentials for OT systems stored in plaintext on jump servers.",12,True,True
+T1568.002,Dynamic Resolution Protocol (DRP) - DNS,The same red team activity that triggered alerts and action for Organization B led to no response for Organization A because SOC staff did not identify the activity as potentially malicious amid the overwhelming volume of alerts.,13,True,True
+T1059,Command and Control (C2) - Commonly Used Port,The same red team activity that triggered alerts and action for Organization B led to no response for Organization A because SOC staff did not identify the activity as potentially malicious amid the overwhelming volume of alerts.,13,True,True
+T1059.001,Command and Control (C2) - Email,The same red team activity that triggered alerts and action for Organization B led to no response for Organization A because SOC staff did not identify the activity as potentially malicious amid the overwhelming volume of alerts.,13,True,True
+T1568.002,Dynamic Resolution Protocol (DRP) - DNS,The same red team activity that triggered alerts and action for Organization B led to no response for Organization A because SOC staff did not identify the activity as potentially malicious amid the overwhelming volume of alerts.,13,True,True
+T1056,Input Validation,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1210,Exploit Public-Facing Application,"In contrast, Organization B empowered its defenders to act decisively. Staff quickly triaged alerts, investigated root causes, identified misconfigurations, and coordinated remediation with engineering.",13,True,True
+T1059.001,Command and Control Server,"They granted excessive permissions to cloud applications, allowing the red team to access cloud systems.",14,True,True
+T1059.002,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.003,Scheduled Task/Job,Organization A used long-lived static IAM user credentials that were set to never expire.,14,True,True
+T1059.001,Command and Control: Software Component,"In Organization A, the red team found and used cleartext credentials to obtain administrative access to SBSs.",15,True,True
+T1059.002,Command and Control: Software Component,"In Organization B, the red team identified a cleartext password in an XML file for a domain service account.",15,True,True
+T1059.003,Command and Control: Software Component,"In Organization A, the red team moved laterally from the SCCM server to users’ workstations.",15,True,True
+T1552.004,Abuse Elevation Control to Maintain Elevation,"AllExtendedRights enables malicious cyber actors to perform DCsync attacks and potentially impersonate any account in the domain, leading to full domain compromise.",15,True,True
+T1555,Modifying System Time,None,15,True,False
+T1556,Impair Defenses,None,15,True,False
+T1558,Impersonation,"AllExtendedRights enables malicious cyber actors to perform DCsync attacks and potentially impersonate any account in the domain, leading to full domain compromise.",15,True,True
+T1559,System and Object Management,"In Organization B, the red team discovered that standard user accounts were improperly assigned to privileged administrative groups within the AD.",15,True,True
+T1562.001,Impair Defenses: Disable or Modify Tools,None,15,False,False
+T1562.002,Impair Defenses: Disable or Modify Tools,None,15,False,False
+T1562.003,Impair Defenses: Disable or Modify Tools,None,15,False,False
+T1562.004,Impair Defenses: Disable or Modify Tools,None,15,False,False
