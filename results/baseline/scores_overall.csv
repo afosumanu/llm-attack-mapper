@@ -1,0 +1,3 @@
+level,tp,fp,fn,precision,recall,f1
+parent,108,276,360,0.281,0.231,0.254
+strict,99,821,446,0.108,0.182,0.135
