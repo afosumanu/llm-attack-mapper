@@ -187,9 +187,9 @@ aa24-060a,T1046,Network Service Scanning,"using internet protocol (IP) scanning 
 aa24-060a,T1204,User Execution,Threat actors send spoofed email attachments that are embedded with hidden payloads,
 aa24-060a,T1040,Network Sniffing,Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads,
 aa24-060a,T1021,Remote Services,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",
-aa24-060a,T1059.002,Command and Control Server: Web Shell,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,
-aa24-060a,T1059.004,Command and Control (C2) - Data Exfiltration,"After SmokeLoader’s hidden payload is downloaded onto the victim’s system, threat actors use the malware’s functionality to download the Phobos payload and exfiltrate data from the compromised system",
-aa24-060a,T1059.005,Command and Control (C2) - Data Encrypted,Phobos operations feature a standard three phase process to decrypt a payload that allows the threat actors to deploy additional destructive malware,
+aa24-060a,T1059.002,Command and Control Server: Web Shell,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network,wrong
+aa24-060a,T1059.004,Command and Control (C2) - Data Exfiltration,"After SmokeLoader’s hidden payload is downloaded onto the victim’s system, threat actors use the malware’s functionality to download the Phobos payload and exfiltrate data from the compromised system",wrong
+aa24-060a,T1059.005,Command and Control (C2) - Data Encrypted,Phobos operations feature a standard three phase process to decrypt a payload that allows the threat actors to deploy additional destructive malware,missed
 aa24-060a,T1059.006,Command and Control (C2) - Data Exfiltration,Phobos actors can use the previous commands to perform various windows shell functions,
 aa24-060a,T1059.007,Command and Control (C2) - Data Encrypted,Phobos actors can use the previous commands to perform various windows shell functions,
 aa24-060a,T1059.008,Command and Control (C2) - Data Exfiltration,Phobos actors can use the previous commands to perform various windows shell functions,
@@ -644,14 +644,14 @@ aa25-343a,T1212.005,Brute Force: Multi-Password,use brute force password sprayin
 aa25-343a,T1216,Use Alternate Authentication Material,"physical parameter and setpoint changes, or conduct defacement activities.",
 aa25-343a,T1218,Lateral Movement,"physical parameter and setpoint changes, or conduct defacement activities.",
 aa25-343a,T1219,Lateral Movement - Remote Services,"physical parameter and setpoint changes, or conduct defacement activities.",
-aa25-343a,T1220,Lateral Movement - Remote Services - RDP,"physical parameter and setpoint changes, or conduct defacement activities.",
-aa25-343a,T1221,Lateral Movement - Remote Services - SSH,"physical parameter and setpoint changes, or conduct defacement activities.",
-aa25-343a,T1222,Lateral Movement - Remote Services - Web Services,"physical parameter and setpoint changes, or conduct defacement activities.",
-aa25-343a,T1223,Lateral Movement - Remote Services - VPN,"physical parameter and setpoint changes, or conduct defacement activities.",
-aa25-343a,T1224,Lateral Movement - Remote Services - RDP - Unsecured,"physical parameter and setpoint changes, or conduct defacement activities.",
+aa25-343a,T1220,Lateral Movement - Remote Services - RDP,"physical parameter and setpoint changes, or conduct defacement activities.",wrong
+aa25-343a,T1221,Lateral Movement - Remote Services - SSH,"physical parameter and setpoint changes, or conduct defacement activities.",wrong
+aa25-343a,T1222,Lateral Movement - Remote Services - Web Services,"physical parameter and setpoint changes, or conduct defacement activities.",missed
+aa25-343a,T1223,Lateral Movement - Remote Services - VPN,"physical parameter and setpoint changes, or conduct defacement activities.",wrong
+aa25-343a,T1224,Lateral Movement - Remote Services - RDP - Unsecured,"physical parameter and setpoint changes, or conduct defacement activities.",wrong
 aa26-097a,T1059.001,Command and Control - Software Component,These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions,
 aa26-097a,T1059,Command and Control,These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,
-aa26-097a,T1047,Web Shell,manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,
+aa26-097a,T1047,Web Shell,manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,wrong
 aa26-097a,T1053,Scheduled Task/Job,malicious project file interactions,
 aa26-097a,T1021,Remote Services,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",
 aa26-097a,T1049,Exfiltration Over Command and Control Channel,"quer[y available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502, especially traffic originating from foreign hosting providers.",

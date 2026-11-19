@@ -1,0 +1,23 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control (C2) Server,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1059,Command and Control (C2) Server,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1059.001,Command and Control - Custom,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.002,Command and Control - Common,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.003,Command and Control - Server,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.004,Command and Control - Domain Name System,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.005,Command and Control - Email,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.006,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.007,Command and Control - Software Component,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.008,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.009,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.010,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.011,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1059.012,Command and Control - Other,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1212,Exploit Public-Facing Service,"As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE- 2024-24919.",3,True,True
+T1046,Network Service Scanning,"As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE- 2024-24919.",3,True,True
+T1046,Network Service Scanning,"As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices.",3,True,True
+T1046,Network Service Scanning,The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400.,3,True,True
+T1059.001,DLL Side-Loading,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1053,Scheduled Task/Job,Create malicious scheduled task SpaceAgentTaskMgrSHR in Windows/Spaceport/ task folder.,4,True,True
+T1055.001,Programmable Proxy: Other,Use a compromised administrator account to initiate a remote desktop session to another server on the network.,4,True,True
+T1055.001,Programmable Proxy: Other,The following file locations and filenames have been observed on devices: o /netscaler/logon/LogonPoint/uiareas/ui_style.php o /netscaler/logon/sanpdebug.php,4,True,True

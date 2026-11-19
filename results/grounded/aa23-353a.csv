@@ -1,0 +1,21 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1059.001,Command and Control - Email,ALPHV Blackcat actors have since employed improvised communication methods by creating victim-specific emails to notify of the initial compromise.,0,True,True
+T1059.001,Command and Control - Software Component,ALPHV Blackcat affiliates use uniform resource locators (URLs) to live-chat with victims to convey demands and initiate processes to restore the victims’ encrypted files.,1,True,True
+T1059,Command and Control,"After gaining access to a victim network, ALPHV Blackcat affiliates deploy remote access software",1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566.002,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1566,Impact - Elevation of Privilege,Actors pose as company IT and/or helpdesk staff and use phone calls or SMS messages to obtain credentials from employees to access the target network,1,True,True
+T1059.001,Command and Control Server,Domain resources.docusong[.]com Command and Control Server,3,True,True
+T1059.002,Command and Control Server,Domain Fisa99.screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.002,Command and Control Server,Domain pcrendal[.]com Command and Control Server,3,True,True
+T1059.002,Command and Control Server,Domain instance-qqemas-relay[.]screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.002,Command and Control Server,Domain instance-rbjvws-relay.screenconnect[.]com ScreenConnect Remote Access,3,True,True
+T1059.003,Command and Control Server,IP Address 5.199.168.24 Command and Control Server,3,True,True
+T1059.003,Command and Control Server,IP Address 91.92.254.193 SimpleHelp Remote Access,3,True,True

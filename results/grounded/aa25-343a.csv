@@ -1,0 +1,35 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1210,Exploit Public-Facing Application,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1021,Remote Services,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1059,Command and Control,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1046,Execution,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1059.001,Command and Control - Custom,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1056,Input Capture,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1056.001,Input Capture - Web,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1046,Data Encrypted,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,True,True
+T1059.001,Command and Control - Custom,The group uses “hack and leak” operations and defacement attacks to draw attention to their pro-Russia messaging.,4,True,True
+T1059.002,Command and Control - Standard,"In March 2025, Z-Pentest posted evidence claiming OT device intrusions to their channel using a NoName057(16) cyberattack campaign hashtag.",4,True,True
+T1059.003,Command and Control - Custom,"Similarly, in April 2025, Z-Pentest shared a video purporting defacement of an HMI by changing system names to NoName057(16) and CARR references.",4,True,True
+T1059.004,Command and Control - Standard,Members of Sector16 may have received indirect support from the Russian government in exchange for conducting specific cyber operations that further Russian strategic goals.,4,True,True
+T1059.001,Screencasting,"They leverage superficial criteria, such as victim availability and existing vulnerabilities, rather than focusing on strategically significant entities.",5,True,True
+T1059,Screencasting,Scan for vulnerable devices on the internet with,5,True,True
+T1210,Exploit Public-Facing Application,Scan for vulnerable devices on the internet with,5,True,True
+T1204,User Execution: Malware Transfer via Web Application,Scan for vulnerable devices on the internet with,5,True,True
+T1059.002,Screencasting: RDP,"They frequently misrepresent their capabilities and the impacts of their actions, portraying minor incursions as significant breaches, but such incursions can still lead to lost time and resources for operators remediating systems.",5,True,True
+T1059.001,Brute Force: Password,Initiate temporary virtual private server (VPS) to execute password brute force software.,6,True,True
+T1021,Remote Services,open VNC ports,6,True,True
+T1021.001,Open RDP,open VNC ports,6,True,True
+T1055,Process Injection,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1210,Exploit Public-Facing Application,"abuse popular internet-scraping tools, such as Nmap or OPENVAS, to search for visible VNC services",6,True,True
+T1212,Exploit Public-Facing Service,use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,True,True
+T1059.001,Command and Control - Software Component,"Regardless of outcome, pro-Russia hacktivist groups often post images and screen recordings to their social media platforms, boasting the compromises and exaggerating impacts to garner attention from their peers and the media.",7,True,True
+T1059,Command and Control,"Regardless of outcome, pro-Russia hacktivist groups often post images and screen recordings to their social media platforms, boasting the compromises and exaggerating impacts to garner attention from their peers and the media.",7,True,True
+T1210,Exploit Public-Facing Application,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1212,Exploit Use of Outdated or Vulnerable Components,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1216,Use Alternate Authentication Material,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1218,Lateral Movement,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1219,Lateral Movement - Remote Services,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1220,Lateral Movement - Remote Services - RDP,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1221,Lateral Movement - Remote Services - SSH,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True
+T1222,Lateral Movement - Remote Services - Web Services,"physical parameter and setpoint changes, or conduct defacement activities.",7,True,True

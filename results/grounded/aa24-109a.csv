@@ -1,0 +1,58 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1210,Exploit Public-Facing Application,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1059.001,Command and Control (C2) Server,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.002,Scheduled Task/Job,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.003,New Service,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.004,Process Injection,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.005,Signed Binary Proxy Execution,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.006,DLL Search Order Hijacking,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.007,Boot or System Services,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.008,Windows Management Instrumentation (WMI),Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.009,Windows Management Instrumentation (WMI) Execution,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.010,Windows Management Instrumentation (WMI) Persistence,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1059.011,Windows Management Instrumentation (WMI) Discovery,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1021,Remote Services,obtaining initial access to organizations through a virtual private network (VPN) service,2,True,True
+T1059.001,Stealing Secure Credentials,without multifactor authentication (MFA) configured,2,True,True
+T1059,Command and Control,Akira threat actors frequently execute malicious commands by using Visual Basic (VB) scripts,3,True,True
+T1059.001,Domain Account Creation,"achieved, Akira threat actors attempt to establish persistence by creating new domain accounts to abuse the functions of domain controllers.",4,True,True
+T1059.001,Command and Control Server Infrastructure,They also use PowerShell and Windows Management Instrumentation Command-line (WMIC) to disable services and execute malicious scripts.,5,True,True
+T1021,Remote Services,Akira threat actors use a sophisticated hybrid encryption scheme to lock data.,6,True,True
+T1021.001,Remote Services - Web Service,Akira threat actors use a sophisticated hybrid encryption scheme to lock data.,6,True,True
+T1041,Command and Control - Data Encrypted for Impact,Akira threat actors use a sophisticated hybrid encryption scheme to lock data.,6,True,True
+T1059.001,Command and Control - Custom Command and Control Protocol,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1059.002,Command and Control - Data Encrypted/Hidden,"After encryption, the Linux ESXi variant may include the file extension akiranew or an added file named akiranew.txt as a ransom note in directories where files were encrypted with the new nomenclature.",7,True,True
+T1059.003,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.004,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.005,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.006,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.007,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.008,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.009,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.010,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.011,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.012,Command and Control - Valid Accounts,"AnyDesk Legitimate desktop support software used to obtain remote access to victim systems and for lateral movement, and support remote file transfer.",7,True,True
+T1059.001,Command and Control Server Infrastructure,Ngrok A reverse proxy tool used to create a secure tunnel to servers behind firewalls or local machines without a public IP address.,8,True,True
+T1059.004,Command and Control Server Infrastructure,LogMeIn A legitimate remote access tool that Akira threat actors maliciously use to move laterally and establish persistence.,8,True,True
+T1059.006,Command and Control Server Infrastructure,"SoftPerfect A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",8,True,True
+T1059.008,Command and Control Server Infrastructure,"PowerShell A cross-platform task automation solution used for various malicious activities, including deleting shadow copies, and, potentially, for credential harvesting.",8,True,True
+T1059.009,Command and Control Server Infrastructure,"RClone A legitimate command-line program used to sync files with cloud storage services, such as Mega.",8,True,True
+T1059.010,Command and Control Server Infrastructure,"7-zip A free, open source software that enables users to compress various file formats.",8,True,True
+T1059.011,Command and Control Server Infrastructure,WinRAR Archive utility used to split compromised data into segments and to compress files into .RAR format prior to exfiltration.,8,True,True
+T1057,Boot or System Image Replication,Veeam Backup and Replication A legitimate backup solution that Akira threat actors have exploited vulnerabilities in for initial access (and potentially for privilege escalation).,9,True,True
+T1059,Command and Control (C2) Server,MEGA A cloud storage utility used by Akira threat actors as the destination for exfiltrated data.,9,True,True
+T1059.001,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.002,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1059.003,Command and Control (C2) Server,Akira ransomware encryptor.,10,True,True
+T1069.001,Timestomp,Table 8. Commands Used for Discovery Commands nltest /dclist: nltest /DOMAIN_TRUSTS net group “Domain admins” /dom net localgroup “Administrators” /dom [T 1069.001 ] tasklist,11,True,True
+T1059.001,Command and Control,Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ,11,True,True
+T1059.002,Command and Control,Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ,11,True,True
+T1059.003,Command and Control,Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ,11,True,True
