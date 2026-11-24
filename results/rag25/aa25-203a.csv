@@ -1,0 +1,77 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1592.003,Firmware,"Mitigate known vulnerabilities by ensuring operating systems, software, and firmware are patched and up to date.",0,True,True
+T1592.002,Software,"Mitigate known vulnerabilities by ensuring operating systems, software, and firmware are patched and up to date.",0,True,True
+T1590.006,Network Security Appliances,"Prevent initial access by implementing domain name system (DNS) filtering and web access firewalls,",0,True,True
+T1025,Data from Removable Media,"FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites, which is an uncommon method among ransomware groups.",1,True,True
+T1027,Obfuscated Files or Information,"FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites, which is an uncommon method among ransomware groups.",1,True,True
+T1056.001,Keylogging,"FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites, which is an uncommon method among ransomware groups.",1,True,True
+T1486,Data Encrypted for Impact,"Interlock actors employ a double extortion model in which actors encrypt systems after exfiltrating data, which increases pressure on victims to pay the ransom to both get their data decrypted and prevent it from being leaked.",1,True,True
+T1552,Unsecured Credentials,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network.",1,True,True
+T1558.003,Kerberoasting,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network.",1,True,True
+T1587.001,Malware,"Actors were also observed using the ClickFix social engineering technique for initial access, in which victims are tricked into executing a malicious payload under the guise of fixing an issue on the victim’s system.",1,True,True
+T1588.001,Malware,"Actors were also observed using the ClickFix social engineering technique for initial access, in which victims are tricked into executing a malicious payload under the guise of fixing an issue on the victim’s system.",1,True,True
+T1592.002,Software,"FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites, which is an uncommon method among ransomware groups.",1,True,True
+T1650,Acquire Access,"FBI observed actors obtaining initial access via drive-by download from compromised legitimate websites, which is an uncommon method among ransomware groups.",1,True,True
+T1659,Content Injection,"Actors were also observed using the ClickFix social engineering technique for initial access, in which victims are tricked into executing a malicious payload under the guise of fixing an issue on the victim’s system.",1,True,True
+T1668,Exclusive Control,"Actors then use various methods for discovery, credential access, and lateral movement to spread to other systems on the network.",1,True,True
+T1608.001,Upload Malware,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,True,True
+T1027,Obfuscated Files or Information,"The CAPTCHA contains instructions for users to open the Windows Run window, paste the clipboard contents, and then execute a malicious Base64-encoded PowerShell process",2,True,True
+T1587.001,Malware,The fake Google Chrome browser executable functions as a remote access trojan (RAT) designed to execute a PowerShell script that drops a file into the Windows Startup folder,2,True,True
+T1185,Browser Session Hijacking,"The CAPTCHA contains instructions for users to open the Windows Run window, paste the clipboard contents, and then execute a malicious Base64-encoded PowerShell process",2,True,True
+T1608.004,Drive-by Target,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,True,True
+T1189,Drive-by Compromise,Interlock actors obtaining initial access via drive-by download from compromised legitimate websites,2,True,True
+T1056.001,Keylogging,"The CAPTCHA contains instructions for users to open the Windows Run window, paste the clipboard contents, and then execute a malicious Base64-encoded PowerShell process",2,True,True
+T1567.003,Exfiltration to Text Storage Sites,"Interlock actors leverage a double extortion model, in which they both encrypt and exfiltrate victim data",2,True,True
+T1027.009,Embedded Payloads,"The CAPTCHA contains instructions for users to open the Windows Run window, paste the clipboard contents, and then execute a malicious Base64-encoded PowerShell process",2,True,True
+T1654,Log Enumeration,"Note: This ClickFix technique has been used in several other malware campaigns, including Lumma Stealer and DarkGate",2,True,True
+T1588.002,Tool,The fake Google Chrome browser executable functions as a remote access trojan (RAT) designed to execute a PowerShell script that drops a file into the Windows Startup folder,2,True,True
+T1608.002,Upload Tool,The fake Google Chrome browser executable functions as a remote access trojan (RAT) designed to execute a PowerShell script that drops a file into the Windows Startup folder,2,True,True
+T1059.001,PowerShell,FBI also observed instances in which Interlock actors executed a PowerShell command designed to establish persistence via a Windows Registry key modification.,3,True,False
+T1059.001,PowerShell,"To do so, Interlock actors used a PowerShell command designed to add a run key value named “Chrome Updater” that uses a specific log file as an argument upon user login.",3,True,True
+T1059.001,PowerShell,PowerShell Command Description WindowsIdentity.GetCurrent() Returns a WindowsIdentity object that represents the current Windows user.,3,True,False
+T1059.001,PowerShell,"PowerShell Command Description systeminfo Displays detailed configuration information about a computer and its operating system, including operating system configuration, security information, product ID, and hardware properties.",3,True,True
+T1059.001,PowerShell,PowerShell Command Description tasklist/svc Lists unabridged service information for each process currently running on the local computer.,3,True,False
+T1059.001,PowerShell,"PowerShell Command Description Get-Service Gets objects that represent the services on a computer, including running and stopped services.",3,True,False
+T1059.001,PowerShell,"PowerShell Command Description Get-PSDrive Gets the drives in the current session, such as:",3,True,False
+T1059.001,PowerShell,"PowerShell Command Description arp -a Displays and modifies entries in the Address Resolution Protocol (ARP) cache table,",3,True,False
+T1546.013,PowerShell Profile,"To do so, Interlock actors used a PowerShell command designed to add a run key value named “Chrome Updater” that uses a specific log file as an argument upon user login.",3,True,True
+T1552.001,Credentials In Files,"According to open source reporting, the credential stealer collects login information and associated URLs for victims’ online accounts,",3,True,False
+T1056.001,Keylogging,FBI observed Interlock actors using a keylogger binary (klg.dll).,3,True,False
+T1547.001,Registry Run Keys / Startup Folder,"To do so, Interlock actors used a PowerShell command designed to add a run key value named “Chrome Updater” that uses a specific log file as an argument upon user login.",3,True,True
+T1056.001,Keylogging,keylogger dynamic link library (DLL) logs users’ keystrokes in a file named conhost.txt,4,True,True
+T1552,Unsecured Credentials,Interlock actors leverage compromised credentials and Remote Desktop Protocol (RDP) to move between systems,4,True,False
+T1556.002,Password Filter DLL,Interlock actors possibly by using a Kerberoasting attack,4,True,False
+T1039,Data from Network Shared Drive,Interlock actors leverage Azure Storage Explorer (StorageExplorer.exe) to navigate victims’ Microsoft Azure Storage accounts prior to exfiltrating data,4,True,True
+T1020,Automated Exfiltration,Interlock actors execute AzCopy to exfiltrate data by uploading it to the Azure storage blob,4,True,True
+T1025,Data from Removable Media,"Interlock actors also exfiltrate data over file transfer tools, including WinSCP",4,True,False
+T1558,Steal or Forge Kerberos Tickets,Interlock actors possibly by using a Kerberoasting attack,4,True,False
+T1547.005,Security Support Provider,Interlock actors deploy the encryption binary as a 64-bit executable named conhost.exe,4,True,True
+T1650,Acquire Access,Interlock actors leverage compromised credentials and Remote Desktop Protocol (RDP) to move between systems,4,True,False
+T1005,Data from Local System,Interlock actors leverage Azure Storage Explorer (StorageExplorer.exe) to navigate victims’ Microsoft Azure Storage accounts prior to exfiltrating data,4,True,True
+T1052.001,Exfiltration over USB,"Interlock actors also exfiltrate data over file transfer tools, including WinSCP",4,True,False
+T1092,Communication Through Removable Media,"Interlock actors also exfiltrate data over file transfer tools, including WinSCP",4,True,False
+T1650,Acquire Access,The actors instruct victims to make ransom payments in Bitcoin to cryptocurrency wallet addresses provided by the actors.,5,True,True
+T1588.001,Malware,AnyDesk A common legitimate remote monitoring and management (RMM) tool maliciously used by Interlock actors to obtain remote access and maintain persistence.,5,True,True
+T1105,Ingress Tool Transfer,The actors instruct victims to make ransom payments in Bitcoin to cryptocurrency wallet addresses provided by the actors.,5,True,True
+T1588.002,Tool,AnyDesk A common legitimate remote monitoring and management (RMM) tool maliciously used by Interlock actors to obtain remote access and maintain persistence.,5,True,True
+T1608.001,Upload Malware,AnyDesk A common legitimate remote monitoring and management (RMM) tool maliciously used by Interlock actors to obtain remote access and maintain persistence.,5,True,True
+T1587.001,Malware,AnyDesk A common legitimate remote monitoring and management (RMM) tool maliciously used by Interlock actors to obtain remote access and maintain persistence.,5,True,True
+T1219,Remote Access Tools,AnyDesk A common legitimate remote monitoring and management (RMM) tool maliciously used by Interlock actors to obtain remote access and maintain persistence.,5,True,True
+T1584.004,Server,"SystemBC Enables Interlock actors to compromise systems, run commands, download",5,True,True
+T1584.005,Botnet,"SystemBC Enables Interlock actors to compromise systems, run commands, download",5,True,True
+T1080,Taint Shared Content,"SystemBC Enables Interlock actors to compromise systems, run commands, download",5,True,True
+T1674,Input Injection,"SystemBC Enables Interlock actors to compromise systems, run commands, download",5,True,True
+T1102.003,One-Way Communication,instructions to contact the ransomware actors via a .onion URL.,5,True,True
+T1218.007,Msiexec,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.005,Mshta,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.011,Rundll32,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.013,Mavinject,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.008,Odbcconf,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.012,Verclsid,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.010,Regsvr32,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.003,CMSTP,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218.002,Control Panel,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1216,System Script Proxy Execution,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1218,System Binary Proxy Execution,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True
+T1027.009,Embedded Payloads,"WinSCP A free and open source SSH File Transfer Protocol (FTP), WebDAV, Amazon S3, and secure copy protocol client.",6,True,True

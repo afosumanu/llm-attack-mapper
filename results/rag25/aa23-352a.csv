@@ -1,0 +1,66 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1597.002,Purchase Technical Data,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1590.006,Network Security Appliances,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1596.002,WHOIS,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1654,Log Enumeration,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1039,Data from Network Shared Drive,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1080,Taint Shared Content,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1659,Content Injection,Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1114,Email Collection,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1025,Data from Removable Media,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1039,Data from Network Shared Drive,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1654,Log Enumeration,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1078,Valid Accounts,Each victim receives a unique @gmx.de or @web[.]de email for communications.,1,True,True
+T1556.006,Multi-Factor Authentication,"Enable multifactor authentication (MFA) for all services to the extent possible, particularly for webmail, VPN, and accounts that access critical systems.",1,True,True
+T1587.001,Malware,"Play ransomware actors employ a double extortion model, encrypting systems after exfiltrating data.",1,True,True
+T1486,Data Encrypted for Impact,"Play ransomware actors employ a double extortion model, encrypting systems after exfiltrating data.",1,True,True
+T1650,Acquire Access,A portion of victims are contacted via telephone and are threatened with the release of the stolen data and encouraged to pay the ransom.,1,True,True
+T1078,Valid Accounts,"The Play ransomware group gains initial access to victim networks through the abuse of valid accounts, likely purchased on the dark web,",2,True,False
+T1587.004,Exploits,"exploitation of public-facing applications, specifically through known FortiOS (CVE-2018-13379 and CVE-2020-12812) and Microsoft Exchange (ProxyNotShell [CVE-2022-41040 and CVE-2022-41082]) vulnerabilities.",2,True,False
+T1587.004,Exploits,"Update June 4, 2025: Multiple ransomware groups, including initial access brokers with ties to Play ransomware operators, exploited CVE-2024-57727 in remote monitoring and management (RMM) tool SimpleHelp to conduct remote code execution at many U.S.-based entities following the vulnerabilities’",2,True,True
+T1588.001,Malware,"Play ransomware actors use tools like AdFind to run Active Directory queries and Grixba,1 an information-stealer, to enumerate network information and scan for anti-virus software.",2,True,False
+T1588.001,Malware,"Actors also use tools like GMER, IOBit, and PowerTool to disable anti-virus software and remove log files.",2,True,False
+T1588.002,Tool,"In some instances, cybersecurity researchers have observed Play ransomware actors using PowerShell scripts to target Microsoft Defender.",2,True,True
+T1592.002,Software,"Play ransomware actors use command and control (C2) applications, including Cobalt Strike and SystemBC, and tools like PsExec to assist with lateral movement and file execution.",2,True,True
+T1592.003,Firmware,"Once established on a network, the ransomware actors search for unsecured credentials and use the Mimikatz credential dumper to gain domain administrator access.",2,True,False
+T1592.004,Client Configurations,"According to open source reporting,3 to further enumerate vulnerabilities, Play ransomware actors use Windows Privilege Escalation Awesome Scripts (WinPEAS) to search for additional privilege escalation paths.",2,True,True
+T1659,Content Injection,Actors then distribute executables via Group Policy Objects.,2,True,False
+T1654,Log Enumeration,"The Play ransomware binary is recompiled for every attack, resulting in unique hashes for each deployment, complicating anti-malware and anti-virus program detection of the ransomware.",2,True,False
+T1189,Drive-by Compromise,Play ransomware actors often split compromised data into segments and use tools,2,True,True
+T1027.015,Compression,like WinRAR to compress files into .RAR format for exfiltration.,3,True,True
+T1020,Automated Exfiltration,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,True,True
+T1027.009,Embedded Payloads,"The ransomware binary supports command line arguments; however, if no command line arguments are passed, the malware powers off all VMs and encrypts files related to VMs using randomly generated per-file keys.",3,True,True
+T1025,Data from Removable Media,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,True,True
+T1021.006,Windows Remote Management,The ransomware binary employs AES-256 as its encryption algorithm.,3,True,True
+T1027,Obfuscated Files or Information,The ransomware binary employs AES-256 as its encryption algorithm.,3,True,True
+T1021.006,Windows Remote Management,The ransomware binary employs AES-256 as its encryption algorithm.,3,True,True
+T1027.009,Embedded Payloads,"The ransomware binary supports command line arguments; however, if no command line arguments are passed, the malware powers off all VMs and encrypts files related to VMs using randomly generated per-file keys.",3,True,True
+T1027,Obfuscated Files or Information,The ransomware binary employs AES-256 as its encryption algorithm.,3,True,True
+T1027.015,Compression,like WinRAR to compress files into .RAR format for exfiltration.,3,True,True
+T1020,Automated Exfiltration,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,True,True
+T1025,Data from Removable Media,The actors then use WinSCP to transfer data from a compromised network to actor-controlled accounts.,3,True,True
+T1675,ESXi Administration Command,"the ESXi variant must be recompiled for each campaign. Through command line flags, the binary supports additional functionality likely used for development and debugging, including exempting specific VMs from encryption, targeting only one file for encryption, or skipping the file extension check",4,True,True
+T1059.012,Hypervisor CLI,the ESXi variant must be recompiled for each campaign,4,True,True
+T1218.007,Msiexec,WinRAR Used to split compromised data into segments and to compress files into .RAR format for exfiltration,4,True,True
+T1218.005,Mshta,Play ransomware actors have used it to assist with lateral movement and file execution,4,True,True
+T1127,Trusted Developer Utilities Proxy Execution,Cobalt Strike A penetration testing tool used by security professionals to test the security of networks and systems. Play ransomware actors have used it to assist with lateral movement and file execution,4,True,True
+T1218.012,Verclsid,Play ransomware actors have used it to add accounts to domain controllers,4,True,True
+T1218.010,Regsvr32,Play ransomware actors have used it to add accounts to domain controllers,4,True,True
+T1608.002,Upload Tool,WinSCP Windows Secure Copy is a free and,4,True,True
+T1014,Rootkit,GMER A software tool intended to be used for detecting and removing rootkits,4,True,True
+T1674,Input Injection,"the binary supports additional functionality likely used for development and debugging, including exempting specific VMs from encryption, targeting only one file for encryption, or skipping the file extension check",4,True,True
+T1092,Communication Through Removable Media,WinSCP Windows Secure Copy is a free and,4,True,True
+T1505.006,vSphere Installation Bundles,the ESXi variant must be recompiled for each campaign,4,True,True
+T1021.004,SSH,"open source Secure Shell (SSH) File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client.",5,True,True
+T1218.008,Odbcconf,Microsoft Nltest Used by Play ransomware actors for network discovery.,5,True,True
+T1218,System Binary Proxy Execution,Microsoft Nltest Used by Play ransomware actors for network discovery.,5,True,True
+T1092,Communication Through Removable Media,None,5,True,False
+T1078,Valid Accounts,None,5,True,False
+T1552,Unsecured Credentials,None,5,True,False
+T1216,System Script Proxy Execution,None,5,True,False
+T1548.006,TCC Manipulation,None,5,True,False
+T1127,Trusted Developer Utilities Proxy Execution,None,5,True,False
+T1553.003,SIP and Trust Provider Hijacking,None,5,True,False
+T1098.004,SSH Authorized Keys,None,5,True,False
+T1584.004,Server,None,5,True,False

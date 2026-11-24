@@ -1,0 +1,129 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,Visit StopRansomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1590.006,Network Security Appliances,Prioritize remediating known exploited vulnerabilities.,0,True,True
+T1592.001,Hardware,"Maintain regular backups of critical data, ensure backups are stored offline, and regularly test the restoration process.",0,True,True
+T1592.002,Software,Enable and enforce phishing-resistant multifactor authentication (MFA).,0,True,True
+T1596.002,WHOIS,"Note: Originally published April 18, 2024, this advisory was updated Nov. 13, 2025, with information on new Akira ransomware activity that presents an imminent threat to critical infrastructure.",0,True,True
+T1597.001,Threat Intel Vendors,Visit StopRansomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.,0,True,True
+T1650,Acquire Access,"Note: Originally published April 18, 2024, this advisory was updated Nov. 13, 2025, with information on new Akira ransomware activity that presents an imminent threat to critical infrastructure.",0,True,True
+T1587.001,Malware,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1588.001,Malware,"beginning in August 2023, some Akira attacks began deploying a Megazord encryptor—a Rust-based tool that encrypts files with a .powerranges extension.",1,True,True
+T1558.003,Kerberoasting,"In April 2023, following an initial focus on Windows systems, Akira threat actors deployed a Linux variant targeting VMware Elastic Sky X Integrated (ESXi) virtual machines (VMs).",1,True,True
+T1558.004,AS-REP Roasting,"In April 2023, following an initial focus on Windows systems, Akira threat actors deployed a Linux variant targeting VMware Elastic Sky X Integrated (ESXi) virtual machines (VMs).",1,True,True
+T1584.004,Server,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1583.004,Server,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1650,Acquire Access,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1584.004,Server,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1583.004,Server,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1659,Content Injection,Early versions of the Akira ransomware variant used C++ to write the code and encrypted files with a .akira extension;,1,True,True
+T1668,Exclusive Control,"Akira threat actors have continued to use both Megazord and Akira (including Akira_v2,",1,True,True
+T1587.004,Exploits,"Akira threat actors likely abused Common Vulnerabilities and Exposures (CVE)-2024-40766 (Common Weakness Enumeration [CWE]-284: Improper Access Control), a SonicWall vulnerability, for initial access.",1,True,True
+T1650,Acquire Access,"FBI and cybersecurity researchers1 observed Akira threat actors obtaining initial access to organizations through a virtual private network (VPN) service without multifactor authentication (MFA) configured,",2,True,True
+T1587.001,Malware,"mostly using known Common Vulnerabilities and Exposures (CVEs), including:  CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Internal System State]",2,True,False
+T1204.002,Malicious File,"mostly using known Common Vulnerabilities and Exposures (CVEs), including:  CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Internal System State]",2,True,False
+T1497.001,System Checks,"mostly using known Common Vulnerabilities and Exposures (CVEs), including:  CVE-2020-3259 [Common Weakness Enumeration (CWE)-200: Exposure of Internal System State]",2,True,False
+T1123,Audio Capture,no evidence found,2,True,False
+T1204,User Execution,no evidence found,2,True,False
+T1587.004,Exploits,no evidence found,2,True,False
+T1496.001,Compute Hijacking,no evidence found,2,True,False
+T1531,Account Access Removal,no evidence found,2,True,False
+T1486,Data Encrypted for Impact,no evidence found,2,True,False
+T1679,Selective Exclusion,no evidence found,2,True,False
+T1683.002,Audio-Visual Content,no evidence found,2,True,False
+T1078,Valid Accounts,Akira threat actors gain access to VPN products such as SonicWall by stealing login credentials or exploiting vulnerabilities like CVE-2024-40766.,3,True,True
+T1056.003,Web Portal Capture,"Akira threat actors deploy password spraying techniques, using tools such as SharpDomainSpray to gain access to account credentials.",3,True,False
+T1212,Exploitation for Credential Access,"Akira threat actors exploit publicly available vulnerabilities, such as those found in the Veeam Backup and Replication component of unpatched Veeam backup servers (CVE-2023-27532 and CVE-2024-40711).",3,True,False
+T1556.001,Domain Controller Authentication,Akira threat actors gain access to VPN products such as SonicWall by stealing login credentials or exploiting vulnerabilities like CVE-2024-40766.,3,True,True
+T1110.002,Password Cracking,"In some instances, they gain initial access through compromised VPN credentials, potentially by using initial access brokers or brute-forcing VPN endpoints.",3,True,False
+T1558.004,AS-REP Roasting,None,3,True,False
+T1056.001,Keylogging,None,3,True,False
+T1056.004,Credential API Hooking,None,3,True,False
+T1606,Forge Web Credentials,None,3,True,False
+T1098,Account Manipulation,None,3,True,False
+T1621,Multi-Factor Authentication Request Generation,None,3,True,False
+T1589.001,Credentials,Akira threat actors gain access to VPN products such as SonicWall by stealing login credentials or exploiting vulnerabilities like CVE-2024-40766.,3,True,True
+T1078.002,Domain Accounts,"achieved, Akira threat actors attempt to establish persistence by creating new domain accounts to abuse the functions of domain controllers.",4,True,True
+T1558.004,AS-REP Roasting,"the authoring organizations identified Akira threat actors leveraging post-exploitation techniques, such as Kerberoasting,",4,True,False
+T1078,Valid Accounts,"Akira threat actors use credential scraping tools, like Mimikatz and LaZagne, to aid in privilege escalation.",4,True,False
+T1212,Exploitation for Credential Access,"Akira threat actors use credential scraping tools, like Mimikatz and LaZagne, to aid in privilege escalation.",4,True,False
+T1098.007,Additional Local or Domain Groups,The authoring organizations observed Akira threat actors creating new user accounts and adding them to the administrator group to establish a foothold in the environment.,4,True,False
+T1098,Account Manipulation,The authoring organizations observed Akira threat actors creating new user accounts and adding them to the administrator group to establish a foothold in the environment.,4,True,False
+T1003.006,DCSync,"the authoring organizations identified Akira threat actors leveraging post-exploitation techniques, such as Kerberoasting,",4,True,False
+T1587.001,Malware,Cybersecurity researchers observed Akira threat actors using PowerTool to exploit the Zemana AntiMalware driver,4,True,True
+T1068,Exploitation for Privilege Escalation,"Akira threat actors use credential scraping tools, like Mimikatz and LaZagne, to aid in privilege escalation.",4,True,False
+T1087.002,Domain Account,"achieved, Akira threat actors attempt to establish persistence by creating new domain accounts to abuse the functions of domain controllers.",4,True,True
+T1583.001,Domains,Akira threat actors use net Windows commands to identify domain controllers and gather information on domain trust relationships.,4,True,False
+T1558,Steal or Forge Kerberos Tickets,"the authoring organizations identified Akira threat actors leveraging post-exploitation techniques, such as Kerberoasting,",4,True,False
+T1659,Content Injection,They also use PowerShell and Windows Management Instrumentation Command-line (WMIC) to disable services and execute malicious scripts.,5,True,True
+T1078,Valid Accounts,"This sequence of actions enabled them to extract the NTDS.dit file and the SYSTEM hive, ultimately compromising a highly privileged domain administrator’s account.",5,True,False
+T1048,Exfiltration Over Alternative Protocol,Akira threat actors leverage tools such as FileZilla and WinRAR to collect data and WinSCP and RClone to exfiltrate data.,5,True,False
+T1650,Acquire Access,"This sequence of actions enabled them to extract the NTDS.dit file and the SYSTEM hive, ultimately compromising a highly privileged domain administrator’s account.",5,True,False
+T1020,Automated Exfiltration,Akira threat actors use Ngrok to create secure tunnels for data exfiltration.,5,True,False
+T1587.001,Malware,"Analysts first identified Akira threat actors deploying the Windows-specific “Megazord” ransomware,",5,True,True
+T1556.001,Domain Controller Authentication,"This sequence of actions enabled them to extract the NTDS.dit file and the SYSTEM hive, ultimately compromising a highly privileged domain administrator’s account.",5,True,False
+T1039,Data from Network Shared Drive,Akira threat actors leverage tools such as FileZilla and WinRAR to collect data and WinSCP and RClone to exfiltrate data.,5,True,False
+T1025,Data from Removable Media,attaching them to a newly created VM.,5,True,True
+T1497.001,System Checks,They also use PowerShell and Windows Management Instrumentation Command-line (WMIC) to disable services and execute malicious scripts.,5,True,True
+T1588.001,Malware,"later identified as a novel variant of the Akira ESXi encryptor, Akira_v2.",5,True,True
+T1189,Drive-by Compromise,Akira threat actors use legitimate remote access tools like AnyDesk or LogMeIn.,5,True,False
+T1020,Automated Exfiltration,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1027,Obfuscated Files or Information,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1056.001,Keylogging,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1105,Ingress Tool Transfer,"Leveraged Tools Table 1 lists publicly available tools and applications used by Akira threat actors, including legitimate tools repurposed for their operations.",7,True,True
+T1119,Automated Collection,"Leveraged Tools Table 1 lists publicly available tools and applications used by Akira threat actors, including legitimate tools repurposed for their operations.",7,True,True
+T1140,Deobfuscate/Decode Files or Information,Update Trusted third-party analysis determined the Akira_v2 encryptor is an upgrade from its previous version and includes additional functionalities because it is written in Rust.,7,True,True
+T1480.001,Environmental Keying,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1486,Data Encrypted for Impact,"After encryption, the Linux ESXi variant may include the file extension akiranew or an added file named akiranew.txt as a ransom note in directories where files were encrypted with the new nomenclature.",7,True,True
+T1552.004,Private Keys,"The Akira_v2 encryptor also adds a layer of protection, using the Build ID as a run condition to hinder dynamic analysis.",7,True,True
+T1560,Archive Collected Data,"Leveraged Tools Table 1 lists publicly available tools and applications used by Akira threat actors, including legitimate tools repurposed for their operations.",7,True,True
+T1573,Encrypted Channel,"After encryption, the Linux ESXi variant may include the file extension akiranew or an added file named akiranew.txt as a ransom note in directories where files were encrypted with the new nomenclature.",7,True,True
+T1587.001,Malware,Update Trusted third-party analysis determined the Akira_v2 encryptor is an upgrade from its previous version and includes additional functionalities because it is written in Rust.,7,True,True
+T1552.001,Credentials In Files,"Mimikatz A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets.",8,True,False
+T1003,OS Credential Dumping,"Mimikatz A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets.",8,True,False
+T1552,Unsecured Credentials,"Mimikatz A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets.",8,True,False
+T1558.005,Ccache Files,"Mimikatz A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets.",8,True,False
+T1558,Steal or Forge Kerberos Tickets,"Mimikatz A credential dumper that enables users to view and save authentication credentials, such as Kerberos tickets.",8,True,False
+T1654,Log Enumeration,"SoftPerfect A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",8,True,True
+T1039,Data from Network Shared Drive,"SoftPerfect A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",8,True,True
+T1025,Data from Removable Media,"SoftPerfect A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",8,True,True
+T1005,Data from Local System,"SoftPerfect A network scanner (netscan.exe) used to ping computers, scan ports, discover shared folders, and retrieve information about network devices via Windows Management Instrumentation (WMI), Simple Network Management Protocol (SNMP), HTTP, SSH, and PowerShell.",8,True,True
+T1219,Remote Access Tools,LogMeIn A legitimate remote access tool that Akira threat actors maliciously use to move laterally and establish persistence.,8,True,True
+T1650,Acquire Access,LogMeIn A legitimate remote access tool that Akira threat actors maliciously use to move laterally and establish persistence.,8,True,True
+T1212,Exploitation for Credential Access,Akira threat actors use an archive feature within the 7-zip tool to compress data to evade detection.,8,True,False
+T1588.002,Tool,Ngrok A legitimate reverse proxy tool. Akira threat actors maliciously use this tool to create secure tunnels to servers they use for data exfiltration,9,True,True
+T1588.002,Tool,NetExec Linux-based network service exploitation tool that automates the assessment of large network security,9,True,True
+T1588.002,Tool,PowerTool A tool used by Akira threat actors to exploit the Zemana AntiMalware driver and terminate antivirus processes,9,True,True
+T1588.002,Tool,"Cobalt Strike A commercial penetration testing framework abused by Akira threat actors for lateral movement, C2, and privilege escalation",9,True,True
+T1588.002,Tool,PuTTY/PSCP Variants of Secure Copy Protocol (SCP)/SFTP tools that can be used for data exfiltration or remote management,9,True,True
+T1588.002,Tool,Level.io A remote monitoring and management platform leveraged by Akira threat actors,9,True,True
+T1588.002,Tool,MEGA A cloud storage utility used by Akira threat actors as the destination for exfiltrated data,9,True,True
+T1588.002,Tool,OpenSSH An open source SSH tool used by Akira threat actors for cross-platform remote management,9,True,True
+T1588.002,Tool,IMPACKET A Python library that allows users to work with various,9,True,True
+T1587.001,Malware,POORTRY Malware written as a signed vulnerable Windows deriver. Akira threat actors used the malware to implement the Bring Your Own Vulnerable Driver (BYOVD) tactic,9,True,True
+T1587.001,Malware,STONESTOP Malware that Akira threat actors used as the loader/installer for POORTRY,9,True,True
+T1587.004,Exploits,PowerTool A tool used by Akira threat actors to exploit the Zemana AntiMalware driver and terminate antivirus processes,9,True,True
+T1218.007,Msiexec,w.exe 2FED7579556F01161BB1FDFD1C3E9E6C Encryption script.,10,True,True
+T1218.007,Msiexec,w.exe C56B31C9080B993D57C100B91D096C33 Akira ransomware.,10,True,True
+T1218.007,Msiexec,w.exe d5efaa22a74aab87d17f8666686b554e41fb389a Akira ransomware.,10,True,True
+T1218.007,Msiexec,w.exe c0f706ff43936c1bb19db4f39b11129c3fc8ddafbd159852475ef99a246b2f79 Akira ransomware.,10,True,True
+T1218.007,Msiexec,w.exe bfd5fc6cd3dea74738ac7025fa14ea844f400708df2293572796568f65bd6b61 Encryptor.,10,True,True
+T1218.007,Msiexec,w.exe 7266e2afb5c70788c018d684698b0940eded4cb863f2b33f4edd31b59d1eab1d Ransomware.,10,True,False
+T1218.007,Msiexec,w.exe 08CF869A19C76CA718BA80EF73636E7BC38218B8 Akira ransomware.,10,True,True
+T1218.007,Msiexec,w.exe d2fd0654710c27dcf37b6c1437880020824e161dd0bf28e3a133ed777242a0ca Akira ransomware encryptor.,10,True,True
+T1218.007,Msiexec,w.exe dcfa2800754e5722acf94987bb03e814edcb9acebda37df6da1987bf48e5b05e Akira ransomware encryptor.,10,True,False
+T1218.007,Msiexec,w.exe 2FED7579556F01161BB1FDFD1C3E9E6C Encryption script.,10,True,True
+T1218.007,Msiexec,w.exe C56B31C9080B993D57C100B91D096C33 Akira ransomware.,10,True,True
+T1218.007,Msiexec,w.exe d5efaa22a74aab87d17f8666686b554e41fb389a Akira ransomware.,10,True,True
+T1218.007,Msiexec,"powershell.exe -Command ""Get-WmiObject Win32_Shadowcopy | Remove-WmiObject""",11,True,True
+T1218.008,Odbcconf,"powershell.exe -Command ""Get-WmiObject Win32_Shadowcopy | Remove-WmiObject""",11,True,True
+T1218.010,Regsvr32,"rundll32.exe c:\
+Windows\System32\comsvcs.dll, MiniDump ((Get-Process lsass).Id) C:\windows\temp\lsass.dmp full",11,True,False
+T1027.008,Stripped Payloads,Encryption script. level.exe Trojanized level.io malicious payload. level-windows-amd64.exe Trojanized level.io malicious payload.,11,True,True
+T1552,Unsecured Credentials,"Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ""C:\Users\\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\\<firefox_profile_id>.defaultrelease\key4.db"" /d ""C:\Users\\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\\<firefox_profile_id>.defaultrelease\key4",11,True,False
+T1552,Unsecured Credentials,"Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ""C:\Users\\<username>\AppData\Local\Google\Chrome\User Data\Default\Login Data"" /d ""C:\Users\\<username>\AppData\Local\Google\Chrome\User Data\Default\Login Data.tmp""",11,True,False
+T1556.001,Domain Controller Authentication,nltest /dclist: nltest /DOMAIN_TRUSTS net group “Domain admins” /dom net localgroup “Administrators” /dom,11,True,True
+T1069.001,[T 1069.001 ],nltest /dclist: nltest /DOMAIN_TRUSTS net group “Domain admins” /dom net localgroup “Administrators” /dom,11,True,True
+T1056.001,Keylogging,"Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ""C:\Users\\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\\<firefox_profile_id>.defaultrelease\key4.db"" /d ""C:\Users\\<username>\AppData\Roaming\Mozilla\Firefox\Profiles\\<firefox_profile_id>.defaultrelease\key4",11,True,False
+T1056.001,Keylogging,"Table 9. Commands Used for Credential Access Commands cmd.exe /Q /c esentutl.exe /y ""C:\Users\\<username>\AppData\Local\Google\Chrome\User Data\Default\Login Data"" /d ""C:\Users\\<username>\AppData\Local\Google\Chrome\User Data\Default\Login Data.tmp""",11,True,False
+T1025,Data from Removable Media,Encryption script. level.exe Trojanized level.io malicious payload. level-windows-amd64.exe Trojanized level.io malicious payload.,11,True,True
+T1189,Drive-by Compromise,Encryption script. level.exe Trojanized level.io malicious payload. level-windows-amd64.exe Trojanized level.io malicious payload.,11,True,True

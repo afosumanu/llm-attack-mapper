@@ -1,0 +1,110 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,"The actors leverage a double-extortion model, both encrypting data and threatening to publish exfiltrated data to a dedicated leak site (DLS) if the ransom is not paid.",0,True,True
+T1596.002,WHOIS,"This advisory provides technical details of the activity, as well as tailored detection and mitigation guidance to protect at-risk organizations from Gunra.",0,True,True
+T1597.001,Threat Intel Vendors,"This advisory provides technical details of the activity, as well as tailored detection and mitigation guidance to protect at-risk organizations from Gunra.",0,True,True
+T1590,Gather Victim Network Information,"Prioritize patching known exploited vulnerabilities in internet-facing systems, including virtual private network (VPN) gateways and remote desktop protocol (RDP)-exposed infrastructure.",0,True,True
+T1592.002,Software,"Prioritize patching known exploited vulnerabilities in internet-facing systems, including virtual private network (VPN) gateways and remote desktop protocol (RDP)-exposed infrastructure.",0,True,True
+T1592.003,Firmware,"Prioritize patching known exploited vulnerabilities in internet-facing systems, including virtual private network (VPN) gateways and remote desktop protocol (RDP)-exposed infrastructure.",0,True,True
+T1590.006,Network Security Appliances,"Prioritize patching known exploited vulnerabilities in internet-facing systems, including virtual private network (VPN) gateways and remote desktop protocol (RDP)-exposed infrastructure.",0,True,True
+T1195.001,Compromise Software Dependencies and Development Tools,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that compromise software dependencies and development tools.",1,True,False
+T1210,Exploitation of Remote Services,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that exploit remote services.",1,True,False
+T1195,Supply Chain Compromise,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that compromise software dependencies and development tools.",1,True,False
+T1485,Data Destruction,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that destroy data.",1,True,False
+T1650,Acquire Access,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that acquire access to systems.",1,True,False
+T1590.006,Network Security Appliances,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that target network security appliances.",1,True,False
+T1596.002,WHOIS,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that use WHOIS to gather information.",1,True,False
+T1599,Network Boundary Bridging,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that bridge network boundaries.",1,True,False
+T1600.001,Reduce Key Space,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that reduce key space.",1,True,False
+T1600,Weaken Encryption,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that weaken encryption.",1,True,False
+T1584.004,Server,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that target servers.",1,True,False
+T1584.008,Network Devices,"These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware variants and threat actors that target network devices.",1,True,False
+T1587.001,Malware,Gunra first emerged in April 2025 as a sophisticated double-extortion ransomware variant derived from the leaked Conti ransomware source code.,2,True,False
+T1608.001,Upload Malware,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1486,Data Encrypted for Impact,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1659,Content Injection,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1608.002,Upload Tool,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1588.001,Malware,Gunra first emerged in April 2025 as a sophisticated double-extortion ransomware variant derived from the leaked Conti ransomware source code.,2,True,False
+T1485,Data Destruction,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1553,Subvert Trust Controls,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1496.002,Bandwidth Hijacking,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1025,Data from Removable Media,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1499,Endpoint Denial of Service,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1592.002,Software,"Gunra actors demand ransom via a customized, Tor-based negotiation portal and threaten to publish exfiltrated data on a dedicated leak site (DLS) if victims do not comply.",2,True,True
+T1650 ACQ,Acquire Access,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,False,True
+T1587.001,Malware,"Gunra ransomware appears to be based on, or significantly influenced by, the Conti ransomware source code leaked in 2022",3,True,False
+T1587.004,Exploits,The FBI observed exploits based on the following Common Vulnerabilities and Exposures (CVEs):  CVE-2024-55591 [CWE-288: Authentication Bypass Using an Alternate Path or Channel]: Authentication,3,True,True
+T1558.003,Kerberoasting,"Gunra actors use a traditional double-extortion model, exfiltrating sensitive victim data prior to encryption and threatening to publish the leaked data on their DLS unless the ransom is paid",3,True,True
+T1105,Ingress Tool Transfer,Victims receive a ransom note in every affected directory guiding them to a Tor-based negotiation portal where they are assigned a Client ID and an initial password,3,True,True
+T1592.003,Firmware,"Initially, Gunra actors’ campaigns focused on Windows environments; reporting in mid-2025 indicated the group introduced a Linux variant and moved toward broader cross-platform targeting",3,True,True
+T1595.002,Vulnerability Scanning,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1016.002,Wi-Fi Discovery,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1557,Adversary-in-the-Middle,"Gunra actors use a traditional double-extortion model, exfiltrating sensitive victim data prior to encryption and threatening to publish the leaked data on their DLS unless the ransom is paid",3,True,True
+T1486,Data Encrypted for Impact,"Gunra actors use a traditional double-extortion model, exfiltrating sensitive victim data prior to encryption and threatening to publish the leaked data on their DLS unless the ransom is paid",3,True,True
+T1608.001,Upload Malware,"Gunra ransomware appears to be based on, or significantly influenced by, the Conti ransomware source code leaked in 2022",3,True,False
+T1590,Gather Victim Network Information,The FBI observed Gunra actors obtaining initial access primarily through the exploitation of known vulnerabilities in internet-facing devices,3,True,True
+T1212.001,Exploitation for Credential Access,Gunra actors exploit credential-exposure and Secure Shell (SSH) access control vulnerabilities in internet-facing VPN gateways to gain unauthorized remote access.,4,False,True
+T1212.002,Exploitation for Credential Access,Gunra actors gained access to an administrator account for a secure socket layer (SSL)-VPN appliance by exploiting default credentials when account lockout controls were not present.,4,False,False
+T1212.003,Exploitation for Credential Access,Gunra actors accessed the SSL-VPN administrative web console and identified an unused account that had access to both the internet-facing and internal corporate networks.,4,False,True
+T1212.004,Exploitation for Credential Access,Gunra actors modified the account configuration to bypass the mandatory password change requirement enforced on the account and subsequently leveraged it for malicious activities.,4,False,False
+T1212.005,Exploitation for Credential Access,Gunra actors gained initial access to the internal virtual desktop infrastructure (VDI) environment and conducted lateral movement via RDP.,4,False,False
+T1212.006,Exploitation for Credential Access,"Gunra actors pivoted to multiple critical systems, including the VDI authentication web server, the internal Active Directory (AD) server, and virtual desktops assigned to IT personnel.",4,False,False
+T1558.003,Kerberoasting,Gunra actors accessed the SSL-VPN administrative web console and identified an unused account that had access to both the internet-facing and internal corporate networks.,4,True,True
+T1558.004,AS-REP Roasting,Gunra actors accessed the SSL-VPN administrative web console and identified an unused account that had access to both the internet-facing and internal corporate networks.,4,True,True
+T1550.003,Pass the Ticket,Gunra actors gained initial access to the internal virtual desktop infrastructure (VDI) environment and conducted lateral movement via RDP.,4,True,False
+T1003,OS Credential Dumping,"Gunra actors used the FindFirstFileW/FindNextFileW API calls to enumerate files and directories on all accessible drive letters (A through Z), enabling comprehensive traversal of the file system prior to encryption of victim data.",4,True,False
+T1056.001,Keylogging,"Gunra actors used the FindFirstFileW/FindNextFileW API calls to enumerate files and directories on all accessible drive letters (A through Z), enabling comprehensive traversal of the file system prior to encryption of victim data.",4,True,False
+T1556.001,Domain Controller Authentication,Gunra actors accessed the SSL-VPN administrative web console and identified an unused account that had access to both the internet-facing and internal corporate networks.,4,True,True
+T1003,OS Credential Dumping,observed multiple instances of Gunra actors using secretsdump.py (another Impacket library) to conduct OS credential dumping against compromised domain controllers,5,True,True
+T1552.001,Credentials In Files,The stolen key enabled the actors to decrypt passwords for enterprise server accounts stored within the database and perform credential dumping of credentials associated with all enterprise servers,5,True,True
+T1557.003,DHCP Spoofing,None,5,True,False
+T1558.003,Kerberoasting,None,5,True,False
+T1558.004,AS-REP Roasting,None,5,True,False
+T1558,Steal or Forge Kerberos Tickets,None,5,True,False
+T1563.001,SSH Hijacking,The actors accessed a Hiware system access control server via SSH from a compromised virtual desktop,5,True,True
+T1606,Forge Web Credentials,None,5,True,False
+T1650,Acquire Access,None,5,True,False
+T1659,Content Injection,None,5,True,False
+T1684.001,Impersonation,"The actors then used stolen session cookies to conduct session hijacking , impersonating legitimate users to gain access to the internal network",5,True,True
+T1087,Account Discovery,None,5,True,False
+T1083,File and Directory Discovery,"Prior to encryption, Gunra performs file and directory discovery across all accessible drive letters (A through Z) to identify victim data for targeting.",6,True,False
+T1005,Data from Local System,"The FBI observed actors collecting files from victims that included business-critical documents, databases, personally identifiable information (PII), and internal email communications.",6,True,False
+T1025,Data from Removable Media,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1027,Obfuscated Files or Information,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1560.001,Archive via Utility,"For at least one known Gunra victim, the actors generated compressed archives with sensitive data and exfiltrated the archives to the file-sharing service Mega;",6,True,False
+T1020,Automated Exfiltration,The volume of exfiltrated data ranged up to tens of terabytes.,6,True,True
+T1518.001,Security Software Discovery,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1518.002,Backup Software Discovery,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1560.003,Archive via Custom Method,"For at least one known Gunra victim, the actors generated compressed archives with sensitive data and exfiltrated the archives to the file-sharing service Mega;",6,True,False
+T1587.001,Malware,The FBI observed Gunra actors use a malicious executable (main.exe) to exfiltrate victim data from Microsoft OneDrive and SharePoint.,6,True,False
+T1082,System Information Discovery,"In addition to collecting business-critical documents, the KNPA identified a victim case in which Gunra actors connected to the VDI environments of IT personnel and collected sensitive documents containing system and network configuration information.",6,True,False
+T1552.001,Credentials In Files,"The actors then leveraged enterprise server credentials stolen from a system access control server to deploy ransomware to encrypt key assets, including database servers and network attached storage (NAS) systems.",6,True,False
+T1027.013,Encrypted/Encoded File,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1027.015,Compression,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1027.009,Embedded Payloads,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1020,Automated Exfiltration,"If Gunra victims do not negotiate or pay ransom, the actors publicly disclose the victims on their DLS and offer a preview of victims’ leaked data.",7,True,True
+T1020,Automated Exfiltration,"This preview typically includes a directory listing of a victim’s exposed OneDrive and SharePoint files, but not the content of the files.",7,True,True
+T1027,Obfuscated Files or Information,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1074,Data Staged,The binary achieves high speed file encryption of entire file systems by leveraging a multi-threaded architecture that supports parallel encryption of multiple files simultaneously using strong ChaCha20 + RSA-4096 encryption.,7,True,False
+T1074,Data Staged,"Upon successful encryption of a file, the binary renames the encrypted file with the file extension .ENCRT.",7,True,True
+T1567.002,Exfiltration to Cloud Storage,"This preview typically includes a directory listing of a victim’s exposed OneDrive and SharePoint files, but not the content of the files.",7,True,True
+T1490,Inhibit Process on Host,"To increase the likelihood of ransom payment and prevent system recovery [T1490], Gunra actors also used Windows Management",7,True,False
+T1490,Inhibit Process on Host,"To increase the likelihood of ransom payment and prevent system recovery [T1490], Gunra actors also used Windows Management",7,True,False
+T1047,Windows Management Instrumentation,"Instrumentation (WMI) to initiate deletion of volume shadow copies prior to encryption, as demonstrated in the following example",8,True,True
+T1070.004,File Deletion,deleted backup and archived data stored on backup infrastructure at both the primary data center and disaster recovery center,8,True,True
+T1518.001,Security Software Discovery,Table 1 lists publicly available tools and applications used by Gunra ransomware actors,8,True,True
+T1518.002,Backup Software Discovery,Table 1 lists publicly available tools and applications used by Gunra ransomware actors,8,True,True
+T1560.001,Archive via Utility,deleted backup and archived data stored on backup infrastructure at both the primary data center and disaster recovery center,8,True,True
+T1560,Archive Collected Data,deleted backup and archived data stored on backup infrastructure at both the primary data center and disaster recovery center,8,True,True
+T1587.001,Malware,Gunra ransomware actors,8,True,True
+T1588.001,Malware,Gunra ransomware actors,8,True,True
+T1608.001,Upload Malware,Gunra ransomware actors,8,True,True
+T1608.002,Upload Tool,Table 1 lists publicly available tools and applications used by Gunra ransomware actors,8,True,True
+T1650,Acquire Access,Gunra actor s deleted backup and archived data stored on backup infrastructure at both the primary data center and disaster recovery center,8,True,True
+T1552,Unsecured Credentials,Mimikatz Post-exploitation tool that allows users to access and exfiltrate authentication credentials from Windows systems.,9,True,True
+T1558,Steal or Forge Kerberos Tickets,"Impacket Suite of networking utilities, including smbclient, psexec, secretsdump, etc. Gunra utilized several tools from this suite.",9,True,True
+T1654,Log Enumeration,Table 2 lists IP addresses and domains associated with Gunra ransomware infrastructure since early 2025.,9,True,True
+T1595.001,Scanning IP Blocks,Table 2 lists IP addresses and domains associated with Gunra ransomware infrastructure since early 2025.,9,True,True
+T1558.003,Kerberoasting,"Impacket Suite of networking utilities, including smbclient, psexec, secretsdump, etc. Gunra utilized several tools from this suite.",9,True,True
+T1650,Acquire Access,Table 5 lists malicious accounts created by Gunra actors to gain access to systems.,9,True,False
+T1098.005,Device Registration,"allow threat actors to exploit scheduled tasks on vulnerable FortiOS firewall devices to create a new, malicious persistent user forticloud-sync with super user privileges and a hard-coded password.",10,True,True
+T1078,Valid Accounts,"create a new, malicious persistent user forticloud-sync with super user privileges and a hard-coded password.",10,True,True

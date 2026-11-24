@@ -39,6 +39,10 @@ Rules:
 Excerpt:
 {chunk}"""
 
+# NEW: same prompt, plus a shortlist of candidate techniques
+PROMPT_WITH_CANDIDATES = PROMPT.replace(
+    "Excerpt:", "Choose ONLY from these candidate techniques:\n{candidates}\n\nExcerpt:")
+
 
 def chunks(text, size=350):
     words = text.split()
@@ -46,10 +50,16 @@ def chunks(text, size=350):
         yield " ".join(words[i:i + size])
 
 
-def ask(model, chunk):
+def ask(model, chunk, k=0):                                            # NEW: k = shortlist size
+    if k:                                                              # NEW
+        from candidates import top_candidates                          # NEW: loaded only when needed
+        content = PROMPT_WITH_CANDIDATES.format(                       # NEW
+            chunk=chunk, candidates=top_candidates(chunk, k))          # NEW
+    else:                                                              # NEW
+        content = PROMPT.format(chunk=chunk)                           # NEW
     response = CLIENT.chat(
         model=model,
-        messages=[{"role": "user", "content": PROMPT.format(chunk=chunk)}],
+        messages=[{"role": "user", "content": content}],               # NEW: uses content
         format=Findings.model_json_schema(),          # force the JSON shape
         options={
             "temperature": 0,                         # same answer every run
@@ -64,7 +74,7 @@ def squash(s):
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
-def map_report(path, model, valid_ids):
+def map_report(path, model, valid_ids, k=0):                           # NEW: k
     text = path.read_text(encoding="utf-8")
     rows = []
     parts = list(chunks(text))
@@ -72,7 +82,7 @@ def map_report(path, model, valid_ids):
         start = time.time()
         print(f"    chunk {n + 1}/{len(parts)} ...", end=" ", flush=True)
         try:
-            found = ask(model, chunk)
+            found = ask(model, chunk, k)                               # NEW: pass k
         except Exception as err:
             print(f"skipped after {time.time() - start:.0f}s ({type(err).__name__})", flush=True)
             continue
@@ -96,12 +106,16 @@ if __name__ == "__main__":
     parser.add_argument("--run", required=True, help="name for this experiment")
     parser.add_argument("--model", default="llama3.1:8b")
     parser.add_argument("--only", help="test on one report_id")
+    parser.add_argument("--candidates", type=int, default=0,           # NEW
+                        help="shortlist size; 0 = no shortlist")       # NEW
     args = parser.parse_args()
 
     valid_ids = set(load_techniques()["technique_id"])
     out = Path("results") / args.run
     out.mkdir(parents=True, exist_ok=True)
-    (out / "config.txt").write_text(f"model: {args.model}\n\n{PROMPT}", encoding="utf-8")
+    used_prompt = PROMPT_WITH_CANDIDATES if args.candidates else PROMPT       # NEW
+    (out / "config.txt").write_text(                                          # NEW: records settings
+        f"model: {args.model}\ncandidates: {args.candidates}\n\n{used_prompt}", encoding="utf-8")
 
     for path in sorted(TEXT.glob("*.txt")):
         if args.only and path.stem != args.only:
@@ -111,7 +125,7 @@ if __name__ == "__main__":
             print(f"{path.stem}: already done, skipping")
             continue
         print(f"{path.stem} ...")
-        df = map_report(path, args.model, valid_ids)
+        df = map_report(path, args.model, valid_ids, args.candidates)         # NEW: pass k
         df.to_csv(out_file, index=False)
         print(f"    {df['technique_id'].nunique()} techniques, "
               f"{(~df['valid_id']).sum()} invalid IDs, "

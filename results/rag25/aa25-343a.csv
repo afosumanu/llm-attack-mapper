@@ -1,0 +1,79 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1590.003,Network Trust Dependencies,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1591,Gather Victim Org Information,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1592.001,Hardware,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1592.002,Software,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1592.003,Firmware,"When available, please include the following information regarding the incident: date, time, and location of the incident; type of activity; number of people affected; type of equipment used for the activity; the name of the submitting company or organization; and a designated point of contact.",0,True,True
+T1593,Search Open Websites/Domains,"For more information on the Traffic Light Protocol, see Traffic Light Protocol (TLP) Definitions and Usage.",0,True,True
+T1597.001,Threat Intel Vendors,"FBI, CISA, National Security Agency (NSA), and the following partners—hereafter referred to as “the authoring organizations”—are releasing this joint advisory on the targeting of critical infrastructure by pro- Russia hacktivists:  U.S. Department of Energy (DOE)  U.S. Environmental Protection",0,True,True
+T1597.002,Purchase Technical Data,"FBI, CISA, National Security Agency (NSA), and the following partners—hereafter referred to as “the authoring organizations”—are releasing this joint advisory on the targeting of critical infrastructure by pro- Russia hacktivists:  U.S. Department of Energy (DOE)  U.S. Environmental Protection",0,True,True
+T1598.003,Spearphishing Link,"To report suspicious or criminal activity related to information found in this joint Cybersecurity Advisory, contact your local FBI field office or CISA’s 24/7 Operations Center at contact@cisa.dhs.gov or 1-844-Say-CISA (1-844-729-2472).",0,True,True
+T1590.006,Network Security Appliances,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1584.008,Network Devices,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1587.001,Malware,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1592.001,Hardware,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1590,Gather Victim Network Information,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1584.004,Server,"These attacks use minimally secured, internet-facing virtual network computing (VNC) connections to infiltrate (or gain access to) OT control devices within critical infrastructure systems.",1,True,True
+T1546.006,LC_LOAD_DYLIB Addition,The group began using a new Telegram channel featuring the name “CyberArmyofRussia_Reborn” to organize and plan group operations.,2,True,False
+T1557.001,Name Resolution Poisoning and SMB Relay,Actors suspected to be from GRU unit 74455 likely funded the tools CARR threat actors used to conduct distributed denial-of-service (DDoS) attacks through at least September 2024.,2,True,True
+T1548.004,Elevated Execution with Prompt,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1596,Search Open Technical Databases,The authoring organizations have observed pro-Russia hacktivist groups conducting cyber operations against numerous organizations and critical infrastructure sectors worldwide.,2,True,True
+T1542.001,System Firmware,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1480.002,Mutual Exclusion,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1654,Log Enumeration,The authoring organizations have observed pro-Russia hacktivist groups conducting cyber operations against numerous organizations and critical infrastructure sectors worldwide.,2,True,True
+T1197,BITS Jobs,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1602.001,SNMP (MIB Dump),The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1485,Data Destruction,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1027.008,Stripped Payloads,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1218.009,Regsvcs/Regasm,The escalation of the Russia-Ukraine conflict in 2022 significantly increased the number of these pro- Russia groups.,2,True,True
+T1496.001,Compute Hijacking,"In November 2023, CARR targeted human-machine interface (HMI) devices, claiming intrusions at two U.S. dairy farms.",3,True,True
+T1584.006,Web Services,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1584.005,Botnet,"Active since March 2022, NoName057(16) has conducted frequent DDoS attacks against government and private sector entities in North Atlantic Treaty Organization (NATO) member states and other European countries perceived as hostile to Russian geopolitical interests.",3,True,True
+T1587.001,Malware,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1588.001,Malware,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1588.002,Tool,"The group operates primarily through Telegram channels and used GitHub, alongside various websites and repositories, to host DDoSia and share materials and TTPs with their followers.",3,True,True
+T1584.004,Server,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1496,Resource Hijacking,"Active since March 2022, NoName057(16) has conducted frequent DDoS attacks against government and private sector entities in North Atlantic Treaty Organization (NATO) member states and other European countries perceived as hostile to Russian geopolitical interests.",3,True,True
+T1683.001,Written Content,"CARR documented these actions through embellished images and videos shared on their social media channels, promoting Russian ideology, disseminating talking points, and publicizing leaked information from hacks attributed to Russian state threat actors.",3,True,True
+T1587.004,Exploits,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1583.004,Server,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1586,Compromise Accounts,"The authoring organizations assess that the Center for the Study and Network Monitoring of the Youth Environment (CISM), established on behalf of the Kremlin, created NoName057(16) as a covert project within the organization. Senior executives and employees within CISM developed and customized the  ",3,True,True
+T1659,Content Injection,"Similarly, in April 2025, Z-Pentest shared a video purporting defacement of an HMI by changing system names to NoName057(16) and CARR references.",4,True,True
+T1587.001,Malware,"In March 2025, Z-Pentest posted evidence claiming OT device intrusions to their channel using a NoName057(16) cyberattack campaign hashtag.",4,True,True
+T1090.001,Internal Proxy,"The high degree of cooperation with CARR likely contributed to the formation of Z-Pentest, which is composed of actors and administrators from both teams, in September 2024.",4,True,True
+T1584.004,Server,The group specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities.,4,True,True
+T1586.002,Email Accounts,"Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure.",4,True,True
+T1090.002,External Proxy,"Z-Pentest continues to create new alliances with other groups, like Sector16, to continue growing their subscriber base and incidentally propagate TTPs with new partners.",4,True,True
+T1584.008,Network Devices,The group specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities.,4,True,True
+T1584.004,Server,The group specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities.,4,True,True
+T1586.002,Email Accounts,"Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure.",4,True,True
+T1584.004,Server,The group specializes in OT intrusion operations targeting globally dispersed critical infrastructure entities.,4,True,True
+T1586.002,Email Accounts,"Sector16 actively maintains an online presence, including a public Telegram channel where they share videos, statements, and claims of compromising U.S. energy infrastructure.",4,True,True
+T1090.002,External Proxy,"Z-Pentest continues to create new alliances with other groups, like Sector16, to continue growing their subscriber base and incidentally propagate TTPs with new partners.",4,True,True
+T1595.001,Scanning IP Blocks,Scan for vulnerable devices on the internet with,5,True,True
+T1496,Resource Hijacking,maliciously use these connections to broadly target numerous platforms and services,5,True,True
+T1584.004,Server,targeted networks to facilitate SCADA intrusions,5,True,True
+T1587.001,Malware,basic methods,5,True,True
+T1590,Gather Victim Network Information,Scan for vulnerable devices on the internet with,5,True,True
+T1588.001,Malware,basic methods,5,True,True
+T1496.001,Compute Hijacking,maliciously use these connections to broadly target numerous platforms and services,5,True,True
+T1584.008,Network Devices,targeted networks to facilitate SCADA intrusions,5,True,True
+T1587.004,Exploits,basic methods,5,True,True
+T1595.002,Vulnerability Scanning,Scan for vulnerable devices on the internet with,5,True,True
+T1021.005,VNC,open VNC ports,6,True,True
+T1584.008,Network Devices,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1021,Remote Services,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1556.004,Network Device Authentication,Use VNC software to access hosts,6,True,True
+T1056.003,Web Portal Capture,"Using the HMI graphical interface, capture screen recordings or intermittent screenshots",6,True,False
+T1219.003,Remote Access Hardware,Use VNC software to access hosts,6,True,True
+T1584.003,Virtual Private Server,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1563.001,SSH Hijacking,"Brute force the password, if required",6,True,True
+T1583.004,Server,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1673,Virtual Machine Discovery,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1497,Virtualization/Sandbox Evasion,Initiate temporary virtual private server (VPS) to execute password brute force software,6,True,True
+T1205.001,Port Knocking,search for visible VNC services and use brute force password spraying tools to access devices via known default or otherwise weak credentials,6,True,True
+T1491.001,Internal Defacement,conduct defacement activities,7,True,True
+T1565.002,Transmitted Data Manipulation,boasting the compromises and exaggerating impacts to garner attention from their peers and the media,7,True,True
+T1586.001,Social Media Accounts,boasting the compromises and exaggerating impacts to garner attention from their peers and the media,7,True,True
+T1098,Account Manipulation,"Victim organizations reported that the most common operational impact caused by these threat actors is a temporary loss of view, necessitating manual intervention to manage processes.",7,True,True
+T1496,Resource Hijacking,"Victim organizations reported that the most common operational impact caused by these threat actors is a temporary loss of view, necessitating manual intervention to manage processes.",7,True,True

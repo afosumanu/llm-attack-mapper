@@ -1,0 +1,92 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1587.001,Malware,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1078,Valid Accounts,"Enable phishing-resistant multifactor authentication (MFA) for all externally facing account services, especially for webmail, virtual private networks (VPNs), and accounts that access critical systems.",0,True,True
+T1114,Email Collection,"Enable phishing-resistant multifactor authentication (MFA) for all externally facing account services, especially for webmail, virtual private networks (VPNs), and accounts that access critical systems.",0,True,True
+T1650,Acquire Access,"GRU Unit 29155 cyber actors began deploying the destructive WhisperGate malware against multiple Ukrainian victim organizations as early as January 13, 2022.",0,True,True
+T1590.006,Network Security Appliances,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1114,Email Collection,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1597.001,Threat Intel Vendors,"For additional information on Russian state-sponsored malicious cyber activity and related indictments, see the recent U.S. Department of Justice (DOJ) press releases for June 26, 2024, and September 5, 2024, FBI’s Cyber Crime webpage, and CISA’s Russia Cyber Threat Overview and Advisories webpage.",1,True,True
+T1590,Gather Victim Network Information,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1592.001,Hardware,Unit 29155 expanded their tradecraft to include offensive cyber operations since at least 2020.,1,True,True
+T1518.001,Security Software Discovery,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1592,Gather Victim Host Information,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1591,Gather Victim Org Information,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1589.002,Email Addresses,"Unit 29155 cyber actors rely on non-GRU actors, including known cyber-criminals and enablers to conduct their operations.",1,True,True
+T1593,Search Open Websites/Domains,"For additional information on Russian state-sponsored malicious cyber activity and related indictments, see the recent U.S. Department of Justice (DOJ) press releases for June 26, 2024, and September 5, 2024, FBI’s Cyber Crime webpage, and CISA’s Russia Cyber Threat Overview and Advisories webpage.",1,True,True
+T1594,Search Victim-Owned Websites,"Unit 29155 cyber actors’ objectives appear to include the collection of information for espionage purposes,",1,True,True
+T1596,Search Open Technical Databases,Unit 29155 expanded their tradecraft to include offensive cyber operations since at least 2020.,1,True,True
+T1595.001,Scanning IP Blocks,"The FBI has observed more than 14,000 instances of domain scanning across at least 26 NATO members and several additional European Union (EU) countries.",2,True,True
+T1593,Search Open Websites/Domains,Unit 29155 cyber actors have defaced victim websites and used public website domains to post exfiltrated victim information.,2,True,True
+T1596.002,WHOIS,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1590.005,IP Addresses,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1592.002,Software,The following are publicly available tools these cyber actors have used for scanning and vulnerability exploit efforts.,2,True,True
+T1587.004,Exploits,The following are publicly available tools these cyber actors have used for scanning and vulnerability exploit efforts.,2,True,True
+T1590.006,Network Security Appliances,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1596.005,Scan Databases,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1592.001,Hardware,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1592.003,Firmware,Unit 29155 cyber actors have been observed targeting IP ranges used within multiple government and critical infrastructure organizations.,2,True,True
+T1594,Search Victim-Owned Websites,Unit 29155 cyber actors have defaced victim websites and used public website domains to post exfiltrated victim information.,2,True,True
+T1114,Email Collection,Unit 29155 cyber actors sell or publicly release exfiltrated victim data obtained from their compromises.,2,True,False
+T1595.002,Vulnerability Scanning,"Acunetix: Unit 29155 cyber actors leveraged both Acunetix and Nmap to identify open ports, services, and vulnerabilities for networks.",3,True,False
+T1595.002,Vulnerability Scanning,Shodan: Unit 29155 cyber actors used Shodan to identify hosts with a specific set of vulnerabilities or device types.,3,True,False
+T1595.002,Vulnerability Scanning,"Acunetix vulnerability scanning tool has been used for gathering information on potential vulnerabilities such as blind cross-site scripting,",3,True,True
+T1592.002,Software,"Unit 29155 cyber actors have used infrastructure configured with OpenVPN configuration over port 1194,",3,True,True
+T1592.004,Client Configurations,Adminer in combination with Impacket and ldapdomaindump were tools used for gathering information on AD.,3,True,True
+T1654,Log Enumeration,"Once active devices are found, Unit 29155 cyber actors look for vulnerabilities to exploit.",3,True,True
+T1654,Log Enumeration,"As the cyber actors perform reconnaissance on victim networks and discover vulnerabilities within victim web servers or machines,",3,True,True
+T1654,Log Enumeration,"Unit 29155 cyber actors have been observed obtaining the respective exploit scripts for, but not exploiting, the following CVEs:",3,True,True
+T1654,Log Enumeration,"Analysis concluded Unit 29155 cyber actors have exploited the following CVEs for initial access,",3,True,False
+T1587.004,Exploits,"Once Unit 29155 cyber actors gained access to victim internal networks, they further used Nmap (via the Nmap Scripting Engine [NSE]) to write custom scripts for discovering and scanning other machines.",3,True,False
+T1587.004,Exploits,"As the cyber actors perform reconnaissance on victim networks and discover vulnerabilities within victim web servers or machines, they obtain CVE exploit scripts from GitHub repositories and use them against victim infrastructure.",3,True,False
+T1587.004,Exploits,"Unit 29155 cyber actors have been observed obtaining the respective exploit scripts for, but not exploiting, the following CVEs:",3,True,True
+T1078,Valid Accounts,Unit 29155 cyber actors commonly maintain accounts on dark web forums;,4,True,False
+T1056.003,Web Portal Capture,Attempts are then made to perform remote command execution via web to vulnerable IP cameras;,4,True,True
+T1587.001,Malware,Unit 29155 actors and their cyber-criminal affiliates commonly maintain accounts on dark web forums; this has provided the opportunity to obtain various hacker tools such as malware and malware loaders like Raspberry Robin and SaintBot.,4,True,True
+T1588.001,Malware,Unit 29155 actors and their cyber-criminal affiliates commonly maintain accounts on dark web forums; this has provided the opportunity to obtain various hacker tools such as malware and malware loaders like Raspberry Robin and SaintBot.,4,True,True
+T1590.003,Network Trust Dependencies,Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021- 33045 on Dahua IP cameras to bypass identity authentication.,4,True,True
+T1595.001,Scanning IP Blocks,"Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices,",4,True,True
+T1650,Acquire Access,Unit 29155 cyber actors exploited CVE-2021-33044 and CVE-2021- 33045 on Dahua IP cameras to bypass identity authentication.,4,True,True
+T1659,Content Injection,Attempts are then made to perform remote command execution via web to vulnerable IP cameras;,4,True,True
+T1665,Hide Infrastructure,Unit 29155 cyber actors use VPNs to anonymize their operational activity.,4,True,False
+T1123,Audio Capture,exfiltrating images (JPG files),4,True,True
+T1584.004,Server,"Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices,",4,True,True
+T1584.006,Web Services,"Unit 29155 cyber actors have used Shodan to scan for Internet of Things (IoT) devices,",4,True,True
+T1056.004,Credential API Hooking,The script secretsdump.py was used from the Impacket framework to obtain domain credentials,5,True,True
+T1218.003,CMSTP,"Cyber actors used ntlmrelayx.py via Impacket and krbrelayx.py, which requires Impacket to function",5,True,True
+T1592.004,Client Configurations,Cyber actors used Impacket for post-exploitation and lateral movement,5,True,True
+T1056.003,Web Portal Capture,Cyber actors initiated a web request and executed commands via ProxyChains,5,True,True
+T1595.001,Scanning IP Blocks,Cyber actors used CrackMapExec via ProxyChains with SMB protocol targeting internal victim IP addresses,5,True,True
+T1016,System Network Configuration Discovery,"Cyber actors used BloodHound, an open source AD reconnaissance tool that can reveal hidden relationships and identify attack paths within an AD environment",5,True,True
+T1592.003,Firmware,"In one instance shortly following a deployment of WhisperGate malware, Unit 29155 cyber actors exfiltrated data to mega[.]nz using Rclone",5,True,True
+T1212,Exploitation for Credential Access,Cyber actors used a Pass-the-Hash via ProxyChains,5,True,True
+T1552.001,Credentials In Files,Cyber actors used Impacket for post-exploitation and lateral movement,5,True,True
+T1552,Unsecured Credentials,Cyber actors used Impacket for post-exploitation and lateral movement,5,True,True
+T1589.001,Credentials,The script secretsdump.py was used from the Impacket framework to obtain domain credentials,5,True,True
+T1070.007,Clear Network Connection History and Configurations,Cyber actors used Impacket for post-exploitation and lateral movement,5,True,True
+T1583.004,Server,"Cyber actors used virtual private servers (VPSs) to host their operational tools, perform reconnaissance, exploit victim infrastructure, and exfiltrate victim data.",6,True,False
+T1659,Content Injection,"Through the Wire is a proof of concept exploit for CVE-2022-26134, an OGNL injection vulnerability allowing an unauthenticated user to execute arbitrary code on a Confluence Server or Data Center instance.",6,True,False
+T1584.004,Server,"Cyber actors used virtual private servers (VPSs) to host their operational tools, perform reconnaissance, exploit victim infrastructure, and exfiltrate victim data.",6,True,False
+T1190,Exploit Public-Facing Application,"Through the Wire is a proof of concept exploit for CVE-2022-26134, an OGNL injection vulnerability allowing an unauthenticated user to execute arbitrary code on a Confluence Server or Data Center instance.",6,True,False
+T1587.004,Exploits,"In one instance, an established reverse TCP session was used to launch a Meterpreter payload, which commonly uses a reverse Transmission Control Protocol (TCP) connection to initiate communication with the threat actors’ infrastructure.",6,True,False
+T1650,Acquire Access,Cyber actors targeted victims’ Microsoft Outlook Web Access (OWA) infrastructure with password spraying to obtain valid usernames and passwords.,6,True,False
+T1595.001,Scanning IP Blocks,Cyber actors initiated Nmap scans on localized web servers.,6,True,True
+T1210,Exploitation of Remote Services,"Through the Wire is a proof of concept exploit for CVE-2022-26134, an OGNL injection vulnerability allowing an unauthenticated user to execute arbitrary code on a Confluence Server or Data Center instance.",6,True,False
+T1499,Endpoint Denial of Service,None,6,True,False
+T1595.002,Vulnerability Scanning,Cyber actors initiated Nmap scans on localized web servers.,6,True,True
+T1588.002,Tool,"Cyber actors used LinPEAS, an open source script designed to automate the process of searching for potential privilege escalation vulnerabilities on a Linux victim.",6,True,True
+T1496.002,Bandwidth Hijacking,None,6,True,False
+T1590.002,DNS,"Using Domain Name System (DNS) tunneling tools, such as dnscat/2 and Iodine, to tunnel IPv4 network traffic.",7,True,False
+T1590.005,IP Addresses,The following ports used by actor infrastructure include: a. 1080 b. 1333 c. 13381 d. 13391 e. 13666 f. 13871 g. 1448 h. 1888 i. 3130 j. 3140 k. 4337 l. 50001 m. 8079,7,True,True
+T1090.002,External Proxy,reGeorg or Neo-reGeorg to set up a proxy to tunnel network traffic following compromise of a victim website,7,True,True
+T1090.003,Multi-hop Proxy,ProxyChains—a tool used to route internal traffic through a series of proxies —has been used to provide further anonymity and modify system configuration to force network traffic through chains of SOCKS5 proxies and respective ports.,7,True,False
+T1592.004,Client Configurations,ProxyChains—a tool used to route internal traffic through a series of proxies —has been used to provide further anonymity and modify system configuration to force network traffic through chains of SOCKS5 proxies and respective ports.,7,True,False
+T1596.001,DNS/Passive DNS,Iodine was used to tunnel data via dns.test658324901domain.me.,7,True,True
+T1584.004,Server,Using the GOST open source tunneling tool (via SOCKS5 proxy) named java,7,True,True
+T1592.003,Firmware,None,7,True,False
+T1595.001,Scanning IP Blocks,None,7,True,False
+T1571,Non-Standard Port,The following ports used by actor infrastructure include: a. 1080 b. 1333 c. 13381 d. 13391 e. 13666 f. 13871 g. 1448 h. 1888 i. 3130 j. 3140 k. 4337 l. 50001 m. 8079,7,True,True
+T1090.001,Internal Proxy,ProxyChains—a tool used to route internal traffic through a series of proxies —has been used to provide further anonymity and modify system configuration to force network traffic through chains of SOCKS5 proxies and respective ports.,7,True,False
+T1205.002,Socket Filters,None,7,True,False
+T1037.004,RC Scripts,PWD=/tmp/.ICE-unix HOME=/ RC_PID=33980 ./java –L rtcp://0.0.0.0:13381/127.0.0.1:13338 -F socks5://{IP Address}:7896,8,True,True
+T1140,Deobfuscate/Decode Files or Information,Script (Base64 Decoded) Command Purpose,8,True,True
+T1070.004,File Deletion,if (isset($ POST [,8,True,True

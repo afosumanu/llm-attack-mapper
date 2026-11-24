@@ -1,0 +1,67 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1650,Acquire Access,The FBI assesses a significant percentage of these threat actors’ operations against US organizations are intended to obtain and develop network access to then collaborate with ransomware affiliate actors to deploy ransomware.,0,True,True
+T1590.003,Network Trust Dependencies,The FBI further assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against,0,True,True
+T1597.001,Threat Intel Vendors,"This CSA provides the threat actor’s tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs), as well as highlights similar activity from a previous advisory (Iran-Based Threat Actor Exploits VPN Vulnerabilities)",0,True,True
+T1592.002,Software,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1590.006,Network Security Appliances,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1597.002,Purchase Technical Data,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1592,Gather Victim Host Information,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1590,Gather Victim Network Information,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1659,Content Injection,The FBI assesses a significant percentage of these threat actors’ operations against US organizations are intended to obtain and develop network access to then collaborate with ransomware affiliate actors to deploy ransomware.,0,True,True
+T1114,Email Collection,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1587.004,Exploits,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1594,Search Victim-Owned Websites,The FBI assesses these Iran-based cyber actors are associated with the Government of Iran (GOI) and—separate from the ransomware activity—conduct computer network exploitation activity in support of the GOI (such as intrusions enabling the theft of sensitive technical data against organizations in,0,True,False
+T1592.002,Software,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1592.003,Firmware,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.006,Network Security Appliances,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.003,Network Trust Dependencies,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.006,Network Security Appliances,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1592.002,Software,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1592.003,Firmware,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.006,Network Security Appliances,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.003,Network Trust Dependencies,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1592.002,Software,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1592.003,Firmware,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1590.006,Network Security Appliances,"The actors offer full domain control privileges, as well as domain admin credentials, to numerous networks worldwide.",1,True,True
+T1650,Acquire Access,The Iranian cyber actors’ involvement in these ransomware attacks goes beyond providing access; they work closely with ransomware affiliates to lock victim networks and strategize on approaches to extort victims.,2,True,True
+T1583.004,Server,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1659,Content Injection,"The actors publicized news of their compromise (including on social media), tagging accounts of victim and media organizations, and leaking victim data on their .onion site.",2,True,True
+T1588.001,Malware,directly with ransomware affiliates to enable encryption operations in exchange for a percentage of the ransom payments.,2,True,True
+T1592,Gather Victim Host Information,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1590.003,Network Trust Dependencies,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1486,Data Encrypted for Impact,directly with ransomware affiliates to enable encryption operations in exchange for a percentage of the ransom payments.,2,True,True
+T1584.004,Server,The actors operated a .onion site (reachable through the Tor browser) hosted on cloud infrastructure registered to an organization previously compromised by the actors.,2,True,True
+T1591,Gather Victim Org Information,"The actors publicized news of their compromise (including on social media), tagging accounts of victim and media organizations, and leaking victim data on their .onion site.",2,True,True
+T1590.006,Network Security Appliances,"Historically, this group has exploited organizations by leveraging CVE-2019-19781 and CVE-2023-3519 related to Citrix Netscaler, and CVE-2022-1388 related to BIG-IP F5 devices.",3,True,True
+T1590.005,IP Addresses,The actors have been observed using the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE.,3,True,True
+T1590.003,Network Trust Dependencies,The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400.,3,True,True
+T1595.002,Vulnerability Scanning,"As of July 2024, these actors have been observed scanning IP addresses hosting Check Point Security Gateways, probing for devices potentially vulnerable to CVE- 2024-24919.",3,True,True
+T1595.001,Scanning IP Blocks,"As of April 2024, these actors have conducted mass scanning of IP addresses hosting Palo Alto Networks PAN-OS and GlobalProtect VPN devices.",3,True,True
+T1587.004,Exploits,The actors have been observed using the Shodan search engine to identify and enumerate IP addresses that host devices vulnerable to a particular CVE.,3,True,True
+T1584.008,Network Devices,The actors were likely conducting reconnaissance and probing for devices vulnerable to CVE-2024-3400.,3,True,True
+T1558.003,Kerberoasting,Capture login credentials using webshells on compromised Netscaler devices and append to file named netscaler.1 in the same directory as the webshell.,3,True,False
+T1204,User Execution,Create the directory /var/vpn/themes/imgs/ on Citrix Netscaler devices to deploy a webshell.,3,True,False
+T1218.012,Verclsid,This file has been observed being executed from the Windows Downloads directory.,4,True,False
+T1218.003,CMSTP,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1574.001,DLL,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1204.002,Malicious File,This file has been observed being executed from the Windows Downloads directory.,4,True,False
+T1569.002,Service Execution,"For example, a service named “test” was observed attempting to load a file located at C:\\WINDOWS\\system32\\drivers\\test.sys.",4,True,False
+T1588.001,Malware,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1046,Network Service Discovery,Request exemptions to the zero-trust application and security policies for tools they intend to deploy on a victim network.,4,True,False
+T1190,Exploit Public-Facing Application,"Specifically related to Netscaler, place additional webshells on compromised devices immediately after system owners patch the exploited vulnerability.",4,True,False
+T1203,Exploitation for Client Execution,"Specifically related to Netscaler, place additional webshells on compromised devices immediately after system owners patch the exploited vulnerability.",4,True,False
+T1587.001,Malware,"This task uses a DLL side-loading technique against the signed Microsoft SysInternals executable contig.exe, which may be renamed to dllhost.ext, to load a payload from version.dll.",4,True,True
+T1584.002,DNS Server,"Repurpose compromised credentials from exploiting networking devices, such as Citrix Netscaler, to log into other applications (i.e., Citrix XenDesktop).",4,True,False
+T1210,Exploitation of Remote Services,"Repurpose compromised credentials from exploiting networking devices, such as Citrix Netscaler, to log into other applications (i.e., Citrix XenDesktop).",4,True,False
+T1059.001,PowerShell,Enable servers to use Windows PowerShell Web Access,5,True,True
+T1204.002,Malicious File,Install “AnyDesk” remote access program as a backup access method,5,True,True
+T1204,User Execution,Use the open source tunneling tool Ligolo (ligolo/ligolo-ng),5,True,True
+T1204,User Execution,Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain,5,True,True
+T1039,Data from Network Shared Drive,"Exfiltrate account usernames from the victim domain controller, as well as access configuration files and logs",5,True,True
+T1005,Data from Local System,Export system registry hives and network firewall configurations on compromised servers,5,True,True
+T1608.001,Upload Malware,Install “AnyDesk” remote access program as a backup access method,5,True,True
+T1608.002,Upload Tool,Enable servers to use Windows PowerShell Web Access,5,True,True
+T1189,Drive-by Compromise,Use NGROK (ngrok[.]io) deployment to create outbound connections to a random subdomain,5,True,True
+T1583.004,Server,Install “AnyDesk” remote access program as a backup access method,5,True,True
+T1584.004,Server,Enable servers to use Windows PowerShell Web Access,5,True,True
+T1650,Acquire Access,Install “AnyDesk” remote access program as a backup access method,5,True,True

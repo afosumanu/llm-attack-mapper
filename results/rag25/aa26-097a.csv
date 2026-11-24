@@ -1,0 +1,74 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,"The authoring agencies urgently warn U.S. organizations of ongoing Iranian-affiliated cyber targeting of internet-connected operational technology (OT) devices, including programmable logic controllers (PLCs).",0,True,True
+T1596.002,WHOIS,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1590.003,Network Trust Dependencies,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1592.001,Hardware,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1592.002,Software,"The authoring agencies urgently warn U.S. organizations of ongoing Iranian-affiliated cyber targeting of internet-connected operational technology (OT) devices, including programmable logic controllers (PLCs).",0,True,True
+T1592.003,Firmware,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1114,Email Collection,"To report suspicious or criminal activity related to information found in this joint Cybersecurity Advisory, contact the FBI’s Internet Crime Complaint Center (IC3) , your local FBI field office , and/or CISA’s 24/7 Operations Center at contact@cisa.dhs.gov or 1- 844-Say-CISA (1-844-729-2472).",0,True,True
+T1597.001,Threat Intel Vendors,"For NSA-client requirements or cybersecurity inquiries, contact Cybersecurity_Requests@nsa.gov.",0,True,True
+T1590,Gather Victim Network Information,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1592,Gather Victim Host Information,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1584,Compromise Infrastructure,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1595.001,Scanning IP Blocks,"These actions disrupted PLCs across several U.S. critical infrastructure sectors through malicious project file interactions and manipulation of data on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays, resulting in operational disruption and financial loss",0,True,True
+T1195.001,Compromise Software Dependencies and Development Tools,"also expands scope to include observed targeting of Schneider Electric, Siemens, and potentially other branded/manufactured PLCs",1,True,True
+T1195,Supply Chain Compromise,"also expands scope to include observed targeting of Schneider Electric, Siemens, and potentially other branded/manufactured PLCs",1,True,True
+T1210,Exploitation of Remote Services,"Qu ery available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502",1,True,True
+T1047,Windows Management Instrumentation,"Qu ery available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502",1,True,True
+T1190,Exploit Public-Facing Application,"Qu ery available logs for the provided indicators of compromise (IOCs) and check available logs for suspicious traffic on the ports associated with OT devices, including 44818, 2222, 102, and 502",1,True,True
+T1587.004,Exploits,organizations from multiple U.S. critical infrastructure sectors experienced disruptions through malicious interactions with PLC project files,2,True,True
+T1588.005,Exploits,malicious interactions with PLC project files,2,True,True
+T1683,Generate Content,manipulation of data displayed on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,2,True,True
+T1219.003,Remote Access Hardware,internet-connected OT devices,2,True,True
+T1584.008,Network Devices,"PLCs manufactured by Rockwell Automation/Allen-Brother, Schneider Electric, Siemens, and potentially other manufactured PLCs",2,True,False
+T1001.001,Junk Data,manipulation of data displayed on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,2,True,True
+T1592.004,Client Configurations,PLC project files,2,True,True
+T1212,Exploitation for Credential Access,malicious interactions with PLC project files,2,True,True
+T1020,Automated Exfiltration,manipulation of data displayed on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,2,True,True
+T1687,Exploitation for Defense Impairment,malicious interactions with PLC project files,2,True,True
+T1548.006,TCC Manipulation,manipulation of data displayed on human machine interface (HMI) and supervisory control and data acquisition (SCADA) displays,2,True,True
+T1098.005,Device Registration,internet-connected OT devices,2,True,True
+T1584.008,Network Devices,"The group targeted devices spanning multiple U.S. critical infrastructure sectors, including Government Services and Facilities (to include local municipalities), Water and Wastewater Systems (WWS), and Energy Sectors.",3,True,True
+T1584.005,Botnet,These attacks compromised at least 75 programmable logic controllers (PLCs) and human-machine interfaces (HMIs) across multiple U.S. critical infrastructure sectors.,3,True,False
+T1587.001,Malware,These attacks compromised at least 75 programmable logic controllers (PLCs) and human-machine interfaces (HMIs) across multiple U.S. critical infrastructure sectors.,3,True,False
+T1590.003,Network Trust Dependencies,"The group targeted devices spanning multiple U.S. critical infrastructure sectors, including Government Services and Facilities (to include local municipalities), Water and Wastewater Systems (WWS), and Energy Sectors.",3,True,True
+T1584.003,Virtual Private Server,None,3,True,False
+T1592.001,Hardware,These attacks compromised at least 75 programmable logic controllers (PLCs) and human-machine interfaces (HMIs) across multiple U.S. critical infrastructure sectors.,3,True,False
+T1592.002,Software,None,3,True,False
+T1595.001,Scanning IP Blocks,None,3,True,False
+T1496.001,Compute Hijacking,None,3,True,False
+T1491.002,External Defacement,None,3,True,False
+T1583.005,Botnet,These attacks compromised at least 75 programmable logic controllers (PLCs) and human-machine interfaces (HMIs) across multiple U.S. critical infrastructure sectors.,3,True,False
+T1596.002,WHOIS,None,3,True,False
+T1584.008,Network Devices,"targeting U.S.-based Unitronics PLC devices with an HMI used across multiple critical infrastructure sectors, including the WWS.",4,True,True
+T1587.001,Malware,"developed and deployed custom ladder logic code to these devices, replacing the valid ladder logic with malicious code",4,True,True
+T1584,Compromise Infrastructure,targeting internet-exposed PLCs with the intent to cause disruptions,4,True,True
+T1047,Windows Management Instrumentation,download a malicious project file to a targeted PLC using configuration software,4,True,True
+T1659,Content Injection,added logic that overrode specific instruction sets responsible for maintaining safe operating parameters in the victim’s environment,4,True,True
+T1587.004,Exploits,"developed and deployed custom ladder logic code to these devices, replacing the valid ladder logic with malicious code",4,True,True
+T1608.001,Upload Malware,download a malicious project file to a targeted PLC using configuration software,4,True,True
+T1592.002,Software,"targeting U.S.-based Unitronics PLC devices with an HMI used across multiple critical infrastructure sectors, including the WWS",4,True,True
+T1584.008,Network Devices,"The actors used leased, third-party hosted infrastructure",5,True,True
+T1595.001,Scanning IP Blocks,Inbound malicious traffic has been observed targeting PLC devices on the following ports,5,True,True
+T1218.002,Control Panel,The authoring agencies observed Iranian-affiliated APT actors using configuration software,5,True,True
+T1571,Non-Standard Port,"Inbound malicious traffic has been observed targeting PLC devices on the following ports: 44818, 2222, 102, and 502",5,True,True
+T1587.001,Malware,"In one reported instance, the actors utilized Dropbear Secure Shell (SSH) software on victim modems",5,True,True
+T1218.007,Msiexec,The authoring agencies observed Iranian-affiliated APT actors using configuration software,5,True,True
+T1592.001,Hardware,Targeted devices include:  Rockwell Automation: CompactLogix and Micro850 PLCs  Schneider Electric: BMX P34/Modicon M340 PLCs  Siemens: S7-1200 series PLCs,5,True,True
+T1592.003,Firmware,Targeted devices include:  Rockwell Automation: CompactLogix and Micro850 PLCs  Schneider Electric: BMX P34/Modicon M340 PLCs  Siemens: S7-1200 series PLCs,5,True,True
+T1592.004,Client Configurations,The authoring agencies observed Iranian-affiliated APT actors using configuration software,5,True,True
+T1592.002,Software,The authoring agencies observed Iranian-affiliated APT actors using configuration software,5,True,True
+T1584,Compromise Infrastructure,"The actors used leased, third-party hosted infrastructure",5,True,True
+T1036.003,Rename Legitimate Utilities,"The changes disabled critical shutdown and alarm logic, allowing systems to enter unsafe conditions without notifying operators of the anomalies",5,True,True
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 185.82.73[.]175 September 2025 February 2026,6,True,True
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 141.11.164[.]153 January 2026 July 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 175.110.121[.]42 February 2026 March 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 175.110.121[.]39 February 2026 March 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 175.110.121[.]41 February 2026 March 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 175.110.121[.]107 February 2026 February 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 192.142.54[.]79 May 2026 June 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 84.200.205[.]165 May 2026 June 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 185.225.17[.]225 June 2026 July 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 79.133.46[.]209 July 2026 July 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 88.80.150[.]199 July 2026 July 2026,6,True,False
+T1590.005,IP Addresses,Indicator Beginning of Actor Association End of Actor Association 88.80.150[.]200 July 2026 July 2026,6,True,False

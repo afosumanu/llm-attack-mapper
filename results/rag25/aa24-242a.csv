@@ -1,0 +1,84 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1039,Data from Network Shared Drive,"RansomHub has encrypted and exfiltrated data from at least 210 victims representing the water and wastewater, information technology, government services, and other sectors.",0,True,False
+T1025,Data from Removable Media,None,0,True,False
+T1587.001,Malware,RansomHub is a ransomware-as-a-service variant—formerly known as Cyclops and Knight—that has established itself as an efficient and successful service model (recently attracting high-profile affiliates from other prominent variants such as LockBit and ALPHV).,0,True,True
+T1485,Data Destruction,None,0,True,False
+T1518.001,Security Software Discovery,None,0,True,False
+T1518.002,Backup Software Discovery,None,0,True,False
+T1592.003,Firmware,None,0,True,False
+T1592.002,Software,None,0,True,False
+T1590.006,Network Security Appliances,None,0,True,False
+T1593,Search Open Websites/Domains,None,0,True,False
+T1596,Search Open Technical Databases,None,0,True,False
+T1596.002,WHOIS,None,0,True,False
+T1486.001,Data Encrypted for Impact,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,False,True
+T1650,Acquire Access,The affiliates leverage a double-extortion model by encrypting systems and exfiltrating data to extort victims.,1,True,True
+T1588.001,Malware,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1588.002,Tool,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1496.001,Compute Hijacking,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1659,Content Injection,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1587.001,Malware,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1587.004,Exploits,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1027.009,Embedded Payloads,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1070.004,File Deletion,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1123,Audio Capture,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1189,Drive-by Compromise,"The ransom note dropped during encryption does not generally include an initial ransom demand or payment instructions. Instead, the note provides victims with a client ID and instructs them to contact the ransomware group via a unique .onion URL (reachable through the Tor browser).",1,True,True
+T1595.002,Vulnerability Scanning,Exploits based on the following CVEs have been observed:,2,True,True
+T1190,Exploit Public-Facing Application,exploitation of known vulnerabilities,2,True,True
+T1212,Exploitation for Credential Access,exploitation of known vulnerabilities,2,True,True
+T1499.004,Application or System Exploitation,exploitation of known vulnerabilities,2,True,True
+T1057,Process Discovery,exploitation of known vulnerabilities,2,True,True
+T1070.007,Clear Network Connection History and Configurations,password spraying targets accounts compromised through data breaches,2,True,True
+T1557.002,ARP Cache Poisoning,password spraying targets accounts compromised through data breaches,2,True,True
+T1650,Acquire Access,compromise internet facing systems and user endpoints,2,True,True
+T1654,Log Enumeration,compromise internet facing systems and user endpoints,2,True,True
+T1110.002,Password Cracking,password spraying targets accounts compromised through data breaches,2,True,True
+T1552,Unsecured Credentials,password spraying targets accounts compromised through data breaches,2,True,True
+T1027.007,Dynamic API Resolution,exploits based on the following CVEs have been observed,2,True,True
+T1052.001,Exfiltration over USB,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1210,Exploitation of Remote Services,"Affiliates then moved laterally inside the network through methods including Remote Desktop Protocol (RDP), PsExec [S0029], Anydesk, Connectwise, N-Able, Cobalt Strike [S0154], Metasploit, or other widely used command-and-control (C2) methods.",4,True,False
+T1548,Abuse Elevation Control Mechanism,"Following initial access, RansomHub affiliates created user accounts for persistence, reenabled disabled accounts, and used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM.",4,True,False
+T1020,Automated Exfiltration,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1039,Data from Network Shared Drive,"The ransomware binary will attempt to encrypt any files that the user has access to, including user files and networked shares.",4,True,True
+T1078,Valid Accounts,"Following initial access, RansomHub affiliates created user accounts for persistence, reenabled disabled accounts, and used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM.",4,True,False
+T1218.005,Mshta,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1496.002,Bandwidth Hijacking,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1588.002,Tool,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1056.001,Keylogging,"Following initial access, RansomHub affiliates created user accounts for persistence, reenabled disabled accounts, and used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM.",4,True,False
+T1546.008,Accessibility Features,"Following initial access, RansomHub affiliates created user accounts for persistence, reenabled disabled accounts, and used Mimikatz [S0002] on Windows systems to gather credentials and escalate privileges to SYSTEM.",4,True,False
+T1560.001,Archive via Utility,"Data exfiltration has been observed through the usage of tools such as PuTTY, Amazon AWS S3 buckets/tools, HTTP POST requests, WinSCP, Rclone, Cobalt Strike, Metasploit, and other methods.",4,True,False
+T1027.013,Encrypted/Encoded File,This data contains a value which is likely part of an encryption/decryption key.,5,True,True
+T1027.015,Compression,"In this example, each encrypted section is 0x100000 bytes long, with 0x100000 bytes between each encrypted block.",5,True,True
+T1036.008,Masquerade File Type,A random file extension is added to file names,5,True,True
+T1027,Obfuscated Files or Information,The structure of the appended 0x3A bytes is listed below with images from three different encrypted files.,5,True,True
+T1025,Data from Removable Media,The ransomware executable does not typically encrypt executable files.,5,True,True
+T1140,Deobfuscate/Decode Files or Information,This data contains a value which is likely part of an encryption/decryption key.,5,True,True
+T1552.001,Credentials In Files,The next 32 bytes are the public encryption key for the file.,5,True,True
+T1070.004,File Deletion,"To further inhibit system recovery, the ransomware executable typically leverages the vssadmin.exe program to delete volume shadow copies",5,True,True
+T1552,Unsecured Credentials,The next 32 bytes are the public encryption key for the file.,5,True,True
+T1560.001,Archive via Utility,A random file extension is added to file names,5,True,True
+T1485,Data Destruction,"To further inhibit system recovery, the ransomware executable typically leverages the vssadmin.exe program to delete volume shadow copies",5,True,True
+T1558.003,Kerberoasting,C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python311\Scripts\kerbrute.exe Kerberoasting,6,True,True
+T1558.004,AS-REP Roasting,None,6,True,False
+T1595.001,Scanning IP Blocks,AngryIPScanner Network Scanner,6,True,True
+T1039,Data from Network Shared Drive,None,6,True,False
+T1558,Steal or Forge Kerberos Tickets,Mimikatz [S0002] A tool that allows users to view and save authentication credentials such as Kerberos tickets.,6,True,True
+T1650,Acquire Access,RansomHub affiliates have used it to assist with lateral movement and file execution.,6,True,True
+T1552,Unsecured Credentials,Mimikatz [S0002] A tool that allows users to view and save authentication credentials such as Kerberos tickets.,6,True,True
+T1190,Exploit Public-Facing Application,None,6,True,False
+T1583.004,Server,None,6,True,False
+T1119,Automated Collection,None,6,True,False
+T1016,System Network Configuration Discovery,None,6,True,False
+T1021.002,SMB/Windows Admin Shares,None,6,True,False
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/10.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/12.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/2.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/3.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/4.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/5.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/6.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/7.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/8.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/9.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/92.exe,7,True,True
+T1218.011,Rundll32,http[:]//89.23.96[.]203/333/1.exe,7,True,True

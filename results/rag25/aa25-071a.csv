@@ -1,0 +1,130 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1593,Search Open Websites/Domains,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1597.001,Threat Intel Vendors,"The Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and U.S. Department of Health and Human Services (HHS) are releasing this updated joint advisory to disseminate known Medusa ransomware tactics, techniques, and procedures (TTPs) and indicators of",0,True,True
+T1592.002,Software,Medusa is a ransomware-as-a-service (RaaS) variant first identified in June 2021.,0,True,True
+T1592.003,Firmware,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1590,Gather Victim Network Information,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1590.006,Network Security Appliances,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1659,Content Injection,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1650,Acquire Access,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1016.002,Wi-Fi Discovery,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1597.002,Purchase Technical Data,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1596,Search Open Technical Databases,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1596.002,WHOIS,"Medusa actors’ operations, including more specifics about their affiliate model and payment ranges for initial access brokers, as well as a broader list of exploited vulnerabilities.",0,True,True
+T1057,Process Discovery,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1001,Data Obfuscation,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1090.002,External Proxy,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1596.002,WHOIS,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1558.003,Kerberoasting,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1568.002,Domain Generation Algorithms,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1205.002,Socket Filters,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1070.007,Clear Network Connection History and Configurations,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1090.001,Internal Proxy,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1090.003,Multi-hop Proxy,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1597.001,Threat Intel Vendors,"HHS has been added as a co-sealer, providing their insights into Medusa’s operations against the Healthcare and Public Health Sector.",1,True,True
+T1572,Protocol Tunneling,"also lists additional tools for network enumeration, persistence, and stealth, including detailed PowerShell obfuscation techniques and command-and-control utilities.",1,True,True
+T1587.001,Malware,Medusa is a ransomware-as-a-service (RaaS) variant first identified in June 2021.,2,True,True
+T1218.005,Mshta,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1564.014,Extended Attributes,The authoring agencies encourage organizations to implement the recommendations in the Mitigations section of this advisory to reduce the likelihood and impact of Medusa ransomware incidents.,2,True,True
+T1505,Server Software Component,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1036.003,Rename Legitimate Utilities,The authoring agencies encourage organizations to implement the recommendations in the Mitigations section of this advisory to reduce the likelihood and impact of Medusa ransomware incidents.,2,True,True
+T1140,Deobfuscate/Decode Files or Information,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1650,Acquire Access,Medusa is a ransomware-as-a-service (RaaS) variant first identified in June 2021.,2,True,True
+T1592.002,Software,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1485,Data Destruction,The authoring agencies encourage organizations to implement the recommendations in the Mitigations section of this advisory to reduce the likelihood and impact of Medusa ransomware incidents.,2,True,True
+T1037.004,RC Scripts,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1654,Log Enumeration,The authoring agencies encourage organizations to implement the recommendations in the Mitigations section of this advisory to reduce the likelihood and impact of Medusa ransomware incidents.,2,True,True
+T1218.010,Regsvr32,The Medusa ransomware variant is unrelated to the MedusaLocker variant and the Medusa mobile malware variant.,2,True,True
+T1212,Exploitation for Credential Access,Phishing campaigns as a primary method for stealing victim credentials,3,True,True
+T1587.004,Exploits,Exploitation of unpatched software vulnerabilities through Common Vulnerabilities and Exposures (CVEs) such as: o ScreenConnect vulnerability CVE-2024-1709 [CWE-288: Authentication Bypass Using an Alternate Path or Channel]. o Fortinet EMS SQL injection vulnerability CVE-2023-48788 [CWE 89: SQL,3,True,True
+T1587.001,Malware,Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,3,True,True
+T1204,User Execution,Phishing campaigns as a primary method for stealing victim credentials,3,True,True
+T1588.001,Malware,Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,3,True,True
+T1595.002,Vulnerability Scanning,"Medusa actors leverage vulnerability announcements, such as the February 2026 publication of BeyondTrust vulnerability CVE- 2026-1731, to identify CVEs to exploit.",3,True,True
+T1589.001,Credentials,Phishing campaigns as a primary method for stealing victim credentials,3,True,True
+T1218.005,Mshta,Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,3,True,True
+T1608.001,Upload Malware,Medusa actors use a double-extortion model where they encrypt victim data and threaten to publicly release exfiltrated data if a ransom is not paid.,3,True,True
+T1587.004,Exploits,"However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching.",4,True,True
+T1190,Exploit Public-Facing Application,"However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching.",4,True,True
+T1027,Obfuscated Files or Information,"Medusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner and SoftPerfect Network Scanner for initial user, system, and network enumeration.",4,True,True
+T1057,Process Discovery,"Medusa actors use living off the land (LOTL) techniques and legitimate tools, such as Advanced IP Scanner and SoftPerfect Network Scanner for initial user, system, and network enumeration.",4,True,True
+T1592.004,Client Configurations,"Once a foothold in a victim network is established, commonly scanned ports include:  21 (FTP) TLP:CLEAR CISA | FBI | HHS Page 7 of 29 | Product ID: AA25-071A TLP:CLEAR  22 (SSH)  23 (Telnet)  80 (HTTP)  115 (SFTP)  443 (HTTPS)  1433 (SQL database)  3050 (Firebird database)  3128 (HTTP web  ",4,True,True
+T1650,Acquire Access,"Once a foothold in a victim network is established, commonly scanned ports include:  21 (FTP) TLP:CLEAR CISA | FBI | HHS Page 7 of 29 | Product ID: AA25-071A TLP:CLEAR  22 (SSH)  23 (Telnet)  80 (HTTP)  115 (SFTP)  443 (HTTPS)  1433 (SQL database)  3050 (Firebird database)  3128 (HTTP web  ",4,True,True
+T1102.001,Dead Drop Resolver,"Medusa actors make use of Interactsh dynamic URLs to verify successful exploitation. Specifically, actors send HTTP requests to one of the Interactsh domains—oast[.]site, oast[.]pro, or oast[.]fun—embedding subdomain data that identifies the compromised host.",4,True,True
+T1204,User Execution,Medusa actors use Windows Management Instrumentation (WMI) for querying system information.,4,True,True
+T1584.004,Server,Medusa actors use Windows Management Instrumentation (WMI) for querying system information.,4,True,True
+T1499.004,Application or System Exploitation,Medusa actors use Windows Management Instrumentation (WMI) for querying system information.,4,True,True
+T1583.004,Server,Medusa actors use Windows Management Instrumentation (WMI) for querying system information.,4,True,True
+T1218.005,Mshta,Medusa actors use several different PowerShell stealth techniques with increasing complexity; these are provided below.,4,True,True
+T1059.001,PowerShell,their tracks by deleting the PowerShell command line history,5,True,True
+T1027.010,Command Obfuscation,"In another example, the DownloadFile string is obfuscated by slicing it into pieces and referencing it via a variable",5,True,True
+T1027.013,Encrypted/Encoded File,powershell -exec bypass -enc <base64 encrypted command string>,5,True,True
+T1027.015,Compression,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload,5,True,True
+T1027.008,Stripped Payloads,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script",5,True,True
+T1027.009,Embedded Payloads,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload,5,True,True
+T1027.013,Encrypted/Encoded File,powershell -exec bypass -enc <base64 encrypted command string>,5,True,True
+T1027.015,Compression,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload,5,True,True
+T1027.008,Stripped Payloads,"The obfuscated base64 PowerShell payload is identical to powerfun.ps1, a publicly available stager script",5,True,True
+T1027.009,Embedded Payloads,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload,5,True,True
+T1027.013,Encrypted/Encoded File,powershell -exec bypass -enc <base64 encrypted command string>,5,True,True
+T1027.015,Compression,The base64 payload is split using empty strings and concatenation and uses a format operator (-f) followed by three arguments to specify character replacements in the base64 payload,5,True,True
+T1021.004,SSH,Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [ 32 T 1021.001] and PsExec —to move laterally through the network and identify files for exfiltration and encryption.,6,True,False
+T1021.001,Remote Services,Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [ 32 T 1021.001] and PsExec —to move laterally through the network and identify files for exfiltration and encryption.,6,True,False
+T1021,Remote Services,Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [ 32 T 1021.001] and PsExec —to move laterally through the network and identify files for exfiltration and encryption.,6,True,False
+T1210,Exploitation of Remote Services,Medusa actors use these tools—in combination with Remote Desktop Protocol (RDP) [ 32 T 1021.001] and PsExec —to move laterally through the network and identify files for exfiltration and encryption.,6,True,False
+T1057,Process Discovery,"When provided with valid username and password credentials, Medusa actors use PsExec to:  Copy (-c) one script from various batch scripts on the current machine to the remote machine and execute it with system-level privileges (-s).",6,True,True
+T1056.003,Web Portal Capture,Apache/PHP Web Shell o file_save.php executes the contents of a POST request sent to /file_save on a victim web server.,6,True,True
+T1070.007,Clear Network Connection History and Configurations,GSocket o Also known as Global Socket or gs-netcat. o Allows workstations on different private networks to connect and bypass firewalls.,6,True,True
+T1090.001,Internal Proxy,"MeshAgent o MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1090,Proxy,"MeshAgent o MeshAgent, the MeshCentral endpoint agent, connects remote devices to allow threat actors to remotely manage the machine.",6,True,True
+T1204.003,Malicious Image,Apache/PHP Web Shell o file_save.php executes the contents of a POST request sent to /file_save on a victim web server.,6,True,True
+T1205.002,Socket Filters,GSocket o Also known as Global Socket or gs-netcat. o Allows workstations on different private networks to connect and bypass firewalls.,6,True,True
+T1518.002,Backup Software Discovery,"Medusa actors use a variety of legitimate remote monitoring and management (RMM) software . To evade detection, they may tailor their choice based on remote access tools already present in the victim environment.",6,True,True
+T1059.001,PowerShell,"Medusa actors use Mimikatz, the Windows Task Manager, and comsvcs.dll for LSASS dumping to harvest credentials and aid lateral movement.",7,True,True
+T1558.003,Kerberoasting,"The actors can use the stolen files to create forged Kerberos tickets, effectively compromising the entire domain.",7,True,False
+T1021.006,Windows Remote Management,"Then, a rule to allow remote WMI connections is created: netsh advfirewall firewall set rule group=""windows management instrumentation (wmi)"" new enable=yes",7,True,False
+T1021.001,Remote Desktop Protocol,"openrdp.bat, which first creates a new firewall rule to allow inbound TCP traffic on port 3389: netsh advfirewall firewall add rule name=""rdp"" dir=in protocol=tcp localport=3389 action=allow",7,True,False
+T1112,Modify Registry,"reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server"" /v fDenyTSConnections /t REG_DWORD /d 0 /f",7,True,True
+T1556.001,Domain Controller Authentication,"The actors can use the stolen files to create forged Kerberos tickets, effectively compromising the entire domain.",7,True,False
+T1092,Communication Through Removable Media,None,7,True,False
+T1037.004,RC Scripts,None,7,True,False
+T1074.002,Remote Data Staging,"The actors then copy ntds.dit, system, and security registry hives out of the shadow copy and delete the shadow copy to prevent discovery",7,True,True
+T1005,Data from Local System,The actors use the vssadmin command to create a new shadow copy for the C: drive,7,True,True
+T1021.002,SMB/Windows Admin Shares,None,7,True,False
+T1686.003,Windows Host Firewall,"openrdp.bat, which first creates a new firewall rule to allow inbound TCP traffic on port 3389: netsh advfirewall firewall add rule name=""rdp"" dir=in protocol=tcp localport=3389 action=allow",7,True,False
+T1025,Data from Removable Media,Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers.,8,True,False
+T1027,Obfuscated Files or Information,"Medusa actors obfuscate rclone.exe and associated rclone.conf files by renaming the files (for example, to lsp.exe and ngconf.txt).",8,True,True
+T1070.004,File Deletion,"The process gaze.exe terminates all services related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.",8,True,True
+T1074,Data Staged,"Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.",8,True,True
+T1072,Lateral Tool Transfer,"The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",8,True,True
+T1560.001,Archive via Utility,Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers.,8,True,False
+T1584.004,Server Software Component,Medusa actors use a custom PDQ Deploy playbook to: 1. Run a PowerShell base64 encoded command to exclude the entire C: drive from Windows Defender.,8,True,True
+T1587.001,Malware,"The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",8,True,True
+T1659,Content Injection,"The process gaze.exe terminates all services related to backups, security, databases, communication, file sharing, and websites, and then deletes shadow copies and encrypts files with AES-256 before dropping the ransom note.",8,True,True
+T1041,Exfiltration Over C2 Channel,Medusa actors install and use Bandizip to create archives of exfiltration files and Rclone to facilitate exfiltration of data to the Medusa C2 servers.,8,True,False
+T1005,Data from Local System,"Medusa actors exfiltrate small batches of files—for example, credential files or registry hives—using rdpclip.exe, RDP’s built-in file transfer mechanism.",8,True,True
+T1037.004,RC Scripts,"The actors use Sysinternals PsExec, PDQ Inventory/Deploy, or BigFix [T 1072] to deploy the encryptor, gaze.exe, on files across the network—with the actors disabling Windows Defender and other antivirus services on specific targets.",8,True,True
+T1592.003,Firmware,Medusa actors research victim financial details and base their demands on publicly posted revenue.,9,True,True
+T1594,Search Victim-Owned Websites,Medusa actors post ransom demands on the leak site with direct hyperlinks to Medusa-affiliated cryptocurrency wallets and claimed number of views.,9,True,True
+T1590,Gather Victim Network Information,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1592,Gather Victim Host Information,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1650,Acquire Access,"FBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again to provide the “true decryptor”—potentially indicating a triple-extort",9,True,True
+T1204,User Execution,"FBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again to provide the “true decryptor”—potentially indicating a triple-extort",9,True,True
+T1597,Search Closed Sources,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1583.004,Server,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1584.004,Server,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1608.001,Upload Malware,"FBI investigations identified that after paying the ransom, one victim was contacted by a separate Medusa actor who claimed the negotiator had stolen the ransom amount already paid and requested half of the payment be made again to provide the “true decryptor”—potentially indicating a triple-extort",9,True,True
+T1486,Data Encrypted for Impact,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1557.001,Name Resolution Poisoning and SMB Relay,Medusa actors operate a .onion data leak site divulging victims alongside countdowns to the release of information.,9,True,False
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,Mullvad VPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,Mullvad VPN,10,True,True
+T1090.002,External Proxy,Mullvad VPN,10,True,True
+T1090.002,External Proxy,Mullvad VPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True
+T1090.002,External Proxy,ExpressVPN,10,True,True

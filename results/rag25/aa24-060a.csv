@@ -1,0 +1,70 @@
+technique_id,technique_name,evidence,chunk,valid_id,evidence_found
+T1596,Search Open Technical Databases,open source reporting,0,True,True
+T1593,Search Open Websites/Domains,open source reporting,0,True,True
+T1592.002,Software,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1592.003,Firmware,"Phobos ransomware incidents impacting state, local, tribal, and territorial (SLTT) governments",0,True,True
+T1591,Gather Victim Org Information,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities",0,True,True
+T1590,Gather Victim Network Information,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities",0,True,True
+T1590.006,Network Security Appliances,"These incidents targeted municipal and county governments, emergency services, education, public healthcare, and other critical infrastructure entities",0,True,True
+T1659,Content Injection,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1588.001,Malware,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1608.001,Upload Malware,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1587.001,Malware,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1518.001,Security Software Discovery,Phobos ransomware variants observed as recently as February 2024,0,True,True
+T1558.004,AS-REP Roasting,"If Phobos actors gain successful RDP authentication in the targeted environment, they perform open source research to create a victim profile and connect the targeted IP addresses to their associated companies.",1,True,False
+T1595.002,Vulnerability Scanning,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",1,True,True
+T1189,Drive-by Compromise,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1650,Acquire Access,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",1,True,True
+T1558,Steal or Forge Kerberos Tickets,"If Phobos actors gain successful RDP authentication in the targeted environment, they perform open source research to create a victim profile and connect the targeted IP addresses to their associated companies.",1,True,False
+T1587.004,Exploits,"Phobos actors typically gain initial access to vulnerable networks by leveraging phishing campaigns to drop hidden payloads or using internet protocol (IP) scanning tools, such as Angry IP Scanner, to search for vulnerable Remote Desktop Protocol (RDP) ports or by leveraging RDP on Microsoft Windows",1,True,True
+T1608.001,Upload Malware,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1588.001,Malware,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1659,Content Injection,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1486,Data Encrypted for Impact,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1592.003,Firmware,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1496.001,Compute Hijacking,Threat actors leveraging Phobos have notably deployed remote access tools to establish a remote connection within the compromised network.,1,True,False
+T1027.009,Embedded Payloads,"For the first phase, Smokeloader manipulates either VirtualAlloc or VirtualProtect API functions—which opens an entry point, enabling code to be injected into running processes and allowing the malware to evade network defense tools.",2,True,False
+T1027,Obfuscated Files or Information,"Within this phase, the shellcode also sends a call from the entry point to a memory container and prepares a portable executable for deployment in the final stage.",2,True,False
+T1189,Drive-by Compromise,"Following successful payload decryption, the threat actors can begin downloading additional malware.",2,True,True
+T1218.013,Mavinject,Phobos actors can use the previous commands to perform various windows shell functions.,2,True,True
+T1218.005,Mshta,Phobos actors run executables like 1saas.exe or cmd.exe to deploy additional Phobos payloads that have elevated privileges enabled.,2,True,False
+T1218,System Binary Proxy Execution,Phobos actors run executables like 1saas.exe or cmd.exe to deploy additional Phobos payloads that have elevated privileges enabled.,2,True,False
+T1070.010,Relocate Malware,Phobos actors can use the previous commands to perform various windows shell functions.,2,True,True
+T1587.001,Malware,"payloads such as SmokeLoader, a backdoor trojan that is often used in conjunction with Phobos.",2,True,True
+T1588.001,Malware,Phobos actors can use the previous commands to perform various windows shell functions.,2,True,True
+T1588.002,Tool,Phobos actors can use the previous commands to perform various windows shell functions.,2,True,True
+T1592.003,Firmware,Phobos actors can use the previous commands to perform various windows shell functions.,2,True,True
+T1608.001,Upload Malware,"Following successful payload decryption, the threat actors can begin downloading additional malware.",2,True,True
+T1558.003,Kerberoasting,Phobos actors attempt to authenticate using cached password hashes on victim machines until they reach domain administrator access.,3,True,False
+T1552.001,Credentials In Files,"Mimikatz and NirSoft, as well as Remote Desktop Passview to export browser client credentials,",3,True,False
+T1556.001,Domain Controller Authentication,Phobos actors attempt to authenticate using cached password hashes on victim machines until they reach domain administrator access.,3,True,False
+T1087,Account Discovery,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1204.002,Malicious File,"Phobos ransomware is able to enumerate connected storage devices, running processes, and encrypt user files.",3,True,False
+T1003.006,DCSync,Phobos actors use open source tools such as Bloodhound and Sharphound to enumerate the active directory.,3,True,False
+T1036.003,Rename Legitimate Utilities,Phobos actors use vssadmin.exe and Windows Management Instrumentation command-line utility (WMIC) to discover and delete volume shadow copies in Windows environments.,3,True,False
+T1070.004,File Deletion,Phobos actors use vssadmin.exe and Windows Management Instrumentation command-line utility (WMIC) to discover and delete volume shadow copies in Windows environments.,3,True,False
+T1587.001,Malware,"Phobos ransomware is able to enumerate connected storage devices, running processes, and encrypt user files.",3,True,False
+T1218.008,Odbcconf,Phobos actors use vssadmin.exe and Windows Management Instrumentation command-line utility (WMIC) to discover and delete volume shadow copies in Windows environments.,3,True,False
+T1010,Application Window Discovery,Phobos ransomware continues to search for and encrypt additional files.,3,True,True
+T1654,Log Enumeration,"Phobos actors have been observed using built-in Windows API functions to steal tokens, bypass access controls, and create new processes to escalate privileges by leveraging the SeDebugPrivilege process.",3,True,False
+T1592.002,Gather Victim Host Information,The system’s backup catalog is also deleted.,4,True,True
+T1114.003,Email Forwarding Rule,"See Figure 2 for a list of email providers used by the following Phobos affiliates: Devos, Eight, Elbie, Eking, and Faust.[6]",4,True,True
+T1592.004,Client Configurations,"The system’s boot status policy is set to boot even when there are errors during the boot process, and automatic recovery options, like Windows Recovery Environment (WinRE), are disabled for the given boot entry.",4,True,True
+T1070.004,File Deletion,volume shadow copies are deleted,4,True,True
+T1485,Data Destruction,volume shadow copies are deleted,4,True,True
+T1595.001,Scanning IP Blocks,None,4,True,False
+T1589.001,Credentials,None,4,True,False
+T1204,User Execution,The Phobos ransom note is displayed to the end user using mshta.exe.,4,True,True
+T1558.003,Kerberoasting,None,4,True,False
+T1558.004,AS-REP Roasting,None,4,True,False
+T1558,Steal or Forge Kerberos Tickets,None,4,True,False
+T1590.002,DNS,None,4,True,False
+T1558.003,Kerberoasting,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1558.004,AS-REP Roasting,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1204.002,Malicious File,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1036.003,Rename Legitimate Utilities,Win32.exe Ahpdate.exe,5,True,True
+T1525,Implant Internal Image,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1114,Email Collection,SaraConor@gmx[.]com fquatela@techie[.]com secdatltd@gmx[.]com fredmoneco@tutanota[.]com skymix@tuta[.]io getdata@gmx[.]com sory@countermail[.]com greenbookBTC@gmx[.]com spacegroup@tuta[.]io greenbookBTC@protonmail[.]com stafordpalin@protonmail[.]com helperfiles@gmx[.]com starcomp@keemail[.]me helper,5,True,True
+T1518.002,Backup Software Discovery,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1213.005,Messaging Applications,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
+T1119,Automated Collection,Phobos Ransomware SHA 256 Malicious Trojan Executable File Hashes 518544e56e8ccee401ffa1b0a01a10ce23e49ec21ec441c6c7c3951b01c1b19c,5,True,True
